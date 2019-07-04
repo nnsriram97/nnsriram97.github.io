@@ -1,13 +1,87 @@
----
-layout: archive
----
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
 
-{{ content }}
+<body class="home">
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+{% include _browser-upgrade.html %}
+{% include _navigation.html %}
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
 
-{% include paginator.html %}
+<div id="main" role="main"> 
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <div id="index">
+  <article>
+    
+  <!--<h2>Welcome</h2>
+  <hr/>
+  <font size="2">
+  
+  <p>
+    I am a PhD student at Visual Learning Lab (HCI, University of Heidelberg) with Prof. Carsten Rother. I am interested in the general problem of scene understanding through Computer Vision and Machine Learning. <br/> 
+    <br/> 
+  </p>
+  <p>
+    Currently, I am immensely interested in creating realistically rendered data useful to train deep neural networks. Earlier, I worked on estimating optic flow and disparity for outdoor driving scenes. <br/>
+    <br/>
+  </p>
+  <p>
+    Before this I did my Master's at Robotics Research Center, IIIT-Hyderabad with Prof. K Madhava Krishna, where I worked on object search in indoor environments.<br/>
+    <br/>
+  </p>-->
+
+ <!--       
+  <p>
+     I am a PhD student at <a href="http://cvlab-dresden.de/"> Computer Vision Lab(CVLD)</a>, supervised by <a href="http://cvlab-dresden.de/people/"> Prof. Carsten Rother </a> at <a href="http://www.tu-dresden.de/"> Technische Universität Dresden</a>. Earlier, I did my Master's under the guidance of Prof. K Madhava Krishna at <a href="http://robotics.iiit.ac.in/"> Robotics Research Centre</a>, International Institute of Information Technology-Hyderabad, India.
+  </p>
+  </p>-->
+  
+  </font>
+
+  <hr/>
+  <font size="2">
+  <div align="center"><b>I am privileged to be associated with the following</b></div>
+
+
+  <table text-align="center">
+    <tr><td align="center"><a href='http://cvlab-dresden.de/'><img src='images/cvlab.png' width='70'></a></td> <td align="center"><a href='http://iiit.ac.in'><img src='images/iiit.png' width='70'></a></td>  <td align="center"><a href='http://www.fp-robotics.com/'><img src='images/fp.png' width='70'></a></td>  <td align="center"><a href='http://www.siemens.com'><img src='images/siemens.jpeg' width='70'></a></td>  <td align="center"><a href='http://arl.nus.edu.sg/twiki6/bin/view/ARL'><img src='images/nus.jpg' width='70'></a></td> </tr>
+    <tr><td align="center">PhD student</td><td align="center">Bachelor's and Master's</td><td align="center">Intern</td><td align="center"> Intern</td><td align="center">Intern</td></tr>
+        
+  </table>
+  </font>
+  <hr/>
+  </article>
+    
+  
+  </div><!-- /#index -->
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+  
+</body>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59912294-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
