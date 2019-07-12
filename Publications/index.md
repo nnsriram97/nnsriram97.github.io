@@ -3,7 +3,32 @@ layout: page
 title: Publications
 excerpt: "My publications"
 ---
+<style>
+a.paper:link, a.paper:visited {
+  background-color: #E95D16;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+a.paper:hover, a.paper:active {
+  background-color: red;
+}
+a.video:link, a.video:visited {
+  background-color: #800000;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.video:hover, a.video:active {
+  background-color: red;
+}
+</style>
 <table>
   <tr>
     <td width="25%">    <img src="/images/iros_19.jpg" align="left" width="200"/>    </td>
@@ -21,7 +46,8 @@ excerpt: "My publications"
     <td width="70%">    <a href="https://arxiv.org/pdf/1906.03584.pdf"> 
     <strong> A Hierarchical Network for Diverse Trajectory Proposals </strong> </a> <br/> 
     <strong>Sriram N. N.</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
-    <strong> IV 19 </strong> <a href="https://arxiv.org/pdf/1906.03584.pdf"> [Paper] </a> &nbsp; 
+    <strong> IV 19 </strong> <a class="paper" href="https://arxiv.org/pdf/1906.03584.pdf"> Paper </a> 
+    <a class="video" href="https://www.youtube.com/watch?v=cvq2dFS-dZo"> Video </a> &nbsp; 
     </td> 
   </tr>
 </table>
@@ -32,7 +58,7 @@ excerpt: "My publications"
     <td width="70%">    <a href="https://arxiv.org/pdf/1804.08679.pdf"> 
     <strong> Gradient Aware - Shrinking Domain based Control Design for Reactive Planning Frameworks used in Autonomous Vehicles </strong> </a> <br/> 
      Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram N. N.</strong>, K. Madhava Krishna<br/> 
-    <strong> AIR 19 </strong> <a href="https://arxiv.org/pdf/1804.08679.pdf"> [Paper] </a> &nbsp; 
+    <strong> AIR 19 </strong> <a class="paper" href="https://arxiv.org/pdf/1804.08679.pdf"> Paper </a> <a class="video" href="https://www.youtube.com/watch?v=Yf4F0dvkwQE"> Video </a> &nbsp; 
     </td> 
   </tr>
 </table>
