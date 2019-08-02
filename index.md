@@ -3,18 +3,9 @@ layout: page
 title : Home
 ---
 
-<!-- 
-I am a PhD student with [Prof. Carsten Rother](https://hci.iwr.uni-heidelberg.de/vislearn/people/carsten-rother/) at [Visual Learning Lab (University of Heidelberg)](https://hci.iwr.uni-heidelberg.de/vislearn/) and co-advised by [Prof. Andreas Geiger](https://avg.is.tuebingen.mpg.de/person/ageiger). My research is in the field of Computer Vision. 
+I am Sriram N. N. working as a Research Scholar at NEC Laboratories America Inc. My research interests include path prediction, computer vision and deep learning. Previously, I worked as a Research Assistant at Robotics Research Center, IIIT Hyderabad under Prof. Madhava Krishna where my work was focused on trajectory proposals and language conditioned autonomous navigation. Apart from this, I worked extensively on Mahindra e2o electric vehicle to make it autonomous from scratch.
 
-I focus on creating realistically data useful to train deep neural networks. I also worked on scene flow estimation, 6-D object pose estimation, etc. 
-
-I did my Master's at Robotics Research Center, IIIT-Hyderabad with Prof. K Madhava Krishna, where I worked on object search in indoor environments.
-
-**Email :** siva.mustikovela@iwr.uni-heidelberg.de -->
-
-I am Sriram N. N. working as a Research Assistant at Robotics Research Center, IIIT Hyderabad under Prof. K Madhava Krishna. My work is focused on trajectory proposals using deep learning techniques and language conditioned autonomous navigation for self-driving cars. Apart from this, I worked extensively on Mahindra e2o electric vehicle to make it autonomous from scratch.
-
-Previously, I did my summer internship in 2017 at IIIT Delhi under the guidance of Prof. Sanjit Kaul where I worked on planning and perception part of an autonomous car project. 
+During summer 2017 I interned at IIIT Delhi under the guidance of Prof. Sanjit Kaul where I worked on planning and perception of an autonomous car project.
 
 <hr/>
 <font size="4">
