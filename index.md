@@ -3,9 +3,7 @@ layout: page
 title : Home
 ---
 
-I am Sriram N. N. working as a Research Scholar at NEC Laboratories America Inc. My research interests include path prediction, computer vision and deep learning. Previously, I worked as a Research Assistant at Robotics Research Center, IIIT Hyderabad under Prof. Madhava Krishna where my work was focused on trajectory proposals and language conditioned autonomous navigation. Apart from this, I worked extensively on Mahindra e2o electric vehicle to make it autonomous from scratch.
-
-During summer 2017 I interned at IIIT Delhi under the guidance of Prof. Sanjit Kaul where I worked on planning and perception of an autonomous car project.
+Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. I'm interested in computer vision and deep learning specifically targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
 
 <hr/>
 <font size="4">
