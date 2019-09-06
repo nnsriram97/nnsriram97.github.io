@@ -3,7 +3,7 @@ layout: page
 title : Home
 ---
 
-Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. I'm interested in computer vision and deep learning specifically targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
+Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. My interests lie in the field of computer vision and deep learning especially targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
 
 <hr/>
 <font size="4">
