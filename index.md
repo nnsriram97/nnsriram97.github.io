@@ -70,7 +70,7 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories
 
 <table>
   <tr>
-    <td width="25%">    <img src="/images/air_19.jpg" align="left" width="200"/>    </td>
+    <td width="25%">    <img src="/images/air19.gif" align="left" width="200"/>    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/1804.08679.pdf"> 
     <strong> Gradient Aware - Shrinking Domain based Control Design for Reactive Planning Frameworks used in Autonomous Vehicles </strong> </a> <br/> 
      Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram N. N.</strong>, K. Madhava Krishna<br/> 
