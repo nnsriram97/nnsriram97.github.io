@@ -2,21 +2,6 @@
 layout: page
 title : Home
 ---
-
-Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. My interests lie in the field of computer vision and deep learning especially targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
-
-<hr/>
-<font size="4">
-<div align="center"><b>News</b></div>
-</font>
-
-* Our work on language conditioned autonomous navigation for self-driving cars is accepeted at IROS 19.
-* Paper on diverse trajectory proposals is accepted at IV 19.
-<hr/>
-
-<font size="4">
-<div align="center"><b>Publications</b></div>
-</font>
 <style>
 a.paper:link, a.paper:visited {
   background-color: #E95D16;
@@ -44,6 +29,22 @@ a.video:hover, a.video:active {
 }
 </style>
 
+
+Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. My interests lie in the field of computer vision and deep learning especially targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
+
+<hr/>
+<font size="4">
+<div align="center"><b>News</b></div>
+</font>
+
+* Our work on language conditioned autonomous navigation for self-driving cars is accepeted at IROS 19.
+* Paper on diverse trajectory proposals is accepted at IV 19.
+<hr/>
+
+<hr/>
+<font size="4">
+<div align="center"><b>Publications</b></div> <br/>
+</font>
 
 <table>
   <tr>
