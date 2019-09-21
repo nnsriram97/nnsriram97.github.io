@@ -39,7 +39,6 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories
 
 * Our work on language conditioned autonomous navigation for self-driving cars is accepeted at IROS 19.
 * Paper on diverse trajectory proposals is accepted at IV 19.
-<hr/>
 
 <hr/>
 <font size="4">
