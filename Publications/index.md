@@ -31,7 +31,7 @@ a.video:hover, a.video:active {
 </style>
 <table>
   <tr>
-    <td width="25%">    <img src="/images/iros_19.jpg" align="left" width="200"/>    </td>
+    <td width="25%">    <img src="/images/iros19.gif" align="left" width="200"/>    </td>
     <td width="70%">  
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong><br/> 
      <strong>Sriram N. N.</strong>, Tirth Maniar, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/> 
@@ -42,7 +42,7 @@ a.video:hover, a.video:active {
 
 <table>
   <tr>
-    <td width="25%">    <img src="/images/iv_19.jpg" align="left" width="200"/>    </td>
+    <td width="25%">    <img src="/images/iv19.gif" align="left" width="200"/>    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/1906.03584.pdf"> 
     <strong> A Hierarchical Network for Diverse Trajectory Proposals </strong> </a> <br/> 
     <strong>Sriram N. N.</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
