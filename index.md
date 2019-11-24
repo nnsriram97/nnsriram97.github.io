@@ -51,7 +51,8 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories
     <td width="70%">    <a href="http://web2py.iiit.ac.in/research_centres/publications/download/inproceedings.pdf.b690ffa4bab5b49a.49524f53323031392e706466.pdf"> 
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong> </a> <br/> 
      <strong>Sriram N. N.</strong>, Tirth Maniar, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/> 
-    <strong> IROS 19</strong> &nbsp; 
+    <strong> IROS 19</strong> <a class="paper" href="http://web2py.iiit.ac.in/research_centres/publications/download/inproceedings.pdf.b690ffa4bab5b49a.49524f53323031392e706466.pdf"> Paper </a> 
+    <a class="video" href="https://www.youtube.com/watch?v=zx8s2l2tcAU"> Video </a>&nbsp; 
     </td> 
   </tr>
 </table>
