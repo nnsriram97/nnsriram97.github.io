@@ -62,7 +62,7 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories
     <td width="70%">    <a href="https://arxiv.org/pdf/1906.03584.pdf"> 
     <strong> A Hierarchical Network for Diverse Trajectory Proposals </strong> </a> <br/> 
     <strong>Sriram N. N.</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
-    <strong> IV 19 </strong> <a class="paper" href="https://arxiv.org/pdf/1906.03584.pdf"> Paper </a> 
+    <strong> IV 19 </strong> <a class="paper" href="https://ieeexplore.ieee.org/abstract/document/8813986"> Paper </a> 
     <a class="video" href="https://www.youtube.com/watch?v=cvq2dFS-dZo"> Video </a> &nbsp; 
     </td> 
   </tr>
