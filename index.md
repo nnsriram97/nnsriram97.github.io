@@ -48,10 +48,10 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories
 <table>
   <tr>
     <td width="25%">    <img src="/images/iros19.gif" align="left" width="200"/>    </td>
-    <td width="70%">    <a href="http://web2py.iiit.ac.in/research_centres/publications/download/inproceedings.pdf.b690ffa4bab5b49a.49524f53323031392e706466.pdf"> 
+    <td width="70%">    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> 
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong> </a> <br/> 
      <strong>Sriram N. N.</strong>, Tirth Maniar, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/> 
-    <strong> IROS 19</strong> <a class="paper" href="http://web2py.iiit.ac.in/research_centres/publications/download/inproceedings.pdf.b690ffa4bab5b49a.49524f53323031392e706466.pdf"> Paper </a> 
+    <strong> IROS 19</strong> <a class="paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> Paper </a>
     <a class="video" href="https://www.youtube.com/watch?v=zx8s2l2tcAU"> Video </a>&nbsp; 
     </td> 
   </tr>
@@ -60,7 +60,7 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories
 <table>
   <tr>
     <td width="25%">    <img src="/images/iv19.gif" align="left" width="200"/>    </td>
-    <td width="70%">    <a href="https://arxiv.org/pdf/1906.03584.pdf"> 
+    <td width="70%">    <a href="https://ieeexplore.ieee.org/abstract/document/8813986"> 
     <strong> A Hierarchical Network for Diverse Trajectory Proposals </strong> </a> <br/> 
     <strong>Sriram N. N.</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
     <strong> IV 19 </strong> <a class="paper" href="https://ieeexplore.ieee.org/abstract/document/8813986"> Paper </a> 
