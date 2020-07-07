@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2019-07-12T15:35:19+05:30</updated>
+<updated>2020-07-07T12:35:05-07:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name></name>
@@ -17,8 +17,8 @@
   <title type="html"><![CDATA[Author Override]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/author-override/" />
   <id>http://localhost:4000/author-override</id>
-  <published>2014-07-31T00:00:00+05:30</published>
-  <updated>2014-07-31T00:00:00+05:30</updated>
+  <published>2014-07-31T00:00:00-07:00</published>
+  <updated>2014-07-31T00:00:00-07:00</updated>
   <author>
     <name>Billy Rick</name>
     <uri>http://localhost:4000</uri>
@@ -64,7 +64,7 @@
   <link rel="alternate" type="text/html" href="http://localhost:4000/code-highlighting-post/" />
   <id>http://localhost:4000/code-highlighting-post</id>
   <updated>2014-09-14T00:00:00-00:00</updated>
-  <published>2013-08-16T00:00:00+05:30</published>
+  <published>2013-08-16T00:00:00-07:00</published>
   
   <author>
     <name></name>
@@ -184,8 +184,8 @@
   <title type="html"><![CDATA[Sample Link Post]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/sample-link-post/" />
   <id>http://localhost:4000/sample-link-post</id>
-  <published>2013-08-12T00:00:00+05:30</published>
-  <updated>2013-08-12T00:00:00+05:30</updated>
+  <published>2013-08-12T00:00:00-07:00</published>
+  <updated>2013-08-12T00:00:00-07:00</updated>
   <author>
     <name></name>
     <uri>http://localhost:4000</uri>
@@ -207,8 +207,8 @@
   <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/readability-feature-post/" />
   <id>http://localhost:4000/readability-feature-post</id>
-  <published>2013-05-23T00:00:00+05:30</published>
-  <updated>2013-05-23T00:00:00+05:30</updated>
+  <published>2013-05-23T00:00:00-07:00</published>
+  <updated>2013-05-23T00:00:00-07:00</updated>
   <author>
     <name></name>
     <uri>http://localhost:4000</uri>
@@ -271,8 +271,8 @@
   <title type="html"><![CDATA[Sample Post Images]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/sample-post-images/" />
   <id>http://localhost:4000/sample-post-images</id>
-  <published>2013-05-22T00:00:00+05:30</published>
-  <updated>2013-05-22T00:00:00+05:30</updated>
+  <published>2013-05-22T00:00:00-07:00</published>
+  <updated>2013-05-22T00:00:00-07:00</updated>
   <author>
     <name></name>
     <uri>http://localhost:4000</uri>
@@ -340,8 +340,8 @@
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/readability-post/" />
   <id>http://localhost:4000/readability-post</id>
-  <published>2012-05-22T00:00:00+05:30</published>
-  <updated>2012-05-22T00:00:00+05:30</updated>
+  <published>2012-05-22T00:00:00-07:00</published>
+  <updated>2012-05-22T00:00:00-07:00</updated>
   <author>
     <name></name>
     <uri>http://localhost:4000</uri>
@@ -397,7 +397,7 @@
   <link rel="alternate" type="text/html" href="http://localhost:4000/sample-post/" />
   <id>http://localhost:4000/sample-post</id>
   <updated>2013-05-31T00:00:00-00:00</updated>
-  <published>2011-03-10T00:00:00+05:30</published>
+  <published>2011-03-10T00:00:00-08:00</published>
   
   <author>
     <name></name>
