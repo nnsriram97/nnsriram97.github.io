@@ -37,7 +37,7 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories
 <div align="center"><b>News</b></div>
 </font>
 
-**07/20:** Paper on Simultaneous Multi-Agent Trajectory Predictions is accepted at ECCV 20 <br />
+**07/20:** Paper on Simultaneous Multi-Agent Trajectory Prediction is accepted at ECCV 20 <br />
 **07/19:** Joined NEC Labs America as a Research Scholar. <br/>
 **06/19:** Work on language conditioned autonomous navigation is accepeted at IROS 19. <br/>
 **04/19:** Work on diverse trajectory proposals for outdoor scenes is accepted at IV 19. <br/>
