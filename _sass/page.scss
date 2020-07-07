@@ -234,7 +234,7 @@ $button-size: 1.5rem;
 		@include prefix(12,1);
 		@include suffix(12,1);
 		margin-bottom: 2em;
-		@media #{$small} {
+		@media #{$x-large} {
 			@include grid(12,8.5); /* CHANGES WIDTH OF THE MAIN CONTENT */
 			@include prefix(12,0);
 			@include suffix(12,0);
