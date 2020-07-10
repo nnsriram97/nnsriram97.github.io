@@ -29,17 +29,21 @@ a.video:hover, a.video:active {
 }
 </style>
 
+Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department. My interests lie in the field of vision, learning and robotics. Currently, my work has been focused on diverse and multi-agent motion forecasting. 
+<br/>
+<br/>
+Prior to joining NEC, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> under the guidance of <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> in problems related to perception and prediction for autonomous vehicles. Also, I was extremely fortunate to collaborate with <a href="https://faculty.iiit.ac.in/~vgandhi/">Dr. Vineet Gandhi</a> during my time at IIIT Hyderabad. I spent my Summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> under mentorship of <a href="https://sites.google.com/view/sanjitkkaul/">Dr. Sanjit Kaul</a> in realizing my dream to make a self-driving vehicle.
 
-Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. My interests lie in the field of computer vision and deep learning especially targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
-
+<!-- Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. My interests lie in the field of computer vision and deep learning especially targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
+ -->
 <hr/>
 <font size="4">
 <div align="center"><b>News</b></div>
 </font>
 
-**07/20:** Paper on Simultaneous Multi-Agent Trajectory Prediction is accepted at ECCV 20 <br />
+**07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted at ECCV 20 <br />
 **07/19:** Joined NEC Labs America as a Research Scholar. <br/>
-**06/19:** Work on language conditioned autonomous navigation is accepeted at IROS 19. <br/>
+**06/19:** Work on language conditioned autonomous navigation is accepted at IROS 19. <br/>
 **04/19:** Work on diverse trajectory proposals for outdoor scenes is accepted at IV 19. <br/>
 **04/19:** Work on shrinking domain based control for planning is accepted at AIR 19. <br/>
 
