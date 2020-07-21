@@ -15,17 +15,23 @@ a.paper:link, a.paper:visited {
 a.paper:hover, a.paper:active {
   background-color: red;
 }
-a.video:link, a.video:visited {
-  background-color: #800000;
-  color: white;
-  padding: 5px 5px;
+a.links:link, a.links:visited {
+  background-color: none;
+  color: blue;
+  border-style: solid;
+  border-width: thin;
+  border-color: blue;
+  padding: 3px 3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
-a.video:hover, a.video:active {
-  background-color: red;
+a.links:hover, a.links:active {
+  background-color: blue;
+  color: white;
+  border-style: solid;
+  border-color: black;
 }
 </style>
 
@@ -55,48 +61,67 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 
 <table>
   <tr>
-    <td width="25%">    <img src="/images/iros19.gif" align="left" width="200"/>    </td>
+    <td width="25%">    <img src="/images/iros19.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> 
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong> </a> <br/> 
-     <strong>Sriram N. N.</strong>, Tirth Maniar, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/> 
-    <strong> IROS 19</strong> <a class="paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> Paper </a>
-    <a class="video" href="https://www.youtube.com/watch?v=zx8s2l2tcAU"> Video </a>&nbsp; 
+     <strong>Sriram N N</strong>, Tirth Maniar, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/>
+     <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019</i><br/>
+    <a class="links" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> Paper </a>
+    <a class="links" href="https://www.youtube.com/watch?v=zx8s2l2tcAU"> Video </a>&nbsp; 
     </td> 
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="25%">    <img src="/images/iv19.gif" align="left" width="200"/>    </td>
+    <td width="25%">    <img src="/images/iv19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/abstract/document/8813986"> 
     <strong> A Hierarchical Network for Diverse Trajectory Proposals </strong> </a> <br/> 
-    <strong>Sriram N. N.</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
-    <strong> IV 19 </strong> <a class="paper" href="https://ieeexplore.ieee.org/abstract/document/8813986"> Paper </a> 
-    <a class="video" href="https://www.youtube.com/watch?v=cvq2dFS-dZo"> Video </a> &nbsp; 
+    <strong>Sriram N N</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
+    <i>IEEE Intelligent Vehicles Symposium (IV), 2019</i> <br/>
+    <a class="links" href="https://ieeexplore.ieee.org/abstract/document/8813986"> Paper </a> 
+    <a class="links" href="https://www.youtube.com/watch?v=cvq2dFS-dZo"> Video </a> &nbsp; 
     </td> 
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="25%">   <img src="/images/air19.gif" align="left" width="200"/>    </td>
+    <td width="25%">   <img src="/images/air19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/1804.08679.pdf"> 
     <strong> Gradient Aware - Shrinking Domain based Control Design for Reactive Planning Frameworks used in Autonomous Vehicles </strong> </a> <br/> 
-     Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram N. N.</strong>, K. Madhava Krishna<br/> 
-    <strong> AIR 19 </strong> <a class="paper" href="https://arxiv.org/pdf/1804.08679.pdf"> Paper </a> <a class="video" href="https://www.youtube.com/watch?v=Yf4F0dvkwQE"> Video </a> &nbsp; 
+     Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram N N</strong>, K. Madhava Krishna<br/> 
+    <i>Proceedings of the Advances in Robotics (AIR), 2019</i> <br/>
+    <a class="links" href="https://arxiv.org/pdf/1804.08679.pdf"> Paper </a> <a class="links" href="https://www.youtube.com/watch?v=Yf4F0dvkwQE"> Video </a> &nbsp; 
     </td> 
   </tr>
 </table>
 <hr />
-<!-- <font size="2">
+
+<font size="2">
 <div align="center"><b>I am privileged to be associated with the following</b></div>
 <table text-align="center">
-<tr><td align="center"><a href='http://cvlab-dresden.de/'><img src='images/vll_hd_logo.png' width='100'></a></td> <td align="center"><a href='http://iiit.ac.in'><img src='images/iiit.png' width='80'></a></td>  <td align="center"><a href='http://www.fp-robotics.com/'><img src='images/fp.png' width='70'></a></td>  <td align="center"><a href='http://www.siemens.com'><img src='images/siemens.jpeg' width='70'></a></td>  <td align="center"><a href='http://arl.nus.edu.sg/twiki6/bin/view/ARL'><img src='images/nus.jpg' width='70'></a></td> </tr>
+<tr>
+  <td align="center"><a href='https://www.iiitd.ac.in/'><img src='images/iiit_d.png' width='70'></a></td>  
+  <td align="center"><a href='http://iiit.ac.in'><img src='images/iiit_h.png' width='80'></a></td>  
+  <td align="center"><a href='http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home'><img src='images/nec_logo.png' width='70'></a></td>  
+</tr>
 
-<tr><td align="center">PhD</td><td align="center">Bachelor's &amp; Master's</td><td align="center">Intern</td><td align="center"> Intern</td><td align="center">Intern</td></tr>
+<tr>
+  <td align="center">Intern</td>
+  <td align="center">RA</td>
+  <td align="center">Research Scholar</td>
+</tr>
+
+<tr>
+  <td align="center">Summer 2017</td>
+  <td align="center">Dec 2017 - Jul 2019</td>
+  <td align="center">Jul 2019 - Present</td>
+</tr>
+
 </table>
 </font>
-<hr/> -->
+<hr/>
 
 
 
