@@ -61,6 +61,19 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 
 <table>
   <tr>
+    <td width="25%">    <img src="/images/eccv20.gif" align="left" width="250" />    </td>
+    <td width="70%">    <a href="https://www.nec-labs.com/uploads/images/Department-Images/MediaAnalytics/research-papers/SMART-%20Simultaneous%20Multi-Agent%20Recurrent%20Trajectory%20Prediction.pdf"> 
+    <strong> SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction</strong> </a> <br/> 
+     <strong>Sriram N N</strong>, Buyu Liu, Francesco Pittaluga, Manmohan Chandraker<br/>
+     <i>European Conference on Computer Vision (ECCV), 2020</i><br/>
+    <a class="links" href="https://www.nec-labs.com/uploads/images/Department-Images/MediaAnalytics/research-papers/SMART-%20Simultaneous%20Multi-Agent%20Recurrent%20Trajectory%20Prediction.pdf"> Paper </a>
+    <a class="links" href="https://youtu.be/dAzY0PTT6V8"> Video </a>&nbsp; 
+    </td> 
+  </tr>
+</table>
+
+<table>
+  <tr>
     <td width="25%">    <img src="/images/iros19.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> 
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong> </a> <br/> 
