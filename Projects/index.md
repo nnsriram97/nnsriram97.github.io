@@ -4,10 +4,148 @@ title: Projects
 excerpt: "My projects"
 ---
 
-## B.Tech. Projects
+<style>
+a.paper:link, a.paper:visited {
+  background-color: #E95D16;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.paper:hover, a.paper:active {
+  background-color: red;
+}
+a.links:link, a.links:visited {
+  background-color: none;
+  color: blue;
+  border-style: solid;
+  border-width: thin;
+  border-color: blue;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.links:hover, a.links:active {
+  background-color: blue;
+  color: white;
+  border-style: solid;
+  border-color: black;
+}
+</style>
+
+### B.Tech. Projects
 <hr>
 
-#### <a href="https://drive.google.com/file/d/14Q1tsOjkWNgl8JsLJuONBHBynsyhAjAG/view"> Background Subtraction based on Two-Univariate Gaussian Model for Automatic Surveillance Applications </a>
+
+<table>
+  <tr>
+    <td width="25%">    <img src="/images/swarath_gif.gif" align="left" width="200"/>    </td>
+    <td width="70%">
+    <strong style="color:blue;font-size:24px;"><a href="https://nnsriram.weebly.com/swarath.html"> Swarath - Self driving Car </a></strong><br>
+	My internship project at IIIT Delhi during Summer 2017, where I worked on building a self-driving vehicle prototype. It started with designing controller and planner for the vehicle. Later built the perception system where sensor outputs were converted to obtain occupancy. Further, integrated the planner and perception systems together. The internship ended with demonstrating autonomous navigation with GPS waypoints as input.<br>
+    <a class="links" href="https://www.youtube.com/watch?v=z3FdsK_w_Nw"> Video </a> &nbsp;
+    </td> 
+  </tr>
+</table>
+
+<hr>
+
+<table>
+<tr>
+    <td width="25%">    <img src="/images/btech_thesis.gif" align="left" width="200"/>    </td>
+    <td width="70%">
+    <strong style="color:blue;font-size:24px;"><a href="https://nnsriram.weebly.com/swahana.html"> Building Perception, Planning and Control for Autonomous Vehicles </a></strong><br>
+	My bachelor thesis at IIIT Hyderabad, started with designing a low-level controller for a stock vehicle from scratch. Built a controller system for throttle, steering and brakes without CAN support. Further, integrated perception (ORB-SLAM, LOAM) and planning (RRT*) modules. Demonstrated static obstacle avoidance in tight spaces which was showcased in Research and Development showcase held at IIIT. A part of my thesis culminated into a paper published at AIR 19. <br>
+    <a class="links" href="https://drive.google.com/file/d/1CAmw-Pam0xOWf-3rUHwM1NNhlOCeX9a2/view"> Report </a> <a class="links" href="https://www.youtube.com/watch?v=Fs-Pt0M1j5I"> Video </a> &nbsp;
+    </td> 
+  </tr>
+</table>
+
+<hr>
+<table>
+<tr>
+    <td width="25%">    <img src="/images/projects/collage_bs.png" align="left" width="200"/>    </td>
+    <td width="70%">
+    <strong style="color:blue;font-size:24px;"><a href="https://drive.google.com/file/d/14Q1tsOjkWNgl8JsLJuONBHBynsyhAjAG/view"> Background Subtraction </a></strong><br>
+	A project work on Background Subtraction with Dr. Manigandan during my bachelors. Designed a novel Background Subtraction algorithm based on univariate Gaussians. Obtained an improved F-Measure of 0.8221 and percentage of false classification as low as 2.6%. Implemented various traditional BS techniques as baselines for comparison.<br>
+    <a class="links" href="https://drive.google.com/file/d/14Q1tsOjkWNgl8JsLJuONBHBynsyhAjAG/view"> Paper </a> &nbsp;
+    </td> 
+  </tr>
+</table>
+
+<hr>
+<table>
+<tr>
+    <td width="20%">    <iframe align="left" height="50" width="80" src="https://www.youtube.com/embed/EyNALTEMpUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td>
+    <td width="5%"></td>
+    <td width="70%">
+    <strong style="color:blue;font-size:24px;"><a href="https://nnsriram.weebly.com/bothoven.html"> Bothoven - Eyantra Robotics Competition </a></strong><br>
+	A multi-robot task execution problem, where two robots simultaneously plan paths, coordinate and execute a task of playing an audio file in a concurrent fashion. We apply Fast Fourier Transform to decode the notes present in the audio file and provide them as inputs to the robots. The robots are aware of the map but are unaware of the obstacles present on the map. They map is updated and replanning is done when any one of them encounters an obstacle.<br>
+    <a class="links" href="https://www.youtube.com/watch?v=EyNALTEMpUo"> Video </a> &nbsp;
+    </td> 
+  </tr>
+</table>
+
+
+<hr>
+<table>
+<tr>
+    <td width="25%">    <img src="/images/projects/husky.png" align="left" width="200"/>    </td>
+    <td width="70%">
+    <strong style="color:blue;font-size:24px;"><a href="https://nnsriram.weebly.com/husky.html"> Husky - Visual perception based Autonomous bot </a></strong><br>
+	Implemented obstacle avoidance and waypoint following in outdoor and indoor scenarios. Sensors like stereo camera, GPS, IMU and wheel encoders were used. Occupancy map was generated upon which planning was done using RRT for the bot to reach the goal autonmously.<br>
+    <a class="links" href="https://www.youtube.com/watch?v=XOhP3XEvSok"> Video </a> &nbsp;
+    </td> 
+  </tr>
+</table>
+
+<br>
+
+#### Other Projects
+<hr>
+
+<ul>
+	<li>
+		<strong style="color:blue;font-size:20px;"><a href="https://github.com/abhishek-v/General-Electrics-Edison-Challenge-2016">  AutoNimbus - Connecting Vehicle to the Cloud </a></strong><br>
+		National Finalist at General Electric Edison Challenge 2016
+	</li>
+	<li>
+		<strong style="color:blue;font-size:20px;"><a href="https://www.youtube.com/watch?v=OPbu5sNg880">  Vision based robot localization </a></strong><br>
+		Winner at computer vision based robotics competition for the consecutive years 2016,2017.
+	</li>
+	<li>
+		<strong style="color:blue;font-size:20px;"><a href="http://nnsriram.blogspot.com/2015/12/sudoku-solver-real-time-image.html"> Sudoku Solver for a Real Time Image </a> </strong><br>
+		A computer vision application that provides a solution when an image of the Sudoku is shown as input.
+	</li>
+	<li>
+		<strong style="color:blue;font-size:20px;"><a href="https://github.com/nnsriram97/Mobile-controlled-pc-game">  Game Controller App using Kivy Python  </a> </strong><br>
+		A game controller app with accelerometer support and customizable keybindings for controlling agents in games.
+	</li>
+</ul>
+<!-- <table>
+<tr>
+    <td width="25%">    <img src="/images/projects/autonimbus.png" align="left" width="200"/>    </td>
+    <td width="70%">
+    <h1 style="color:blue;font-size:24px;"><a href="https://github.com/abhishek-v/General-Electrics-Edison-Challenge-2016">  AutoNimbus - Connecting Vehicle to the Cloud </a></h1>
+	National Finalist at General Electric Edison Challenge 2016
+    </td> 
+  </tr>
+</table>
+<table>
+<tr>
+    <td width="25%">    <img src="/images/projects/cop.png" align="left" width="200"/>    </td>
+    <td width="70%">
+    <h1 style="color:blue;font-size:24px;"><a href="https://www.youtube.com/watch?v=OPbu5sNg880">  Vision based robot localization </a></h1>
+    </td> 
+  </tr>
+</table>
+ -->
+
+<!-- #### <a href="https://drive.google.com/file/d/14Q1tsOjkWNgl8JsLJuONBHBynsyhAjAG/view"> Background Subtraction based on Two-Univariate Gaussian Model for Automatic Surveillance Applications </a>
 <img src="/images/projects/collage_bs.png" width="171" height="57" align="right">
 <font size="2">
 ​During my 3rd year of bachelors I joined Prof. Manigandan to work on the thread of Background Subtraction. During this I designed a novel background subtraction algorithm based on a set of univariate gaussians. I got an improved F-Measure of 0.8221 and a percentage of false classification stood lowest at 2.6%. I implemented various background subtraction algorithms such as ones based on Gaussian Mixture Model, Kernel Density Estimation and Adaptive Background Learning as baselines for comparisons.
@@ -71,7 +209,7 @@ In my junior year, I built a Sudoku solver which provides a solution to the Sudo
 In my first year, I built a cross platform mobile app that can run on OSX, Linux and Windows. It is a game controller that uses inbuilt accelerometer present in the device. It features controls for nitro and brake, and the control for steering is achieved by tilting the device. It gives precise control of the vehicle as opposed to pressing keys on the keyboard. Also, it makes the game more interesting with the experience of controlling using your mobile.
 </font>
 <hr>
-
+ -->
 
 
 <script>
