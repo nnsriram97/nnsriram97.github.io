@@ -43,10 +43,12 @@ a.links:hover, a.links:active {
 
 <table>
   <tr>
-    <td width="25%">    <img src="/images/swarath_gif.gif" align="left" width="200"/>    </td>
+    <td width="25%" >    <img src="/images/swarath_gif_resize.gif" align="left" width="200" />    </td>
+    <!-- <td width="70%">    <a href="https://nnsriram.weebly.com/swarath.html"> 
+    <strong> Swarath - Self driving Car </strong> </a> <br/>  -->
     <td width="70%">
-    <strong style="color:blue;font-size:24px;"><a href="https://nnsriram.weebly.com/swarath.html"> Swarath - Self driving Car </a></strong><br>
-	My internship project at IIIT Delhi during Summer 2017, where I worked on building a self-driving vehicle prototype. It started with designing controller and planner for the vehicle. Later built the perception system where sensor outputs were converted to obtain occupancy. Further, integrated the planner and perception systems together. The internship ended with demonstrating autonomous navigation with GPS waypoints as input.<br>
+    <strong style="color:blue;font-size:18px;"><a href="https://nnsriram.weebly.com/swarath.html"> Swarath - Self driving Car </a></strong><br>
+  Internship project at IIIT Delhi during Summer 2017, where I worked on building a SDV prototype. It started with designing controller and planner for the vehicle. Later built perception systems where sensor outputs were used to obtain occupancies. Further, integrated the planner and perception modules together. The internship ended with demonstrating autonomous navigation with GPS waypoints as input. <br>
     <a class="links" href="https://www.youtube.com/watch?v=z3FdsK_w_Nw"> Video </a> &nbsp;
     </td> 
   </tr>
@@ -56,10 +58,12 @@ a.links:hover, a.links:active {
 
 <table>
 <tr>
-    <td width="25%">    <img src="/images/btech_thesis.gif" align="left" width="200"/>    </td>
+    <td width="25%">    <img src="/images/btech_thesis_crop.gif" align="left" width="200"/>    </td>
+    <!-- <td width="70%">    <a href="https://nnsriram.weebly.com/swahana.html"> 
+    <strong> Building Perception, Planning and Control for Autonomous Vehicles </strong> </a> <br/>  -->
     <td width="70%">
-    <strong style="color:blue;font-size:24px;"><a href="https://nnsriram.weebly.com/swahana.html"> Building Perception, Planning and Control for Autonomous Vehicles </a></strong><br>
-	My bachelor thesis at IIIT Hyderabad, started with designing a low-level controller for a stock vehicle from scratch. Built a controller system for throttle, steering and brakes without CAN support. Further, integrated perception (ORB-SLAM, LOAM) and planning (RRT*) modules. Demonstrated static obstacle avoidance in tight spaces which was showcased in Research and Development showcase held at IIIT. A part of my thesis culminated into a paper published at AIR 19. <br>
+    <strong style="color:blue;font-size:18px;"><a href="https://nnsriram.weebly.com/swahana.html"> Building Perception, Planning and Control for Autonomous Vehicles </a></strong><br>
+  Bachelor thesis at IIIT Hyderabad, started with designing a low-level controller for a stock car from scratch. Built controllers for throttle, steering and brakes without CAN support. Further integrated perception (ORB-SLAM, LOAM) and planning (RRT*) modules. Demonstrated static obstacle avoidance in tight spaces which was showcased at Research and Development showcase held at IIIT. A part of my thesis culminated into a paper published at AIR 19. <br>
     <a class="links" href="https://drive.google.com/file/d/1CAmw-Pam0xOWf-3rUHwM1NNhlOCeX9a2/view"> Report </a> <a class="links" href="https://www.youtube.com/watch?v=Fs-Pt0M1j5I"> Video </a> &nbsp;
     </td> 
   </tr>
@@ -70,8 +74,9 @@ a.links:hover, a.links:active {
 <tr>
     <td width="25%">    <img src="/images/projects/collage_bs.png" align="left" width="200"/>    </td>
     <td width="70%">
-    <strong style="color:blue;font-size:24px;"><a href="https://drive.google.com/file/d/14Q1tsOjkWNgl8JsLJuONBHBynsyhAjAG/view"> Background Subtraction </a></strong><br>
-	A project work on Background Subtraction with Dr. Manigandan during my bachelors. Designed a novel Background Subtraction algorithm based on univariate Gaussians. Obtained an improved F-Measure of 0.8221 and percentage of false classification as low as 2.6%. Implemented various traditional BS techniques as baselines for comparison.<br>
+    <strong style="color:blue;font-size:18px;"><a href="https://drive.google.com/file/d/14Q1tsOjkWNgl8JsLJuONBHBynsyhAjAG/view"> Background Subtraction </a></strong><br>
+  Project work on Background Subtraction with Dr. Manigandan during bachelors. Designed a background subtraction algorithm based on mixture models.<br>
+  <!-- Designed a novel Background Subtraction algorithm based on univariate Gaussians. Obtained an improved F-Measure of 0.8221 and percentage of false classification as low as 2.6%. Implemented various traditional BS techniques as baselines for comparison.<br> -->
     <a class="links" href="https://drive.google.com/file/d/14Q1tsOjkWNgl8JsLJuONBHBynsyhAjAG/view"> Paper </a> &nbsp;
     </td> 
   </tr>
@@ -80,11 +85,12 @@ a.links:hover, a.links:active {
 <hr>
 <table>
 <tr>
-    <td width="20%">    <iframe align="left" height="50" width="80" src="https://www.youtube.com/embed/EyNALTEMpUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td>
-    <td width="5%"></td>
+    <!-- <td width="20%">    <iframe align="left" width="180" src="https://www.youtube.com/embed/EyNALTEMpUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td> -->
+    <td width="25%" >    <img src="/images/eyantra_resize.gif" align="left" width="200" />    </td>
+    <!-- <td width="5%"></td> -->
     <td width="70%">
-    <strong style="color:blue;font-size:24px;"><a href="https://nnsriram.weebly.com/bothoven.html"> Bothoven - Eyantra Robotics Competition </a></strong><br>
-	A multi-robot task execution problem, where two robots simultaneously plan paths, coordinate and execute a task of playing an audio file in a concurrent fashion. We apply Fast Fourier Transform to decode the notes present in the audio file and provide them as inputs to the robots. The robots are aware of the map but are unaware of the obstacles present on the map. They map is updated and replanning is done when any one of them encounters an obstacle.<br>
+    <strong style="color:blue;font-size:18px;"><a href="https://nnsriram.weebly.com/bothoven.html"> Bothoven - Eyantra Robotics Competition </a></strong><br>
+  A multi-robot task execution problem, where two robots simultaneously plan paths, coordinate and execute a task of playing an audio file in a concurrent fashion. First FFT is applied to decode the notes from an audio file and is fed as input to the robots. The robots are aware of the map but are unaware of the obstacles present on the map. The map is updated and replanning is done when any one of them encounters an obstacle.<br>
     <a class="links" href="https://www.youtube.com/watch?v=EyNALTEMpUo"> Video </a> &nbsp;
     </td> 
   </tr>
@@ -96,14 +102,12 @@ a.links:hover, a.links:active {
 <tr>
     <td width="25%">    <img src="/images/projects/husky.png" align="left" width="200"/>    </td>
     <td width="70%">
-    <strong style="color:blue;font-size:24px;"><a href="https://nnsriram.weebly.com/husky.html"> Husky - Visual perception based Autonomous bot </a></strong><br>
-	Implemented obstacle avoidance and waypoint following in outdoor and indoor scenarios. Sensors like stereo camera, GPS, IMU and wheel encoders were used. Occupancy map was generated upon which planning was done using RRT for the bot to reach the goal autonmously.<br>
+    <strong style="color:blue;font-size:18px;"><a href="https://nnsriram.weebly.com/husky.html"> Husky - Visual perception based Autonomous bot </a></strong><br>
+  Implemented obstacle avoidance and waypoint following in outdoor and indoor scenarios. Sensors like stereo camera, GPS, IMU and wheel encoders were used. Occupancy map was generated upon which planning was done using RRT for the bot to reach the goal autonmously.<br>
     <a class="links" href="https://www.youtube.com/watch?v=XOhP3XEvSok"> Video </a> &nbsp;
     </td> 
   </tr>
 </table>
-
-<br>
 
 #### Other Projects
 <hr>
