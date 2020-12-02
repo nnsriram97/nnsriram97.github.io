@@ -129,7 +129,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
   </tr>
 </table>
 
-<hr>
+<!-- <hr> -->
 
 <table>
 <tr>
@@ -144,7 +144,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
   </tr>
 </table>
 
-<hr>
+<!-- <hr> -->
 <table>
 <tr>
     <td width="25%">    <img src="/images/projects/collage_bs.png" align="left" width="200"/>    </td>
@@ -157,7 +157,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
   </tr>
 </table>
 
-<hr>
+<!-- <hr> -->
 <table>
 <tr>
     <!-- <td width="20%">    <iframe align="left" width="180" src="https://www.youtube.com/embed/EyNALTEMpUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </td> -->
@@ -172,7 +172,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 </table>
 
 
-<hr>
+<!-- <hr> -->
 <table>
 <tr>
     <td width="25%">    <img src="/images/projects/husky.png" align="left" width="200"/>    </td>
