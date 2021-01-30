@@ -111,8 +111,30 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
     </td> 
   </tr>
 </table>
-<hr />
 
+
+
+<hr/>
+<font size="4">
+<div align="center"><b>Patents</b></div> <br/>
+</font>
+
+<table>
+  <tr>
+    <td width="25%">    <img src="/images/iv_patent.png" align="left" width="250" />    </td>
+    <td width="70%">    <a href="https://patentimages.storage.googleapis.com/06/60/81/2f29a5dd03089e/US20200387163A1.pdf"> 
+    <strong> Method and a system for hierarchical network based diverse trajectory proposal</strong> </a> <br/> 
+      Brojeshwar Bhowmick, K. Madhava Krishna, Sriram N N, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav<br/> 
+     <i>US Patent No. 2020/0387163</i><br/>
+    <a class="links" href="https://patentimages.storage.googleapis.com/06/60/81/2f29a5dd03089e/US20200387163A1.pdf"> Patent </a>&nbsp; 
+    </td> 
+  </tr>
+</table>
+
+
+
+
+<hr/>
 <font size="4">
 <div align="center"><b>Bachelor's Projects</b></div> <br/>
 </font>
