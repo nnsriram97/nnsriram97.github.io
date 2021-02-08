@@ -80,7 +80,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
     <td width="25%">    <img src="/images/iros19.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> 
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong> </a> <br/> 
-     <strong>Sriram N N</strong>, Tirth Maniar, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/>
+     <strong>Sriram N N</strong>*, Tirth Maniar*, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/>
      <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019</i><br/>
     <a class="links" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> Paper </a>
     <a class="links" href="https://www.youtube.com/watch?v=zx8s2l2tcAU"> Video </a>&nbsp; 
