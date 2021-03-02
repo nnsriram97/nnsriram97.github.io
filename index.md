@@ -47,9 +47,10 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>News</b></div>
 </font>
 
+**02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to CVPR 21. <br/>
 **01/21:** Invited as a Reviewer for ICCV 2021. <br/>
 **12/20:** Reviewer for CVPR 21. <br />
-**07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted at ECCV 20. <br />
+**07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 20. <br />
 **11/19:** Served as a reviewer for ICRA 2020. <br/>
 **07/19:** Joined NEC Labs America as a Research Scholar. <br/>
 **06/19:** Paper *Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars* is accepted at IROS 19. <br/>
