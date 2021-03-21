@@ -62,7 +62,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>Publications</b></div> <br/>
 </font>
 
-<table style="background-color:#DAE8FC">
+<table style="background-color:#F1F7FC">
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/eccv20.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/2007.13078.pdf"> 
@@ -80,7 +80,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
   </tr>
 </table>
 
-<table style="background-color:#DAE8FC">
+<table style="background-color:#F1F7FC">
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/iros19.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> 
@@ -97,7 +97,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
   </tr>
 </table>
 
-<table style="background-color:#DAE8FC">
+<table style="background-color:#F1F7FC">
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/iv19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/abstract/document/8813986"> 
@@ -114,7 +114,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
   </tr>
 </table>
 
-<table style="background-color:#DAE8FC">
+<table style="background-color:#F1F7FC">
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">   <img src="/images/air19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/1804.08679.pdf"> 
