@@ -62,54 +62,70 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>Publications</b></div> <br/>
 </font>
 
-<table>
+<table style="background-color:#DAE8FC">
   <tr>
-    <td width="25%">    <img src="/images/eccv20.gif" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/eccv20.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/2007.13078.pdf"> 
-    <strong> SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction</strong> </a> <br/> 
-     <strong>Sriram N N</strong>, Buyu Liu, Francesco Pittaluga, Manmohan Chandraker<br/>
-     <i>European Conference on Computer Vision (ECCV), 2020</i><br/>
-    <a class="links" href="https://arxiv.org/pdf/2007.13078.pdf"> Paper </a>
-    <a class="links" href="https://youtu.be/puBAVMoLgQU"> Video </a>
-    <a class="links" href="http://www.nec-labs.com/uploads/Documents/Media-Analytics/research-videos/SMART-%20Simultaneous%20Multi-Agent%20Recurrent%20Trajectory%20Prediction.mp4"> Short Talk </a>&nbsp; 
+      <strong> SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction</strong> </a> <br/> 
+      <strong>Sriram N N</strong>, Buyu Liu, Francesco Pittaluga, Manmohan Chandraker<br/>
+      <i>European Conference on Computer Vision (ECCV), 2020</i><br/>
+      <a class="links" href="https://arxiv.org/pdf/2007.13078.pdf"> Paper </a>
+      <a class="links" href="https://youtu.be/puBAVMoLgQU"> Video </a>
+      <a class="links" href="http://www.nec-labs.com/uploads/Documents/Media-Analytics/research-videos/SMART-%20Simultaneous%20Multi-Agent%20Recurrent%20Trajectory%20Prediction.mp4"> Short Talk </a>&nbsp; 
+      <div class="readmore">
+        <p align='justify'>We propose advances that address two key challenges in future trajectory prediction: (i) multimodality in both training data and predictions and (ii) constant time inference regardless of number of agents. Existing trajectory predictions are fundamentally limited by lack of diversity in training data, which is difficult to acquire with sufficient coverage of possible modes. Our first contribution is an automatic method to simulate diverse trajectories in the top-view. It uses pre-existing datasets and maps as initialization, mines existing trajectories to represent realistic driving behaviors and uses a multi-agent vehicle dynamics simulator to generate diverse new trajectories that cover various modes and are consistent with scene layout constraints. Our second contribution is a novel method that generates diverse predictions while accounting for scene semantics and multi-agent interactions, with constant-time inference independent of the number of agents. We propose a convLSTM with novel state pooling operations and losses to predict scene-consistent states of multiple agents in a single forward pass, along with a CVAE for diversity. We validate our proposed multi-agent trajectory prediction approach by training and testing on the proposed simulated dataset and existing real datasets of traffic scenes. In both cases, our approach outperforms SOTA methods by a large margin, highlighting the benefits of both our diverse dataset simulation and constant-time diverse trajectory prediction methods.</p>
+        <span class="readmore-link"></span>
+      </div>
     </td> 
   </tr>
 </table>
 
-<table>
+<table style="background-color:#DAE8FC">
   <tr>
-    <td width="25%">    <img src="/images/iros19.gif" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/iros19.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> 
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong> </a> <br/> 
      <strong>Sriram N N</strong>*, Tirth Maniar*, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/>
      <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019</i><br/>
     <a class="links" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> Paper </a>
     <a class="links" href="https://www.youtube.com/watch?v=zx8s2l2tcAU"> Video </a>&nbsp; 
+    <div class="readmore">
+        <p align='justify'>We propose a novel pipeline that blends encodings from natural language and 3D semantic maps obtained from visual imagery to generate local trajectories that are executed by a low-level controller. The pipeline precludes the need for a prior registered map through a local waypoint generator neural network. The waypoint generator network (WGN) maps semantics and natural language encodings (NLE) to local waypoints. A local planner then generates a trajectory from the ego location of the vehicle (an outdoor car in this case) to these locally generated waypoints while a low-level controller executes these plans faithfully. The efficacy of the pipeline is verified in the CARLA simulator environment as well as on local semantic maps built from real-world KITTI dataset. In both these environments (simulated and real-world) we show the ability of the WGN to generate waypoints accurately by mapping NLE of varying sequence lengths and levels of complexity. We compare with baseline approaches and show significant performance gain over them. And finally, we show real implementations on our electric car verifying that the pipeline lends itself to practical and tangible realizations in uncontrolled outdoor settings. In loop execution of the proposed pipeline that involves repetitive invocations of the network is critical for any such language-based navigation framework. This effort successfully accomplishes this thereby bypassing the need for prior metric maps or strategies for metric level localization during traversal.</p>
+        <span class="readmore-link"></span>
+      </div>
     </td> 
   </tr>
 </table>
 
-<table>
+<table style="background-color:#DAE8FC">
   <tr>
-    <td width="25%">    <img src="/images/iv19.gif" align="left" width="250"/>    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/iv19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/abstract/document/8813986"> 
     <strong> A Hierarchical Network for Diverse Trajectory Proposals </strong> </a> <br/> 
     <strong>Sriram N N</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
     <i>IEEE Intelligent Vehicles Symposium (IV), 2019</i> <br/>
     <a class="links" href="https://ieeexplore.ieee.org/abstract/document/8813986"> Paper </a> 
     <a class="links" href="https://www.youtube.com/watch?v=cvq2dFS-dZo"> Video </a> &nbsp; 
+    <div class="readmore">
+        <p align='justify'>Autonomous explorative robots frequently encounter scenarios where multiple future trajectories can be pursued. Often these are cases with multiple paths around an obstacle or trajectory options towards various frontiers. Humans in such situations can inherently perceive and reason about the surrounding environment to identify several possibilities of either manoeuvring around the obstacles or moving towards various frontiers. In this work, we propose a 2 stage Convolutional Neural Network architecture which mimics such an ability to map the perceived surroundings to multiple trajectories that a robot can choose to traverse. The first stage is a Trajectory Proposal Network which suggests diverse regions in the environment which can be occupied in the future. The second stage is a Trajectory Sampling network which provides a finegrained trajectory over the regions proposed by Trajectory Proposal Network. We evaluate our framework in diverse and complicated real life settings. For the outdoor case, we use the KITTI dataset and our own outdoor driving dataset. In the indoor setting, we use an autonomous drone to navigate various scenarios and also a ground robot which can explore the environment using the trajectories proposed by our framework. Our experiments suggest that the framework is able to develop a semantic understanding of the obstacles, open regions and identify diverse trajectories that a robot can traverse. Our comparisons portray the performance gain of the proposed architecture over a diverse set of methods against which it is compared.</p>
+        <span class="readmore-link"></span>
+      </div>
     </td> 
   </tr>
 </table>
 
-<table>
+<table style="background-color:#DAE8FC">
   <tr>
-    <td width="25%">   <img src="/images/air19.gif" align="left" width="250"/>    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">   <img src="/images/air19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/1804.08679.pdf"> 
     <strong> Gradient Aware - Shrinking Domain based Control Design for Reactive Planning Frameworks used in Autonomous Vehicles </strong> </a> <br/> 
      Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram N N</strong>, K. Madhava Krishna<br/> 
     <i>Proceedings of the Advances in Robotics (AIR), 2019</i> <br/>
     <a class="links" href="https://arxiv.org/pdf/1804.08679.pdf"> Paper </a> <a class="links" href="https://www.youtube.com/watch?v=Yf4F0dvkwQE"> Video </a> &nbsp; 
+    <div class="readmore">
+        <p align='justify'>In this paper, we present a novel control law for longitudinal speed control of autonomous vehicles. The key contributions of the proposed work include the design of a control law that reactively integrates the longitudinal surface gradient of road into its operation. In contrast to the existing works, we found that integrating the path gradient into the control framework improves the speed tracking efficacy. Since the control law is implemented over a shrinking domain scheme, it minimizes the integrated error by recomputing the control inputs at every discretized step and consequently provides less reaction time. This makes our control law suitable for motion planning frameworks that are operating at high frequencies. Furthermore, our work is implemented using a generalized vehicle model and can be easily extended to other classes of vehicles. The performance of gradient aware-shrinking domain based controller is implemented and tested on a stock electric vehicle on which a number of sensors are mounted. Results from the tests show the robustness of our control law for speed tracking on a terrain with varying gradient while also considering stringent time constraints imposed by the planning framework. </p>
+        <span class="readmore-link"></span>
+      </div>
     </td> 
   </tr>
 </table>
@@ -237,8 +253,3 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 </table>
 </font>
 <hr/>
-
-
-
-
-
