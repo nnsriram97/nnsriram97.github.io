@@ -35,10 +35,10 @@ a.links:hover, a.links:active {
 }
 </style>
 
-Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department. I'm interested in the fields of vision, learning, and robotics. At NEC, my work revolves around building predictive models that provide diverse, multi-agent context-aware outputs.
+Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department working with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>. My research interests span areas of vision, learning, and robotics. At NEC, I have worked on problems related to diverse simulation and prediction of trajectories for autonomous vehicles. Currently, I work on problems (ex. Rearrangement, Social Navigation) in the domain of Embodied AI. My long term goal is build systems that can safely navigate and work alongside humans in doing day to day tasks. 
 <br/>
 <br/>
-Prior to joining NEC, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a> in problems related to perception and prediction for autonomous vehicles. I spent my Summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Dr. Sanjit Kaul</a> gaining one of the best hands on experience in building a self-driving vehicle prototype.
+Prior to joining NEC, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a> in problems related to perception and prediction for autonomous vehicles. I spent my Summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Dr. Sanjit Kaul</a> gaining a good hands on experience in building a self-driving vehicle prototype.
 
 <!-- Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. My interests lie in the field of computer vision and deep learning especially targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
  -->
@@ -47,7 +47,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>News</b></div>
 </font>
 
-**02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to CVPR 21 (Oral). <br/>
+<img src="/images/new.jpeg" algin="left" width="45" /> **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to CVPR 21 (Oral). <br/>
 **01/21:** Will be serving as a reviewer for ICCV 2021. <br/>
 **12/20:** Served as a reviewer for CVPR 21. <br />
 **07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 20. <br />
