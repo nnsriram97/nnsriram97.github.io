@@ -1,0 +1,142 @@
+<!-- saved from url=(0034)https://www.nec-labs.com/~mas/BEV/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction</title>
+    <link rel="stylesheet" type="text/css" href="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/main.css">
+  </head>
+
+  <body data-gr-c-s-loaded="true">
+    <h1 class="title">SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction</h1>
+
+    <div class="centerbox">
+      <a class="author" style="margin-left: 0px;" href="https://nnsriram97.github.io/">Sriram N. N.</a><sup>1</sup>
+
+      <a class="author" href="https://sites.google.com/site/buyuliu911/home">Buyu Liu</a><sup>1</sup>
+
+      <a class="author" href="https://www.francescopittaluga.com/">Francesco Pittaluga</a><sup>1</sup>
+
+      <a class="author" href="http://cseweb.ucsd.edu/~mkchandraker/">Manmohan Chandraker</a><sup>1,2</sup>
+    </div>
+
+    <div class="centerbox">
+      <span class="affiliation" style="margin-left: 0px;"><sup>1</sup> NEC Laboratories America</span>
+
+      <span class="affiliation"><sup>2</sup> UC San Diego</span>
+    </div>
+
+    <div class="centerbox">
+      <span style="font-size: 28px;">ECCV 2020</span>
+    </div>
+
+    <div class="centerbox">
+      <br><br><span style="font-size:28px">
+                <a href="https://arxiv.org/pdf/2007.13078.pdf">[Paper]</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/bibtex.txt">[Bibtex]</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="#supp_video">[Video]</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <!-- [Dataset] (Coming Soon) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -->
+    </div>
+    
+    <br>
+    <br>
+    <h1 id="overview_video">Overview Video</h1>
+    <div class="centerbox">
+      <video width="852" height="480" controls="">
+        <source src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/short_video.mp4" type="video/mp4">
+      </video>
+      <!-- <div class="caption" style="width: 720px;">
+        The video includes overview of the methods and qualitative visualizations of our predictions.
+      </div> -->
+    </div>
+
+    <!-- <div class="centerbox">
+      <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/teaser.png" height="400px">
+      <div class="caption" style="width: 600px;">
+        Left: Given the map and tracklets, we propose to reconstruct the real world scene in top-view and simulate diverse behaviors for multiple agents w.r.t. scene context. Right: The proposed SMART algorithm that generates context aware and multimodal trajectories for all agents in the scene.
+      </div>
+    </div> -->
+    <hr>
+    <h1> Abstract </h1>
+    <div class="centerbox" style="text-align: justify">
+      We propose advances that address two key challenges in future trajectory prediction: (i) multimodality in both training data and predictions and (ii) constant time inference regardless of number of agents. Existing trajectory predictions are fundamentally limited by lack of diversity in training data, which is difficult to acquire with sufficient coverage of possible modes. Our first contribution is an automatic method to simulate diverse trajectories in the top-view. It uses pre-existing datasets and maps as initialization, mines existing trajectories to represent realistic driving behaviors and uses a multi-agent vehicle dynamics simulator to generate diverse new trajectories that cover various modes and are consistent with scene layout constraints. Our second contribution is a novel method that generates diverse predictions while accounting for scene semantics and multi-agent interactions, with constant-time inference independent of the number of agents. We propose a convLSTM with novel state pooling operations and losses to predict scene-consistent states of multiple agents in a single forward pass, along with a CVAE for diversity. We validate our proposed multi-agent trajectory prediction approach by training and testing on the proposed simulated dataset and existing real datasets of traffic scenes. In both cases, our approach outperforms SOTA methods by a large margin, highlighting the benefits of both our diverse dataset simulation and constant-time diverse trajectory prediction methods.
+    </div>
+
+    <hr>
+    <h1>Paper</h1>
+    <div style="width: 90%; height: 220px; margin: auto;">
+      <div style="width: 160px; float: left;">
+        <a href="https://arxiv.org/abs/2007.13078"><img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/paper_thumbnail.png" width="150px" height="200px"> </a>
+      </div>
+
+      <div style="margin-left: 200px; text-align: left; font-size: 20px">
+        Sriram N N, Buyu Liu, Francesco Pittaluga and Manmohan Chandraker<br>
+        SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction<br>
+        <i>European Conference on Computer Vision (ECCV) 2020</i><br>
+        <a href="https://arxiv.org/pdf/2007.13078.pdf">[PDF]</a>&nbsp;&nbsp;<a href="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/bibtex.txt">[Bibtex]</a>
+      </div>
+    </div>
+
+
+    <hr>
+
+    <h1>Simulation</h1>
+    <div class="centerbox">
+      <a href="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/argoverse_image.png"><img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/argoverse_image.png" height="250px"></a>
+      <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/scene1_1.gif" height="250px">
+      <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/scene1_2.gif" height="250px">
+      <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/scene1_3.gif" height="250px">
+      <div class="caption" style="width: 900px; text-align: center">
+        A sample real world scene is shown in the left. Various trajectory simulations for the given scene is shown in the right.
+      </div>
+    </div>
+
+    <hr>
+
+    <h1>Simulation Results</h1>
+    <div class="centerbox">
+      <a href="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/simulation_results.png"><img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/simulation_results.png" height="250px"></a>
+      <div class="caption" style="width: 900px;">
+        Example trajectories executed by a single vehicle for different scenes in simulation. As shown, our simulation strategy is able to generate diverse yet realistic paths that align well with scene context.
+      </div>
+    </div>
+
+    <hr>
+    <h1>Prediction Results</h1>
+    <div class="centerbox">
+      <a href="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/prediction_results.png"><img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/prediction_results.png" height="300px"></a>
+      <div class="caption" style="width: 900px;">
+        Example predictions of SMART. The past trajectory and GT are visualized in brown and black lines. Red, blue and green lines are predictions sampled with different trajectory labels <i>c_i</i> given as input. From left, multi-agent prediction outputs from simulated dataset P-ArgoT, ArgoT, ArgoT and ArgoF datasets. (a),(b) and (c) show simultaneous multi-agent multimodal outputs. (d) shows a failure case where some of the predicted trajectories are aligned in opposite to the direction of road.
+      </div>
+    </div>
+    <!-- <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/pred1.png" height="150px">
+    <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/pred2.png" height="150px">
+    <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/pred3.png" height="150px"> -->
+    <!-- <div class="centerbox">
+      <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/following.gif" height="100px">
+      <img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/overtaking.gif" height="100px">
+    </div> -->
+    
+    <hr>
+    <div class="centerbox">
+      <a href="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/joint_pred_img.png"><img src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/joint_pred_img.png" height="490px"></a>
+    </div>
+    
+    <hr>
+    <h1 id="supp_video">Video</h1>
+    <div class="centerbox">
+      <video width="852" height="480" controls="">
+        <source src="./SMART_ Simultaneous Multi-Agent Recurrent Trajectory Prediction/final.mp4" type="video/mp4">
+      </video>
+      <!-- <div class="caption" style="width: 720px;">
+        The video includes overview of the methods and qualitative visualizations of our predictions.
+      </div> -->
+    </div>
+
+    <hr>
+    <h1>Acknowledgements</h1>
+    <div class="centerbox">
+      We thank all the anonymous reviewers for their comments.  This website template is inspired by <a href="https://richzhang.github.io/colorization/">this project website.</a>
+    </div>
+
+    
+  
+
+</body></html>

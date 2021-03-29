@@ -1,7 +1,11 @@
 # Site navigation links
 
+# main links
 - title: Home
   url: /
+  children:
+    - title: SMART
+      url: /Pub_sites/SMART
 
 # - title: Publications
 #   url: /Publications
@@ -14,3 +18,4 @@
 
 # - title: Contact
 #   url: /Contact
+

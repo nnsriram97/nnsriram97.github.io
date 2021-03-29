@@ -1,0 +1,8 @@
+@misc{n2020smart,
+    title={SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction},
+    author={Sriram N N and Buyu Liu and Francesco Pittaluga and Manmohan Chandraker},
+    year={2020},
+    eprint={2007.13078},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
