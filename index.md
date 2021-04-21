@@ -47,15 +47,14 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>News</b></div>
 </font>
 
-<img src="/images/new.jpeg" algin="left" width="45" /> **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to CVPR 21 (Oral). <br/>
-**01/21:** Will be serving as a reviewer for ICCV 2021. <br/>
-**12/20:** Served as a reviewer for CVPR 21. <br />
-**07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 20. <br />
+<img src="/images/new.jpeg" algin="left" width="45" /> **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to CVPR 2021 (Oral). <br/>
+**00/21:** Reviewer for CVPR 2021, IROS 2021 and ICCV 2021.<br/>
+**07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 2020. <br />
 **11/19:** Served as a reviewer for ICRA 2020. <br/>
 **07/19:** Joined NEC Labs America as a Research Scholar. <br/>
-**06/19:** Paper *Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars* is accepted at IROS 19. <br/>
-**04/19:** Paper *A Hierarchical Network for Diverse Trajectory Proposals* is accepted at IV 19. <br/>
-**04/19:** Work on shrinking domain based control for planning is accepted at AIR 19. <br/>
+**06/19:** Paper *Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars* is accepted at IROS 2019. <br/>
+**04/19:** Paper *A Hierarchical Network for Diverse Trajectory Proposals* is accepted at IV 2019. <br/>
+**04/19:** Work on shrinking domain based control for planning is accepted at AIR 2019. <br/>
 
 <hr/>
 <font size="4">
@@ -64,11 +63,27 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/eccv20.gif" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/DAC_cvpr21.png" align="left" width="250" />    </td>
+    <td width="70%">    <a href="https://arxiv.org/abs/2104.08277"> 
+      <strong> Divide-and-Conquer for Lane-Aware Diverse Trajectory Prediction</strong> </a> <br/> 
+      <strong>Sriram Narayanan</strong>, Ramin Moslemi, Francesco Pittaluga, Buyu Liu, Manmohan Chandraker<br/>
+      <span style="color: green">Computer Vision and Pattern Recognition (CVPR), 2021 </span> <strong><span style="color: red">(Oral)</span></strong><br/>
+      <a class="links" href="https://arxiv.org/abs/2104.08277"> Paper </a>&nbsp; 
+      <div class="readmore">
+        <p align='justify'>Trajectory prediction is a safety-critical tool for autonomous vehicles to plan and execute actions. Our work addresses two key challenges in trajectory prediction, learning multimodal outputs, and better predictions by imposing constraints using driving knowledge. Recent methods have achieved strong performances using Multi-Choice Learning objectives like winner-takes-all (WTA) or best-of-many. But the impact of those methods in learning diverse hypotheses is under-studied as such objectives highly depend on their initialization for diversity. As our first contribution, we propose a novel Divide-And-Conquer (DAC) approach that acts as a better initialization technique to WTA objective, resulting in diverse outputs without any spurious modes. Our second contribution is a novel trajectory prediction framework called ALAN that uses existing lane centerlines as anchors to provide trajectories constrained to the input lanes. Our framework provides multi-agent trajectory outputs in a forward pass by capturing interactions through hypercolumn descriptors and incorporating scene information in the form of rasterized images and per-agent lane anchors. Experiments on synthetic and real data show that the proposed DAC captures the data distribution better compare to other WTA family of objectives. Further, we show that our ALAN approach provides on par or better performance with SOTA methods evaluated on Nuscenes urban driving benchmark.</p>
+        <span class="readmore-link"></span>
+      </div>
+    </td> 
+  </tr>
+</table>
+
+<table style="background-color:#F1F7FC">
+  <tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/eccv20.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/2007.13078.pdf"> 
       <strong> SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction</strong> </a> <br/> 
       <strong>Sriram N N</strong>, Buyu Liu, Francesco Pittaluga, Manmohan Chandraker<br/>
-      <i>European Conference on Computer Vision (ECCV), 2020</i><br/>
+      <span style="color: green">European Conference on Computer Vision (ECCV), 2020 </span><br/>
       <a class="links" href="https://arxiv.org/pdf/2007.13078.pdf"> Paper </a>
       <a class="links" href="https://youtu.be/puBAVMoLgQU"> Video </a>
       <a class="links" href="http://www.nec-labs.com/uploads/Documents/Media-Analytics/research-videos/SMART-%20Simultaneous%20Multi-Agent%20Recurrent%20Trajectory%20Prediction.mp4"> Short Talk </a>&nbsp; 
@@ -82,11 +97,11 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/iros19.gif" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/iros19.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> 
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong> </a> <br/> 
      <strong>Sriram N N</strong>*, Tirth Maniar*, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/>
-     <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019</i><br/>
+     <span style="color: green">International Conference on Intelligent Robots and Systems (IROS), 2019</span><br/>
     <a class="links" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> Paper </a>
     <a class="links" href="https://www.youtube.com/watch?v=zx8s2l2tcAU"> Video </a>&nbsp; 
     <div class="readmore">
@@ -99,11 +114,11 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/iv19.gif" align="left" width="250"/>    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/iv19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/abstract/document/8813986"> 
     <strong> A Hierarchical Network for Diverse Trajectory Proposals </strong> </a> <br/> 
     <strong>Sriram N N</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
-    <i>IEEE Intelligent Vehicles Symposium (IV), 2019</i> <br/>
+    <span style="color: green">Intelligent Vehicles Symposium (IV), 2019</span> <br/>
     <a class="links" href="https://ieeexplore.ieee.org/abstract/document/8813986"> Paper </a> 
     <a class="links" href="https://www.youtube.com/watch?v=cvq2dFS-dZo"> Video </a> &nbsp; 
     <div class="readmore">
@@ -116,11 +131,11 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">   <img src="/images/air19.gif" align="left" width="250"/>    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">   <img src="/images/publications/air19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/1804.08679.pdf"> 
     <strong> Gradient Aware - Shrinking Domain based Control Design for Reactive Planning Frameworks used in Autonomous Vehicles </strong> </a> <br/> 
      Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram N N</strong>, K. Madhava Krishna<br/> 
-    <i>Proceedings of the Advances in Robotics (AIR), 2019</i> <br/>
+    <span style="color: green">Proceedings of the Advances in Robotics (AIR), 2019</span> <br/>
     <a class="links" href="https://arxiv.org/pdf/1804.08679.pdf"> Paper </a> <a class="links" href="https://www.youtube.com/watch?v=Yf4F0dvkwQE"> Video </a> &nbsp; 
     <div class="readmore">
         <p align='justify'>In this paper, we present a novel control law for longitudinal speed control of autonomous vehicles. The key contributions of the proposed work include the design of a control law that reactively integrates the longitudinal surface gradient of road into its operation. In contrast to the existing works, we found that integrating the path gradient into the control framework improves the speed tracking efficacy. Since the control law is implemented over a shrinking domain scheme, it minimizes the integrated error by recomputing the control inputs at every discretized step and consequently provides less reaction time. This makes our control law suitable for motion planning frameworks that are operating at high frequencies. Furthermore, our work is implemented using a generalized vehicle model and can be easily extended to other classes of vehicles. The performance of gradient aware-shrinking domain based controller is implemented and tested on a stock electric vehicle on which a number of sensors are mounted. Results from the tests show the robustness of our control law for speed tracking on a terrain with varying gradient while also considering stringent time constraints imposed by the planning framework. </p>
@@ -134,12 +149,12 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 
 <hr/>
 <font size="4">
-<div align="center"><b>Patents</b></div> <br/>
+<div align="center"><b>Published Patents</b></div> <br/>
 </font>
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/iv_patent.png" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/iv_patent.png" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://patentimages.storage.googleapis.com/06/60/81/2f29a5dd03089e/US20200387163A1.pdf"> 
     <strong> Method and a system for hierarchical network based diverse trajectory proposal</strong> </a> <br/> 
       Brojeshwar Bhowmick, K. Madhava Krishna, Sriram N N, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav<br/> 
