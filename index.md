@@ -33,6 +33,56 @@ a.links:hover, a.links:active {
   border-style: solid;
   border-color: black;
 }
+
+/*Block Quote CSS Styles below*/
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Droid+Serif|Playfair+Display|Open+Sans+Condensed:300);
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+.quote {
+    position: relative;
+    letter-spacing: .03em;
+    margin-bottom: .5rem;
+    
+    &:before {
+        content: "“";
+        position: absolute;
+        left: -.7em;
+    }
+    
+    &:after {
+        content: "”";
+        margin-right: -1rem;
+    }
+}
+
+.quote--container {
+    margin: 4.5rem auto 0;
+    width: 50%;
+    /*border-bottom: 2px dotted #C6D1BF;*/
+    padding-bottom: .5rem;
+}
+
+.quote--highlight {
+    color: #D24335;
+}
+
+.quote--author {
+    font-family: 'Open Sans Condensed';
+    font-size: .8rem;
+    text-align: right;
+    font-weight: 300;
+}
+
+
 </style>
 
 Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department working with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>. My research interests span areas of vision, learning, and robotics. At NEC, I have worked on problems related to diverse simulation and prediction of trajectories for autonomous vehicles. My current direction focusses on problems (ex. Rearrangement, Social Navigation) in the domain of Embodied AI. My long term goal is build systems that can safely navigate and work alongside humans in doing day to day tasks. 
@@ -40,8 +90,13 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a
 <br/>
 Prior to joining NEC, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a> in problems related to perception and prediction for autonomous vehicles. I spent my Summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Dr. Sanjit Kaul</a> gaining a good hands on experience in building a self-driving vehicle prototype.
 
-<!-- Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Laboratories America Inc</a>. My interests lie in the field of computer vision and deep learning especially targeted towards autonomous vehicles. Prior to joining NEC, I worked as a Research Assistant under <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> on various projects related to autonomous vehicles. I also interned at <a href="https://www.iiitd.ac.in">IIIT Delhi</a> during my summer 2017 where I worked extensively on planning and perception of an autonomous car project.
- -->
+<div class="quote--container">
+    <p class="quote">
+        Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.
+    </p>
+    <p class="quote--author">&ndash; Earl Nightingale</p>
+</div>
+
 <hr/>
 <font size="4">
 <div align="center"><b>News</b></div>
