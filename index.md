@@ -65,8 +65,8 @@ p {
 }
 
 .quote--container {
-    margin: 4.5rem auto 0;
-    width: 50%;
+    margin: 3.5rem auto 0;
+    width: 55%;
     /*border-bottom: 2px dotted #C6D1BF;*/
     padding-bottom: .5rem;
 }
@@ -107,7 +107,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 **07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 2020. <br />
 **11/19:** Served as a reviewer for ICRA 2020. <br/>
 **07/19:** Joined NEC Labs America as a Research Scholar. <br/>
-**06/19:** Paper *Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars* is accepted at IROS 2019. <br/>
+**06/19:** Paper *Talk to the Vehicle: Language Conditioned Autonomous Navigation* is accepted at IROS 2019. <br/>
 **04/19:** Paper *A Hierarchical Network for Diverse Trajectory Proposals* is accepted at IV 2019. <br/>
 **04/19:** Work on shrinking domain based control for planning is accepted at AIR 2019. <br/>
 
