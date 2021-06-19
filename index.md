@@ -102,7 +102,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>News</b></div>
 </font>
 
-<img src="/images/new.jpeg" algin="left" width="45" /> **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to CVPR 2021 (Oral). <br/>
+<img src="/images/new.jpeg" algin="left" width="45" /> **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
 **00/21:** Reviewer for CVPR 2021, IROS 2021 and ICCV 2021.<br/>
 **07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 2020. <br />
 **11/19:** Served as a reviewer for ICRA 2020. <br/>
