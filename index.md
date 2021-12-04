@@ -216,13 +216,25 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>Published Patents</b></div> <br/>
 </font>
 
+<table style="background-color:#F1F7FC">
+  <tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/DAC_patent_1.png" align="left" width="250" />    </td>
+    <td width="70%">    <a href="https://patentimages.storage.googleapis.com/8a/e8/aa/656d776c87703f/US20210276547A1.pdf"> 
+    <strong> Multi-agent trajectory prediction</strong> </a> <br/> 
+      <strong> Sriram Narayanan </strong>, Buyu Liu, Ramin Moslemi, Francesco Pittaluga, Manmohan Chandraker<br/> 
+     <i>US Patent App. 17/187,157</i><br/>
+    <a class="links" href="https://patentimages.storage.googleapis.com/1e/34/60/2fd7af876b8ae1/US20210148727A1.pdf"> Patent </a>&nbsp; 
+    </td> 
+  </tr>
+</table>
+
 
 <table style="background-color:#F1F7FC">
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/diversity_matters_patent.png" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://patentimages.storage.googleapis.com/1e/34/60/2fd7af876b8ae1/US20210148727A1.pdf"> 
     <strong> Simulating diverse long-term future trajectories in road scenes</strong> </a> <br/> 
-      Sriram Narayanan, Manmohan Chandraker<br/> 
+      <strong> Sriram Narayanan </strong>, Manmohan Chandraker<br/> 
      <i>US Patent App. 17/090,399</i><br/>
     <a class="links" href="https://patentimages.storage.googleapis.com/1e/34/60/2fd7af876b8ae1/US20210148727A1.pdf"> Patent </a>&nbsp; 
     </td> 
@@ -234,7 +246,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/iv_patent.png" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://patentimages.storage.googleapis.com/06/60/81/2f29a5dd03089e/US20200387163A1.pdf"> 
     <strong> Method and a system for hierarchical network based diverse trajectory proposal</strong> </a> <br/> 
-      Brojeshwar Bhowmick, K. Madhava Krishna, Sriram N N, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav<br/> 
+      Brojeshwar Bhowmick, K. Madhava Krishna, <strong> Sriram Narayanan</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav<br/> 
      <i>US Patent App. 16/894,411</i><br/>
     <a class="links" href="https://patentimages.storage.googleapis.com/06/60/81/2f29a5dd03089e/US20200387163A1.pdf"> Patent </a>&nbsp; 
     </td> 
