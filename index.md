@@ -208,8 +208,8 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <hr/>
 <font size="4">
 <div align="center"><b>Professional Services</b></div> <br/>
-</font>
 <p align='justify'> Conference Reviewer: ICRA 2020, IROS 2021, CVPR 2021, ICCV 2021, ICRA 2022, CVPR 2022 (Invited)</p>
+</font>
 
 
 <hr/>
@@ -219,7 +219,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/DAC_patent_1.png" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/diversity_matters_patent.png" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://patentimages.storage.googleapis.com/8a/e8/aa/656d776c87703f/US20210276547A1.pdf"> 
     <strong> Multi-agent trajectory prediction</strong> </a> <br/> 
       <strong> Sriram Narayanan </strong>, Buyu Liu, Ramin Moslemi, Francesco Pittaluga, Manmohan Chandraker<br/> 
