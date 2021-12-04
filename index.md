@@ -34,6 +34,12 @@ a.links:hover, a.links:active {
   border-color: black;
 }
 
+a.genlinks:link, a.genlinks:visited {
+  background-color: none;
+  color: #66B2FF;
+  display: inline-block;
+}
+
 /*Block Quote CSS Styles below*/
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond|Droid+Serif|Playfair+Display|Open+Sans+Condensed:300);
 
@@ -103,7 +109,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 </font>
 
 <!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
-**10/21:** Talk at Robotics Research Group, IIT BHU on <a href="https://youtu.be/ICSqcqq1sn0?t=107"> **Predicting simultaneous multi-hypotheses futures** </a> <br/>
+**10/21:** Talk on <a href="https://youtu.be/ICSqcqq1sn0?t=107">**Predicting simultaneous multi-hypotheses futures**</a> at Robotics Research Group, IIT BHU<br/>
 **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
 <!-- **00/21:** Reviewer for CVPR 2021, IROS 2021, ICCV 2021 and CVPR 2022 (Invited)<br/> -->
 **07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 2020. <br />
