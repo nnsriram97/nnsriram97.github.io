@@ -141,7 +141,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/eccv20.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/2007.13078.pdf"> 
       <strong> SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction</strong> </a> <br/> 
-      <strong>Sriram N N</strong>, Buyu Liu, Francesco Pittaluga, Manmohan Chandraker<br/>
+      <strong>Sriram Narayanan</strong>, Buyu Liu, Francesco Pittaluga, Manmohan Chandraker<br/>
       <span style="color: green">European Conference on Computer Vision (ECCV), 2020 </span><br/>
       <a class="links" href="https://arxiv.org/pdf/2007.13078.pdf"> Paper </a>
       <a class="links" href="https://youtu.be/puBAVMoLgQU"> Video </a>
@@ -159,7 +159,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/iros19.gif" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> 
     <strong> Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars</strong> </a> <br/> 
-     <strong>Sriram N N</strong>*, Tirth Maniar*, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/>
+     <strong>Sriram Narayanan</strong>*, Tirth Maniar*, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna<br/>
      <span style="color: green">International Conference on Intelligent Robots and Systems (IROS), 2019</span><br/>
     <a class="links" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"> Paper </a>
     <a class="links" href="https://www.youtube.com/watch?v=zx8s2l2tcAU"> Video </a>&nbsp; 
@@ -176,7 +176,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/iv19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://ieeexplore.ieee.org/abstract/document/8813986"> 
     <strong> A Hierarchical Network for Diverse Trajectory Proposals </strong> </a> <br/> 
-    <strong>Sriram N N</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
+    <strong>Sriram Narayanan</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna<br/> 
     <span style="color: green">Intelligent Vehicles Symposium (IV), 2019</span> <br/>
     <a class="links" href="https://ieeexplore.ieee.org/abstract/document/8813986"> Paper </a> 
     <a class="links" href="https://www.youtube.com/watch?v=cvq2dFS-dZo"> Video </a> &nbsp; 
@@ -193,7 +193,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">   <img src="/images/publications/air19.gif" align="left" width="250"/>    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/1804.08679.pdf"> 
     <strong> Gradient Aware - Shrinking Domain based Control Design for Reactive Planning Frameworks used in Autonomous Vehicles </strong> </a> <br/> 
-     Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram N N</strong>, K. Madhava Krishna<br/> 
+     Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram Narayanan</strong>, K. Madhava Krishna<br/> 
     <span style="color: green">Proceedings of the Advances in Robotics (AIR), 2019</span> <br/>
     <a class="links" href="https://arxiv.org/pdf/1804.08679.pdf"> Paper </a> <a class="links" href="https://www.youtube.com/watch?v=Yf4F0dvkwQE"> Video </a> &nbsp; 
     <div class="readmore">
