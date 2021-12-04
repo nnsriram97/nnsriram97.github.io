@@ -102,10 +102,12 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>News</b></div>
 </font>
 
-<!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->**02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
+<!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
+**10/21:** Talk at Robotics Research Group, IIT BHU on <a class="links" href="https://youtu.be/ICSqcqq1sn0?t=107"> **"Predicting simultaneous multi-hypotheses futures"** </a>
+**02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
 <!-- **00/21:** Reviewer for CVPR 2021, IROS 2021, ICCV 2021 and CVPR 2022 (Invited)<br/> -->
 **07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 2020. <br />
-**11/19:** Served as a reviewer for ICRA 2020. <br/>
+<!-- **11/19:** Served as a reviewer for ICRA 2020. <br/> -->
 **07/19:** Joined NEC Labs America as a Research Scholar. <br/>
 **06/19:** Paper *Talk to the Vehicle: Language Conditioned Autonomous Navigation* is accepted at IROS 2019. <br/>
 **04/19:** Paper *A Hierarchical Network for Diverse Trajectory Proposals* is accepted at IV 2019. <br/>
@@ -203,6 +205,11 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 </table>
 
 
+<hr/>
+<font size="4">
+<div align="center"><b>Professional Services</b></div> <br/>
+<p align='justify'> Conference Reviewer: ICRA 2020, IROS 2021, CVPR 2021, ICCV 2021, ICRA 2022, CVPR 2022 (Invited)</p>
+
 
 <hr/>
 <font size="4">
@@ -233,13 +240,6 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
     </td> 
   </tr>
 </table>
-
-
-
-<hr/>
-<font size="4">
-<div align="left"><b>Professional Services</b></div> <br/>
-<p align='justify'> Conference Reviewer: ICRA 2020, IROS 2021, CVPR 2021, ICCV 2021, ICRA 2022, CVPR 2022 (Invited)</p>
 
 <hr/>
 <font size="4">
