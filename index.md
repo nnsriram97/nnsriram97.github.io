@@ -96,13 +96,13 @@ Hi, I'm a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a
 <br/>
 Prior to joining NEC, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a> in problems related to perception and prediction for autonomous vehicles. I spent my summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Dr. Sanjit Kaul</a> gaining good hands-on experience in building a self-driving vehicle prototype.
 
-<div class="quote--container">
+<!-- <div class="quote--container">
     <p class="quote">
         Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.
     </p>
     <p class="quote--author">&ndash; Earl Nightingale</p>
 </div>
-
+ -->
 <hr/>
 <font size="4">
 <div align="center"><b>News</b></div>
