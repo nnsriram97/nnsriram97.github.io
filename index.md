@@ -124,6 +124,26 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <div align="center"><b>Publications</b></div> <br/>
 </font>
 
+
+<table style="background-color:#F1F7FC">
+  <tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/LongHOT.png" align="left" width="250" />    </td>
+    <td width="70%">    <a href="https://arxiv.org/abs/2104.08277"> 
+      <strong> Habitat Object Transport Task (Coming Soon)</strong> </a> <br/> 
+      <!-- <strong>Sriram Narayanan</strong>, Ramin Moslemi, Francesco Pittaluga, Buyu Liu, Manmohan Chandraker<br/> -->
+      <!-- <span style="color: green">Computer Vision and Pattern Recognition (CVPR), 2021 </span> <strong><span style="color: red">(Oral)</span></strong><br/> -->
+      <a class="links" href="https://drive.google.com/file/d/1cTVJfY73wvlJNtxIkYZDoi2LCzVgxBEK/view?usp=sharing"> Paper </a>
+      <a class="links" href="https://youtu.be/0f9UpmDfSCs"> Video </a>
+      <!-- <a class="links" href="https://www.youtube.com/watch?v=PKFggOWN638"> Talk </a>&nbsp;  -->
+      <!-- <div class="readmore">
+        <p align='justify'>Trajectory prediction is a safety-critical tool for autonomous vehicles to plan and execute actions. Our work addresses two key challenges in trajectory prediction, learning multimodal outputs, and better predictions by imposing constraints using driving knowledge. Recent methods have achieved strong performances using Multi-Choice Learning objectives like winner-takes-all (WTA) or best-of-many. But the impact of those methods in learning diverse hypotheses is under-studied as such objectives highly depend on their initialization for diversity. As our first contribution, we propose a novel Divide-And-Conquer (DAC) approach that acts as a better initialization technique to WTA objective, resulting in diverse outputs without any spurious modes. Our second contribution is a novel trajectory prediction framework called ALAN that uses existing lane centerlines as anchors to provide trajectories constrained to the input lanes. Our framework provides multi-agent trajectory outputs in a forward pass by capturing interactions through hypercolumn descriptors and incorporating scene information in the form of rasterized images and per-agent lane anchors. Experiments on synthetic and real data show that the proposed DAC captures the data distribution better compare to other WTA family of objectives. Further, we show that our ALAN approach provides on par or better performance with SOTA methods evaluated on Nuscenes urban driving benchmark.</p>
+        <span class="readmore-link"></span>
+      </div> -->
+    </td> 
+  </tr>
+</table>
+
+
 <table style="background-color:#F1F7FC">
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/DAC_cvpr21.png" align="left" width="250" />    </td>
