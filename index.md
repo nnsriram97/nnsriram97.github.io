@@ -128,7 +128,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <table style="background-color:#F1F7FC">
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/LongHOT.png" align="left" width="250" />    </td>
-    <td width="70%">    <a href="https://arxiv.org/abs/2104.08277"> 
+    <td width="70%">    <a href="https://drive.google.com/file/d/1cTVJfY73wvlJNtxIkYZDoi2LCzVgxBEK/view?usp=sharing"> 
       <strong> Habitat Object Transport Task (Coming Soon)</strong> </a> <br/> 
       <!-- <strong>Sriram Narayanan</strong>, Ramin Moslemi, Francesco Pittaluga, Buyu Liu, Manmohan Chandraker<br/> -->
       <!-- <span style="color: green">Computer Vision and Pattern Recognition (CVPR), 2021 </span> <strong><span style="color: red">(Oral)</span></strong><br/> -->
