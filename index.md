@@ -236,7 +236,7 @@ Prior to joining NEC, I worked as a Research Assistant at <a href="https://robot
 <hr/>
 <font size="4">
 <div align="center"><b>Professional Services</b></div> <br/>
-<p align='justify'> Conference Reviewer: ICRA 2020, IROS 2021, CVPR 2021, ICCV 2021, ICRA 2022, CVPR 2022 (Invited)</p>
+<p align='justify'> Conference Reviewer: ICRA 2020, IROS 2021, CVPR 2021, ICCV 2021, ICRA 2022, CVPR 2022</p>
 </font>
 
 
