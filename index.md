@@ -95,6 +95,9 @@ Hi, I am a PhD student in the <a href="https://www.ri.cmu.edu/">Robotics Institu
 <br/>
 <br/>
 Back in India, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a> in problems related to perception and prediction for autonomous vehicles. I spent my summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Dr. Sanjit Kaul</a> gaining good hands-on experience in building a self-driving vehicle prototype.
+<br/>
+
+I'm always happy to talk about research and other things. Please feel free to reach me via email at nnsriram-at-cmu dot edu 
 
 <!-- <div class="quote--container">
     <p class="quote">
