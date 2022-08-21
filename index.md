@@ -96,8 +96,8 @@ Hi, I am a PhD student in the <a href="https://www.ri.cmu.edu/">Robotics Institu
 <br/>
 Back in India, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a> in problems related to perception and prediction for autonomous vehicles. I spent my summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Dr. Sanjit Kaul</a> gaining good hands-on experience in building a self-driving vehicle prototype.
 <br/>
-
-I'm always happy to talk about research and other things. Please feel free to reach me via email at nnsriram-at-cmu dot edu 
+<br/>
+I'm always happy to talk about research and other things. Please feel free to reach me via email at nnsriram-at-cmu dot edu. 
 
 <!-- <div class="quote--container">
     <p class="quote">
@@ -112,7 +112,7 @@ I'm always happy to talk about research and other things. Please feel free to re
 </font>
 
 <!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
-**04/22:** I will be joining <a href="https://www.ri.cmu.edu">Robotics Institute at CMU</a> to pursue a PhD. <br/>
+**08/22:** Moved to Pittsburgh to start my PhD at <a href="https://www.ri.cmu.edu">Robotics Institute, CMU</a>. <br/>
 **10/21:** Talk on <a href="https://youtu.be/ICSqcqq1sn0?t=120">**Predicting simultaneous multi-hypotheses futures**</a> at Robotics Research Group, IIT BHU<br/>
 **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
 <!-- **00/21:** Reviewer for CVPR 2021, IROS 2021, ICCV 2021 and CVPR 2022 (Invited)<br/> -->
