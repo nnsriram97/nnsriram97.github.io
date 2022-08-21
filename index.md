@@ -252,7 +252,7 @@ I'm always happy to talk about research and other things. Please feel free to re
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="images/publications/dac_patent.png" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/dac_patent.png" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://patentimages.storage.googleapis.com/eb/13/4c/7c790a0183804d/US20220144256A1.pdf"> 
     <strong> Divide-and-conquer for lane-aware diverse trajectory prediction</strong> </a> <br/> 
       <strong> Sriram Narayanan </strong>, Ramin Moslemi, Francesco Pittaluga, Buyu Liu, Manmohan Chandraker<br/> 
@@ -265,7 +265,7 @@ I'm always happy to talk about research and other things. Please feel free to re
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="images/publications/smart_patent.png" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/smart_patent.png" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://patentimages.storage.googleapis.com/8a/e8/aa/656d776c87703f/US20210276547A1.pdf"> 
     <strong> Multi-agent trajectory prediction</strong> </a> <br/> 
       <strong> Sriram Narayanan </strong>, Buyu Liu, Ramin Moslemi, Francesco Pittaluga, Manmohan Chandraker<br/> 
