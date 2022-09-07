@@ -384,18 +384,21 @@ I'm always happy to talk about research and other things. Please feel free to re
   <td align="center"><a href='https://www.iiitd.ac.in/'><img src='images/iiit_d.png' width='70'></a></td>  
   <td align="center"><a href='http://iiit.ac.in'><img src='images/iiit_h.png' width='80'></a></td>  
   <td align="center"><a href='http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home'><img src='images/nec_logo.png' width='70'></a></td>  
+  <td align="center"><a href='https://www.ri.cmu.edu/'><img src='images/cmu_logo.png' width='70'></a></td>  
 </tr>
 
 <tr>
   <td align="center">Intern</td>
   <td align="center">RA</td>
   <td align="center">Research Scholar</td>
+  <td align="center">PhD</td>
 </tr>
 
 <tr>
   <td align="center">Summer 2017</td>
   <td align="center">Dec 2017 - Jul 2019</td>
-  <td align="center">Jul 2019 - Present</td>
+  <td align="center">Jul 2019 - Jul 2022</td>
+  <td align="center">August 2022 - Present</td>
 </tr>
 
 </table>
