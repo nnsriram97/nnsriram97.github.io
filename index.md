@@ -95,7 +95,6 @@ Hi, I am a PhD student in the <a href="https://www.ri.cmu.edu/">Robotics Institu
 <br/>
 <br/>
 Before starting my PhD, I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs America</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department where I worked with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a> on problems related to trajectory prediction and Embodied AI.
-
 <!-- Previously, I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department working with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>. My research interests span areas of vision, learning, and robotics. I'm currently focusing on problems (ex. Rearrangement, Social Navigation) in the domain of Embodied AI. My long-term goal is to build embodied systems that can safely navigate and work alongside humans in doing day-to-day tasks.  -->
 <br/>
 <br/>
@@ -138,7 +137,7 @@ I'm always happy to talk about research and other things. Please feel free to re
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/LongHOT.png" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://arxiv.org/pdf/2210.15908.pdf"> 
-      <strong> Habitat Object Transport Task (Coming Soon)</strong> </a> <br/> 
+      <strong> Long-HOT: A Modular Hierarchical Approach for Long-Horizon Object Transport</strong> </a> <br/> 
       <strong>Sriram Narayanan</strong>, Dinesh Jayaraman, Manmohan Chandraker<br/>
       <span style="color: green">ArXiv 2022 </span> <strong></strong><br/>
       <a class="links" href="https://arxiv.org/pdf/2210.15908.pdf"> Paper </a>
