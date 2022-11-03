@@ -91,14 +91,13 @@ p {
 
 </style>
 
-Hi, I am a PhD student in the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> , <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a> working with <a href="http://www.cs.cmu.edu/~srinivas/">Prof. Srinivas Narasimhan</a>. Currently I'm exploring topics in the domain of computational imaging and vision.
+Hi, I am a Ph.D. student at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> , <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a> working with <a href="http://www.cs.cmu.edu/~srinivas/">Prof. Srinivas Narasimhan</a>. Currently, I'm exploring topics in the domain of computational imaging and vision.
 <br/>
 <br/>
-Before starting my PhD, I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs America</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department where I worked with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a> on problems related to trajectory prediction and Embodied AI.
-<!-- Previously, I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department working with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>. My research interests span areas of vision, learning, and robotics. I'm currently focusing on problems (ex. Rearrangement, Social Navigation) in the domain of Embodied AI. My long-term goal is to build embodied systems that can safely navigate and work alongside humans in doing day-to-day tasks.  -->
+Before starting my Ph.D., I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs America</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department where I worked with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a> on problems related to trajectory prediction and Embodied AI.
 <br/>
 <br/>
-In the past, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a> in problems related to perception and prediction for autonomous vehicles. I spent the summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Prof. Sanjit Kaul</a> where I first experienced the thrill of robotics by building a self-driving vehicle prototype.
+In the past, I was associated with <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> where I worked with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a>. I spent the summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Prof. Sanjit Kaul</a> where I first experienced the thrill of robotics by building a self-driving vehicle prototype.
 <br/>
 <br/>
 I'm always happy to talk about research and other things. Please feel free to reach me via email at nnsriram-at-cmu dot edu. 
