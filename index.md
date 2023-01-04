@@ -115,7 +115,7 @@ I'm always happy to talk about research and other things. Please feel free to re
 </font>
 
 <!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
-**08/22:** Moved to Pittsburgh to start my PhD at <a href="https://www.ri.cmu.edu">Robotics Institute, CMU</a>. <br/>
+**08/22:** Moved to Pittsburgh and started my PhD at <a href="https://www.ri.cmu.edu">RI, CMU</a>. <br/>
 **10/21:** Talk on <a href="https://youtu.be/ICSqcqq1sn0?t=120">**Predicting simultaneous multi-hypotheses futures**</a> at Robotics Research Group, IIT BHU<br/>
 **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
 <!-- **00/21:** Reviewer for CVPR 2021, IROS 2021, ICCV 2021 and CVPR 2022 (Invited)<br/> -->
