@@ -9,9 +9,9 @@ nnsriram97@gmail.com
 <hr>
 
 **Address :** <br>
-Sriram N N<br>
-Robotics Research Center<br>
-IIIT Hyderabad<br>
+Sriram Narayanan<br>
+Robotics Institute<br>
+Carnegie Mellon University<br>
 <hr>
 
 
