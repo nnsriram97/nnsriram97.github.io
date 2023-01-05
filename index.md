@@ -91,28 +91,24 @@ p {
 
 </style>
 
-Hi, I am a PhD student in the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> , <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a>. Previously, I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department working with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a>. My research interests span areas of vision, learning, and robotics. I'm currently focusing on problems (ex. Rearrangement, Social Navigation) in the domain of Embodied AI. My long-term goal is to build embodied systems that can safely navigate and work alongside humans in doing day-to-day tasks. 
+Hi, I am a Ph.D. student at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> , <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a> working with <a href="http://www.cs.cmu.edu/~srinivas/">Prof. Srinivas Narasimhan</a>. Currently, I'm exploring topics in the domain of computational imaging and vision.
 <br/>
 <br/>
-Back in India, I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a> in problems related to perception and prediction for autonomous vehicles. I spent my summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Dr. Sanjit Kaul</a> gaining good hands-on experience in building a self-driving vehicle prototype.
+Before starting my Ph.D., I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs America</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department where I worked with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a> on problems related to trajectory prediction and Embodied AI.
+<br/>
+<br/>
+In the past, I was associated with <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> where I worked with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a>. I spent the summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Prof. Sanjit Kaul</a> where I first experienced the thrill of robotics by building a self-driving vehicle prototype.
 <br/>
 <br/>
 I'm always happy to talk about research and other things. Please feel free to reach me via email at nnsriram-at-cmu dot edu. 
 
-<!-- <div class="quote--container">
-    <p class="quote">
-        Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.
-    </p>
-    <p class="quote--author">&ndash; Earl Nightingale</p>
-</div>
- -->
 <hr/>
 <font size="4">
 <div align="center"><b>News</b></div>
 </font>
 
 <!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
-**08/22:** Moved to Pittsburgh to start my PhD at <a href="https://www.ri.cmu.edu">Robotics Institute, CMU</a>. <br/>
+**08/22:** Moved to Pittsburgh and started my PhD at <a href="https://www.ri.cmu.edu">RI, CMU</a>. <br/>
 **10/21:** Talk on <a href="https://youtu.be/ICSqcqq1sn0?t=120">**Predicting simultaneous multi-hypotheses futures**</a> at Robotics Research Group, IIT BHU<br/>
 **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
 <!-- **00/21:** Reviewer for CVPR 2021, IROS 2021, ICCV 2021 and CVPR 2022 (Invited)<br/> -->
@@ -132,17 +128,16 @@ I'm always happy to talk about research and other things. Please feel free to re
 <table style="background-color:#F1F7FC">
   <tr>
     <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/LongHOT.png" align="left" width="250" />    </td>
-    <td width="70%">    <a href="https://drive.google.com/file/d/1cTVJfY73wvlJNtxIkYZDoi2LCzVgxBEK/view?usp=sharing"> 
-      <strong> Habitat Object Transport Task (Coming Soon)</strong> </a> <br/> 
-      <!-- <strong>Sriram Narayanan</strong>, Ramin Moslemi, Francesco Pittaluga, Buyu Liu, Manmohan Chandraker<br/> -->
-      <!-- <span style="color: green">Computer Vision and Pattern Recognition (CVPR), 2021 </span> <strong><span style="color: red">(Oral)</span></strong><br/> -->
-      <a class="links" href="https://drive.google.com/file/d/1cTVJfY73wvlJNtxIkYZDoi2LCzVgxBEK/view?usp=sharing"> Paper </a>
+    <td width="70%">    <a href="https://arxiv.org/pdf/2210.15908.pdf"> 
+      <strong> Long-HOT: A Modular Hierarchical Approach for Long-Horizon Object Transport</strong> </a> <br/> 
+      <strong>Sriram Narayanan</strong>, Dinesh Jayaraman, Manmohan Chandraker<br/>
+      <span style="color: green">ArXiv 2022 </span> <strong></strong><br/>
+      <a class="links" href="https://arxiv.org/pdf/2210.15908.pdf"> Paper </a>
       <a class="links" href="https://youtu.be/0f9UpmDfSCs"> Video </a>
-      <!-- <a class="links" href="https://www.youtube.com/watch?v=PKFggOWN638"> Talk </a>&nbsp;  -->
-      <!-- <div class="readmore">
-        <p align='justify'>Trajectory prediction is a safety-critical tool for autonomous vehicles to plan and execute actions. Our work addresses two key challenges in trajectory prediction, learning multimodal outputs, and better predictions by imposing constraints using driving knowledge. Recent methods have achieved strong performances using Multi-Choice Learning objectives like winner-takes-all (WTA) or best-of-many. But the impact of those methods in learning diverse hypotheses is under-studied as such objectives highly depend on their initialization for diversity. As our first contribution, we propose a novel Divide-And-Conquer (DAC) approach that acts as a better initialization technique to WTA objective, resulting in diverse outputs without any spurious modes. Our second contribution is a novel trajectory prediction framework called ALAN that uses existing lane centerlines as anchors to provide trajectories constrained to the input lanes. Our framework provides multi-agent trajectory outputs in a forward pass by capturing interactions through hypercolumn descriptors and incorporating scene information in the form of rasterized images and per-agent lane anchors. Experiments on synthetic and real data show that the proposed DAC captures the data distribution better compare to other WTA family of objectives. Further, we show that our ALAN approach provides on par or better performance with SOTA methods evaluated on Nuscenes urban driving benchmark.</p>
+      <div class="readmore">
+        <p align='justify'>We address key challenges in long-horizon embodied exploration and navigation by proposing a new object transport task and a novel modular framework for temporally extended navigation. Our first contribution is the design of a novel Long-HOT environment focused on deep exploration and long-horizon planning where the agent is required to efficiently find and pick up target objects to be carried and dropped at a goal location, with load constraints and optional access to a container if it finds one. Further, we propose a modular hierarchical transport policy (HTP) that builds a topological graph of the scene to perform exploration with the help of weighted frontiers. Our hierarchical approach uses a combination of motion planning algorithms to reach point goals within explored locations and object navigation policies for moving towards semantic targets at unknown locations. Experiments on both our proposed Habitat transport task and on MultiOn benchmarks show that our method significantly outperforms baselines and prior works. Further, we validate the effectiveness of our modular approach for long-horizon transport by demonstrating meaningful generalization to much harder transport scenes with training only on simpler versions of the task.</p>
         <span class="readmore-link"></span>
-      </div> -->
+      </div>
     </td> 
   </tr>
 </table>
@@ -240,7 +235,7 @@ I'm always happy to talk about research and other things. Please feel free to re
 <hr/>
 <font size="4">
 <div align="center"><b>Professional Services</b></div> <br/>
-<p align='justify'> Conference Reviewer: ICRA 2020, IROS 2021, CVPR 2021, ICCV 2021, ICRA 2022, CVPR 2022, ECCV 2022</p>
+<p align='justify'> Conference Reviewer: ICRA 2020, IROS 2021, CVPR 2021, ICCV 2021, ICRA 2022, CVPR 2022, ECCV 2022, AAAI 2022</p>
 </font>
 
 
@@ -252,7 +247,7 @@ I'm always happy to talk about research and other things. Please feel free to re
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="images/publications/dac_patent.jpg" align="left" width="250" />    </td>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="images/publications/dac_patent.png" align="left" width="250" />    </td>
     <td width="70%">    <a href="https://patentimages.storage.googleapis.com/eb/13/4c/7c790a0183804d/US20220144256A1.pdf"> 
     <strong> Divide-and-conquer for lane-aware diverse trajectory prediction</strong> </a> <br/> 
       <strong> Sriram Narayanan </strong>, Ramin Moslemi, Francesco Pittaluga, Buyu Liu, Manmohan Chandraker<br/> 
