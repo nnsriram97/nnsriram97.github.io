@@ -91,7 +91,7 @@ p {
 
 </style>
 
-Hi, I am a Ph.D. student at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> , <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a> working with <a href="http://www.cs.cmu.edu/~srinivas/">Prof. Srinivas Narasimhan</a>. Currently, I'm exploring topics in the domain of computational imaging and vision.
+Hi, I am a Ph.D. student at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> , <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a> working with <a href="http://www.cs.cmu.edu/~srinivas/">Prof. Srinivasa Narasimhan</a>. Currently, I'm exploring topics in the domain of computational imaging and vision.
 <br/>
 <br/>
 Before starting my Ph.D., I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs America</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department where I worked with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a> on problems related to trajectory prediction and Embodied AI.
@@ -100,7 +100,7 @@ Before starting my Ph.D., I was a Research Scholar at <a href="http://www.nec-la
 In the past, I was associated with <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> where I worked with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a>. I spent the summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Prof. Sanjit Kaul</a> where I first experienced the thrill of robotics by building a self-driving vehicle prototype.
 <br/>
 <br/>
-I'm always happy to talk about research and other things. Please feel free to reach me via email at nnsriram-at-cmu dot edu. 
+I am always enthusiastic about discussing research and various other topics. Please feel free to reach out to me via email at snochurn at cs.cmu.edu.
 
 <hr/>
 <font size="4">
