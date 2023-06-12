@@ -297,7 +297,7 @@ I am always enthusiastic about discussing research and various other topics. Ple
 
 <hr/>
 <font size="4">
-<div align="center"><b>Bachelor's Projects</b></div> <br/>
+<div align="center"><b>Undergrad Projects</b></div> <br/>
 </font>
 
 <table style="background-color:#F1F7FC">

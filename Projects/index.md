@@ -37,7 +37,7 @@ a.links:hover, a.links:active {
 }
 </style>
 
-### B.Tech. Projects
+### Undergrad Projects
 <hr>
 
 
