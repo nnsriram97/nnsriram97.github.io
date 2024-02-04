@@ -131,7 +131,7 @@ I am always enthusiastic about discussing research and various other topics. Ple
     <td width="70%">    <a href="https://arxiv.org/pdf/2210.15908.pdf"> 
       <strong> Long-HOT: A Modular Hierarchical Approach for Long-Horizon Object Transport</strong> </a> <br/> 
       <strong>Sriram Narayanan</strong>, Dinesh Jayaraman, Manmohan Chandraker<br/>
-      <span style="color: green">ArXiv 2022 </span> <strong></strong><br/>
+      <span style="color: green">International Conference on Robotics and Automation (ICRA), 2024 </span> <strong></strong><br/>
       <a class="links" href="https://arxiv.org/pdf/2210.15908.pdf"> Paper </a>
       <a class="links" href="https://youtu.be/0f9UpmDfSCs"> Video </a>
       <div class="readmore">
