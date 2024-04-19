@@ -108,6 +108,8 @@ I am always enthusiastic about discussing research and various other topics. Ple
 </font>
 
 <!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
+**02/24:** Paper on visible-thermal light transport accepted to CVPR 2024. <br/>
+**01/24:** Paper on long-horizon object transport accepted to ICRA 2024. <br/>
 **08/22:** Moved to Pittsburgh and started my PhD at <a href="https://www.ri.cmu.edu">RI, CMU</a>. <br/>
 **10/21:** Talk on <a href="https://youtu.be/ICSqcqq1sn0?t=120">**Predicting simultaneous multi-hypotheses futures**</a> at Robotics Research Group, IIT BHU<br/>
 **02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
