@@ -126,6 +126,22 @@ I am always enthusiastic about discussing research and various other topics. Ple
 <div align="center"><b>Publications</b></div> <br/>
 </font>
 
+<table style="background-color:#F1F7FC">
+  <tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/joint_heat_light_transport.png" align="left" width="250" />    </td>
+    <td width="70%">    <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ramanagopal_A_Theory_of_Joint_Light_and_Heat_Transport_for_Lambertian_CVPR_2024_paper.pdf"> 
+      <strong> A Theory of Joint Light and Heat Transport for Lambertian Scenes</strong> </a> <br/> 
+      Mani Ramanagopal, <strong>Sriram Narayanan</strong>, Aswin C. Sankaranarayanan, Srinivasa G. Narasimhan<br/>
+      <span style="color: green">Computer Vision and Pattern Recognition (CVPR), 2024</span> <strong></strong><br/>
+      <a class="links" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ramanagopal_A_Theory_of_Joint_Light_and_Heat_Transport_for_Lambertian_CVPR_2024_paper.pdf"> Paper </a>
+      <a class="links" href="https://www.youtube.com/watch?v=PFd1IMzoezE"> Video </a>
+      <div class="readmore">
+        <p align='justify'>We present a novel theory that establishes the relationship between light transport in visible and thermal infrared, and heat transport in solids. We show that heat generated due to light absorption can be estimated by modeling heat transport using a thermal camera. For situations where heat conduction is negligible, we analytically solve the heat transport equation to derive a simple expression relating the change in thermal image intensity to the absorbed light intensity and heat capacity of the material. Next, we prove that intrinsic image decomposition for Lambertian scenes becomes a well-posed problem if one has access to the absorbed light. Our theory generalizes to arbitrary shapes and unstructured illumination. Our theory is based on applying energy conservation principle at each pixel independently. We validate our theory using real-world experiments on diffuse objects made of different materials that exhibit both direct and global components (inter-reflections) of light transport under unknown complex lighting.</p>
+        <span class="readmore-link"></span>
+      </div>
+    </td> 
+  </tr>
+</table>
 
 <table style="background-color:#F1F7FC">
   <tr>
