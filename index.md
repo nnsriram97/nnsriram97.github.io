@@ -133,6 +133,7 @@ I am always enthusiastic about discussing research and various other topics. Ple
       <strong> A Theory of Joint Light and Heat Transport for Lambertian Scenes</strong> </a> <br/> 
       Mani Ramanagopal, <strong>Sriram Narayanan</strong>, Aswin C. Sankaranarayanan, Srinivasa G. Narasimhan<br/>
       <span style="color: green">Computer Vision and Pattern Recognition (CVPR), 2024</span> <strong></strong><br/>
+      <a class="links" href="https://imaging.cs.cmu.edu/joint_light_heat_transport/"> Project Page </a>
       <a class="links" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ramanagopal_A_Theory_of_Joint_Light_and_Heat_Transport_for_Lambertian_CVPR_2024_paper.pdf"> Paper </a>
       <a class="links" href="https://www.youtube.com/watch?v=PFd1IMzoezE"> Video </a>
       <div class="readmore">
