@@ -129,8 +129,8 @@ I am always enthusiastic about discussing research and various other topics. Ple
 
 <table style="background-color:#F1F7FC">
   <tr>
-    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/sfhc.jpg" align="left" width="250" />    </td>
-    <td width="70%">    <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ramanagopal_A_Theory_of_Joint_Light_and_Heat_Transport_for_Lambertian_CVPR_2024_paper.pdf"> 
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/sfhc.jpg" align="left" width="250" alt="shape from heat conduction"/>    </td>
+    <td width="70%">    <a href="https://www.cs.cmu.edu/~ILIM/shape_from_heat/"> 
       <strong>Shape from Heat Conduction</strong> </a> <br/> 
       <strong>Sriram Narayanan</strong>, Mani Ramanagopal, Mark Sheinin, Aswin C. Sankaranarayanan, Srinivasa G. Narasimhan<br/>
       <span style="color: green">European Conference on Computer Vision (ECCV), 2024</span> <strong></strong><br/>
