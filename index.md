@@ -108,7 +108,7 @@ I am always enthusiastic about discussing research and various other topics. Ple
 </font>
 
 <!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
-**07/24:** Paper on recovering shape from heat flow accepted to <strong> ECCV 2024 (Oral) </strong>. <br/>
+**07/24:** Paper *Shape from Heat Conduction* accepted to <strong> ECCV 2024 (Oral) </strong>. <br/>
 **02/24:** Paper on visible-thermal light transport accepted to CVPR 2024. <br/>
 **01/24:** Paper on long-horizon object transport accepted to ICRA 2024. <br/>
 **08/22:** Moved to Pittsburgh and started my PhD at <a href="https://www.ri.cmu.edu">RI, CMU</a>. <br/>
