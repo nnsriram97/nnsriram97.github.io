@@ -133,7 +133,7 @@ I am always enthusiastic about discussing research and various other topics. Ple
     <td width="70%">    <a href="https://www.cs.cmu.edu/~ILIM/shape_from_heat/"> 
       <strong>Shape from Heat Conduction</strong> </a> <br/> 
       <strong>Sriram Narayanan</strong>, Mani Ramanagopal, Mark Sheinin, Aswin C. Sankaranarayanan, Srinivasa G. Narasimhan<br/>
-      <span style="color: green">European Conference on Computer Vision (ECCV), 2024</span> <strong></strong><br/>
+      <span style="color: green">European Conference on Computer Vision (ECCV), 2024</span> <strong><span style="color: red">(Oral)</span></strong><br/>
       <a class="links" href="https://www.cs.cmu.edu/~ILIM/shape_from_heat/" target="_blank"> Project Page </a>
       <a class="links" href="https://www.cs.cmu.edu/~ILIM/shape_from_heat/static/pdfs/shape_from_heat_conduction.pdf" target="_blank"> Paper </a>
       <!-- <a class="links" href="https://www.youtube.com/watch?v=PFd1IMzoezE"> Video </a> -->
