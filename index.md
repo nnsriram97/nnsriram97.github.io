@@ -91,16 +91,13 @@ p {
 
 </style>
 
-Hi, I am a Ph.D. student at the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> , <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a> working with <a href="http://www.cs.cmu.edu/~srinivas/">Prof. Srinivasa Narasimhan</a>. Currently, I'm exploring topics in the domain of computational imaging and vision.
-<br/>
-<br/>
-Before starting my Ph.D., I was a Research Scholar at <a href="http://www.nec-labs.com">NEC Labs America</a>, <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department where I worked with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a> on problems related to trajectory prediction and Embodied AI.
-<br/>
-<br/>
-In the past, I was associated with <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a> where I worked with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> and <a href="https://faculty.iiit.ac.in/~vgandhi/">Prof. Vineet Gandhi</a>. I spent the summer 2017 at <a href="https://www.iiitd.ac.in">IIIT Delhi</a>, working with <a href="https://sites.google.com/view/sanjitkkaul/">Prof. Sanjit Kaul</a> where I first experienced the thrill of robotics by building a self-driving vehicle prototype.
-<br/>
-<br/>
-I am always enthusiastic about discussing research and various other topics. Please feel free to reach out to me via email at snochurn at cs.cmu.edu.
+I am a Ph.D. student in the <a href="https://www.ri.cmu.edu/">Robotics Institute</a> at the School of Computer Science, Carnegie Mellon University, advised by <a href="http://www.cs.cmu.edu/~srinivas/">Prof. Srinivasa Narasimhan</a>. My research focuses on computer vision and imaging, exploring modalities beyond the visible spectrum to enable new imaging capabilities. I am currently focused on developing novel algorithms that leverage heat transport and light transport to infer shape, material properties, and scene semantics.
+
+Prior to starting my Ph.D., I was a Research Scholar at NEC Laboratories America, where I worked in the <a href="http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home">Media Analytics</a> department with <a href="https://cseweb.ucsd.edu/~mkchandraker/">Prof. Manmohan Chandraker</a> on problems related to trajectory prediction and Embodied AI.
+
+Earlier in my academic journey, I was affiliated with the Robotics Research Center, collaborating with <a href="https://www.iiit.ac.in/people/faculty/mkrishna/">Prof. K. Madhava Krishna</a> on various robotics-related projects. During the summer of 2017, I interned at IIIT Delhi under the mentorship of <a href="https://sites.google.com/view/sanjitkkaul/">Prof. Sanjit Kaul</a>, where I developed a self-driving vehicle prototype, an experience that sparked my deep interest in robotics.
+
+I am passionate about advancing research and engaging in stimulating discussions on a wide range of topics like, autonomous driving, Embodied AI, imaging and more. Feel free to connect with me at snochurn@cs.cmu.edu.
 
 <hr/>
 <font size="4">
