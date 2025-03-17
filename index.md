@@ -105,12 +105,12 @@ I am passionate about advancing research and engaging in stimulating discussions
 </font>
 
 <!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
-**07/24:** Paper *Shape from Heat Conduction* accepted to <strong> ECCV 2024 (Oral) </strong>. <br/>
+**07/24:** Paper *Shape from Heat Conduction* accepted to <strong> ECCV 2024 <span style="color: red">(Oral)</span> </strong>. <br/>
 **02/24:** Paper on visible-thermal light transport accepted to CVPR 2024. <br/>
 **01/24:** Paper on long-horizon object transport accepted to ICRA 2024. <br/>
 **08/22:** Moved to Pittsburgh and started my PhD at <a href="https://www.ri.cmu.edu">RI, CMU</a>. <br/>
 **10/21:** Talk on <a href="https://youtu.be/ICSqcqq1sn0?t=120">**Predicting simultaneous multi-hypotheses futures**</a> at Robotics Research Group, IIT BHU<br/>
-**02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 (Oral)</strong>. <br/>
+**02/21:** Paper *Divide and Conquer for Lane-Aware Diverse Trajectory Prediction* is accepted to <strong>CVPR 2021 <span style="color: red">(Oral)</span></strong>. <br/>
 <!-- **00/21:** Reviewer for CVPR 2021, IROS 2021, ICCV 2021 and CVPR 2022 (Invited)<br/> -->
 **07/20:** Paper *SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction* is accepted to ECCV 2020. <br />
 <!-- **11/19:** Served as a reviewer for ICRA 2020. <br/> -->
@@ -137,6 +137,24 @@ I am passionate about advancing research and engaging in stimulating discussions
       <div class="readmore">
         <p align='justify'>Thermal cameras measure the temperature of objects based on radiation emitted in the infrared spectrum. In this work, we propose a novel shape recovery approach that exploits the properties of heat transport, specifically heat conduction, induced on objects when illuminated using simple light bulbs. Although heat transport occurs in the entirety of an object's volume, we show a surface approximation that enables shape recovery and empirically analyze its validity for objects with varying thicknesses. We develop an algorithm that solves a linear system of equations to estimate the intrinsic shape Laplacian from thermal videos along with several properties including heat capacity, convection coefficient, and absorbed heat flux under uncalibrated lighting of arbitrary shapes. Further, we propose a novel shape from Laplacian objective that aims to resolve the inherent shape ambiguities by drawing insights from absorbed heat flux images using two unknown lights sources. Finally, we devise a coarse-to-fine refinement strategy that faithfully recovers both low- and high-frequency shape details. We validate our method by showing accurate reconstructions, to within an error of 1-2<i>mm</i> (object size &leq; 13.5<i>cm</i>), in both simulations and from noisy thermal videos of real-world objects with complex shapes and material properties including those that are <i>transparent</i> and <i>translucent</i> to visible light. We believe leveraging heat transport as a novel cue for vision can enable new imaging capabilities.
         </p>
+        <span class="readmore-link"></span>
+      </div>
+    </td> 
+  </tr>
+</table>
+
+<table style="background-color:#F1F7FC">
+  <tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/jiLightHeat.png" align="left" width="250" />    </td>
+    <td width="70%">    <a href="https://arxiv.org/pdf/2502.06973"> 
+      <strong> Indoor Light and Heat Estimation from a Single Panorama </strong> </a> <br/> 
+      Guanzhou Ji, <strong>Sriram Narayanan</strong>, Azadeh Sawyer, Srinivasa G. Narasimhan<br/>
+      <span style="color: green">arXiv, 2025</span><br/>
+      <!-- <a class="links" href="https://imaging.cs.cmu.edu/joint_light_heat_transport/" target="_blank"> Project Page </a> -->
+      <a class="links" href="https://arxiv.org/pdf/2502.06973" target="_blank"> Paper </a>
+      <!-- <a class="links" href="https://www.youtube.com/watch?v=PFd1IMzoezE" target="_blank"> Video </a> -->
+      <div class="readmore">
+        <p align='justify'> This paper presents a novel application for directly estimating indoor light and heat maps from captured indoor-outdoor High Dynamic Range (HDR) panoramas. In our image-based rendering method, the indoor panorama is used to estimate the 3D room layout, while the corresponding outdoor panorama serves as an environment map to infer spatially-varying light and material properties. We establish a connection between indoor light transport and heat transport and implement transient heat simulation to generate indoor heat panoramas. The sensitivity analysis of various thermal parameters is conducted, and the resulting heat maps are compared with the images captured by the thermal camera in real-world scenarios. This digital application enables automatic indoor light and heat estimation without manual inputs and cumbersome field measurements.</p>
         <span class="readmore-link"></span>
       </div>
     </td> 
