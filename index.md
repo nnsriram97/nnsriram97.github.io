@@ -105,6 +105,7 @@ I am passionate about advancing research and engaging in stimulating discussions
 </font>
 
 <!-- <img src="/images/new.jpeg" algin="left" width="45" />  -->
+**06/25:** Paper on resolving ambiguities in shape-from-heat conduction accepted to ICCP 2025.<br/>
 **07/24:** Paper *Shape from Heat Conduction* accepted to <strong> ECCV 2024 <span style="color: red">(Oral)</span> </strong>. <br/>
 **02/24:** Paper on visible-thermal light transport accepted to CVPR 2024. <br/>
 **01/24:** Paper on long-horizon object transport accepted to ICRA 2024. <br/>
@@ -123,6 +124,26 @@ I am passionate about advancing research and engaging in stimulating discussions
 <font size="4">
 <div align="center"><b>Publications</b></div> <br/>
 </font>
+
+<table style="background-color:#F1F7FC">
+  <tr>
+    <td style="text-align:left;vertical-align:top;padding-top:1%;padding-left:1%;" width="25%">    <img src="/images/publications/iccp25.jpg" align="left" width="250" alt="resolving ambiguities in shape from heat conduction"/>    </td>
+    <td width="70%">    <a href="https://www.cs.cmu.edu/~ILIM/shape_from_heat/"> 
+      <strong>Resolving Ambiguities in Heat Conduction and Shading</strong> </a> <br/> 
+      Akihiko Oharazawa, <strong> Sriram Narayanan </strong>, Mani Ramanagopal, Srinivasa G. Narasimhan<br/>
+      <span style="color: green">International Conference on Computational Photography (ICCP) 2025</span> <br/>
+      <!-- <a class="links" href="https://www.cs.cmu.edu/~ILIM/shape_from_heat/" target="_blank"> Project Page </a> -->
+      <!-- <a class="links" href="https://www.cs.cmu.edu/~ILIM/shape_from_heat/static/pdfs/shape_from_heat_conduction.pdf" target="_blank"> Paper </a> -->
+      <!-- <a class="links" href="https://youtu.be/LM0e8fD18fo?si=ECXXXsxLEGF2r935" target="_blank"> Video </a> -->
+      <!-- <a class="links" href="https://github.com/nnsriram97/shape-from-heat" target="_blank"> Code </a> -->
+      <div class="readmore">
+        <p align='justify'>Shape from shading using a single image of a Lambertian surface is inherently ambiguous. When the light source direction is known, the surface normal estimation has a cone-ambiguity, which worsens when the source is unknown. Recently, shape from heat conduction has emerged as an approach that leverages heat transport equations to estimate the Shape Laplacian operator, an intrinsic measure of shape. However, deriving surface normals from the Laplacian operator encounters a local binary convex/concave ambiguity. Our contribution introduces a novel theory to resolve these local shape ambiguities (excluding a few degeneracies) without relying on priors like smoothness, by combining the cues from shading and heat conduction. Our method ensures the mathematical constraints of both shading and the Laplacian are satisfied simultaneously, even with an unknown light source. We validate our theory through simulations of complex shapes and analyze its performance in the presence of noise.
+        </p>
+        <span class="readmore-link"></span>
+      </div>
+    </td> 
+  </tr>
+</table>
 
 <table style="background-color:#F1F7FC">
   <tr>
