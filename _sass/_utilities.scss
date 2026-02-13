@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Utilities — Layout helpers
+   ========================================================================== */
+
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--space-6);
+    padding-right: var(--space-6);
+}
+
+.container--narrow {
+    max-width: var(--max-width-narrow);
+}
+
+/* ── Grid ── */
+.grid {
+    display: grid;
+    gap: var(--space-6);
+}
+
+.grid--2 {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
+
+.grid--3 {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+}
+
+/* ── Stack (vertical spacing) ── */
+.stack>*+* {
+    margin-top: var(--space-6);
+}
+
+.stack--sm>*+* {
+    margin-top: var(--space-3);
+}
+
+.stack--lg>*+* {
+    margin-top: var(--space-10);
+}
+
+/* ── Cluster (horizontal flex) ── */
+.cluster {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    align-items: center;
+}
+
+/* ── Section spacing ── */
+.section {
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-16);
+}
+
+.section--sm {
+    padding-top: var(--space-10);
+    padding-bottom: var(--space-10);
+}
+
+/* ── Accessibility ── */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* ── Text alignment ── */
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: var(--color-text-muted);
+}
+
+/* ── Focus visible outline ── */
+*:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}

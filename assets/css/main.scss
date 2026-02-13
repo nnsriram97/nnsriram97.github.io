@@ -1,28 +1,55 @@
 ---
 sitemap: false
 ---
-
 /*
- *
- *  Minimal Mistakes
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
+ *  Sriram Narayanan — Personal Website
+ */
 
-// Partials
-@import "variables";
-@import "grid";
-@import "mixins";
+// Design system
+@import "tokens";
 @import "normalize";
-@import "site";
-@import "typography";
-@import "pygments";
-@import "coderay";
-@import "elements";
-@import "forms";
-@import "page";
+@import "new-typography";
+@import "utilities";
+@import "components";
+@import "nav";
+@import "footer";
+
+// Vendor
 @import "vendor/font-awesome/font-awesome";
-@import "vendor/magnific-popup/magnific-popup";
-//@import "vendor/google/fonts";
+
+// Reset box-sizing
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// Base resets
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+// Content page styles
+.page-content {
+    padding: var(--space-12) 0 var(--space-16);
+}
+
+.page-header {
+    margin-bottom: var(--space-8);
+
+    h1 {
+        margin-bottom: var(--space-2);
+    }
+}

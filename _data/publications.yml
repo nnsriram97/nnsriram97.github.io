@@ -1,0 +1,253 @@
+# Publications & Patents
+# Fields: title, authors, venue, year, type (conference|patent|preprint), oral (bool),
+#         thumbnail, links, description, featured (bool), highlight (bool),
+#         categories (list: physics-based-vision, autonomous-driving, robotics-embodied-ai, generative-ai)
+#
+# To add a new publication:
+#   1. Add an entry below in the correct chronological position
+#   2. Set `featured: true` to show it in the "Selected" tab
+#   3. Set `highlight: true` for accent left-border styling
+#   4. Add one or more categories from the list above
+#   5. Run `bundle exec jekyll build` to rebuild
+
+# ──────────────────────────────────────────────────
+# Conferences & Preprints
+# ──────────────────────────────────────────────────
+
+- title: "Resolving Ambiguities in Heat Conduction and Shading"
+  authors: "Akihiko Oharazawa, <strong>Sriram Narayanan</strong>, Mani Ramanagopal, Srinivasa G. Narasimhan"
+  venue: "International Conference on Computational Photography (ICCP)"
+  year: 2025
+  type: conference
+  oral: false
+  featured: true
+  highlight: false
+  categories: ["physics-based-vision"]
+  thumbnail: "/images/publications/iccp25.jpg"
+  links: []
+  description: "Resolves local convex/concave shape ambiguities by combining shading cues with heat conduction, enabling robust 3D shape recovery without smoothness priors."
+
+- title: "Indoor Light and Heat Estimation from a Single Panorama"
+  authors: "Guanzhou Ji, <strong>Sriram Narayanan</strong>, Azadeh Sawyer, Srinivasa G. Narasimhan"
+  venue: "arXiv"
+  year: 2025
+  type: preprint
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["physics-based-vision"]
+  thumbnail: "/images/publications/jiLightHeat.png"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2502.06973"
+  description: "Directly estimates indoor light and heat maps from HDR panoramas using image-based rendering with 3D room layout estimation."
+
+- title: "Shape from Heat Conduction"
+  authors: "<strong>Sriram Narayanan</strong>, Mani Ramanagopal, Mark Sheinin, Aswin C. Sankaranarayanan, Srinivasa G. Narasimhan"
+  venue: "European Conference on Computer Vision (ECCV)"
+  year: 2024
+  type: conference
+  oral: true
+  featured: true
+  highlight: true
+  categories: ["physics-based-vision"]
+  thumbnail: "/images/publications/sfhc.jpg"
+  links:
+    - label: "Project Page"
+      url: "https://www.cs.cmu.edu/~ILIM/shape_from_heat/"
+    - label: "Paper"
+      url: "https://www.cs.cmu.edu/~ILIM/shape_from_heat/static/pdfs/shape_from_heat_conduction.pdf"
+    - label: "Video"
+      url: "https://youtu.be/LM0e8fD18fo?si=ECXXXsxLEGF2r935"
+    - label: "Code"
+      url: "https://github.com/nnsriram97/shape-from-heat"
+  description: "A novel shape recovery method using heat conduction from thermal videos. Estimates intrinsic shape Laplacian and recovers fine 3D surface details from simple light-bulb illumination."
+
+- title: "A Theory of Joint Light and Heat Transport for Lambertian Scenes"
+  authors: "Mani Ramanagopal, <strong>Sriram Narayanan</strong>, Aswin C. Sankaranarayanan, Srinivasa G. Narasimhan"
+  venue: "Computer Vision and Pattern Recognition (CVPR)"
+  year: 2024
+  type: conference
+  oral: false
+  featured: true
+  highlight: false
+  categories: ["physics-based-vision"]
+  thumbnail: "/images/publications/joint_heat_light_transport.png"
+  links:
+    - label: "Project Page"
+      url: "https://imaging.cs.cmu.edu/joint_light_heat_transport/"
+    - label: "Paper"
+      url: "https://openaccess.thecvf.com/content/CVPR2024/papers/Ramanagopal_A_Theory_of_Joint_Light_and_Heat_Transport_for_Lambertian_CVPR_2024_paper.pdf"
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=PFd1IMzoezE"
+  description: "Establishes the theoretical connection between visible light transport, thermal infrared, and heat transport in solids, proving intrinsic image decomposition is well-posed."
+
+- title: "Long-HOT: A Modular Hierarchical Approach for Long-Horizon Object Transport"
+  authors: "<strong>Sriram Narayanan</strong>, Dinesh Jayaraman, Manmohan Chandraker"
+  venue: "International Conference on Robotics and Automation (ICRA)"
+  year: 2024
+  type: conference
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["robotics-embodied-ai"]
+  thumbnail: "/images/publications/LongHOT.png"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2210.15908.pdf"
+    - label: "Video"
+      url: "https://youtu.be/0f9UpmDfSCs"
+  description: "A modular hierarchical framework for long-horizon embodied object transport, using topological scene graphs and weighted frontier exploration."
+
+- title: "Divide-and-Conquer for Lane-Aware Diverse Trajectory Prediction"
+  authors: "<strong>Sriram Narayanan</strong>, Ramin Moslemi, Francesco Pittaluga, Buyu Liu, Manmohan Chandraker"
+  venue: "Computer Vision and Pattern Recognition (CVPR)"
+  year: 2021
+  type: conference
+  oral: true
+  featured: true
+  highlight: true
+  categories: ["autonomous-driving"]
+  thumbnail: "/images/publications/DAC_cvpr21.png"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2104.08277"
+    - label: "Blog"
+      url: "https://www.nec-labs.com/research-departments/media-analytics/blog/Divide-and-Conquer-for-Lane-Aware-Diverse-Trajectory-Prediction"
+    - label: "Talk"
+      url: "https://www.youtube.com/watch?v=PKFggOWN638"
+  description: "A Divide-And-Conquer initialization for winner-takes-all objectives, producing diverse mode-accurate trajectory predictions anchored to lane centerlines."
+
+- title: "SMART: Simultaneous Multi-Agent Recurrent Trajectory Prediction"
+  authors: "<strong>Sriram Narayanan</strong>, Buyu Liu, Francesco Pittaluga, Manmohan Chandraker"
+  venue: "European Conference on Computer Vision (ECCV)"
+  year: 2020
+  type: conference
+  oral: false
+  featured: false
+  highlight: true
+  categories: ["autonomous-driving"]
+  thumbnail: "/images/publications/eccv20.gif"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/2007.13078.pdf"
+    - label: "Video"
+      url: "https://youtu.be/puBAVMoLgQU"
+    - label: "Short Talk"
+      url: "http://www.nec-labs.com/uploads/Documents/Media-Analytics/research-videos/SMART-%20Simultaneous%20Multi-Agent%20Recurrent%20Trajectory%20Prediction.mp4"
+  description: "ConvLSTM with novel state pooling predicts scene-consistent trajectories for all agents simultaneously in constant time, with a CVAE for diverse multi-modal outputs."
+
+- title: "Talk to the Vehicle: Language Conditioned Autonomous Navigation of Self Driving Cars"
+  authors: "<strong>Sriram Narayanan</strong>*, Tirth Maniar*, Jayaganesh Kalyanasundaram, Vineet Gandhi, Brojeshwar Bhowmick, K Madhava Krishna"
+  venue: "International Conference on Intelligent Robots and Systems (IROS)"
+  year: 2019
+  type: conference
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["autonomous-driving", "robotics-embodied-ai"]
+  thumbnail: "/images/publications/iros19.gif"
+  links:
+    - label: "Paper"
+      url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8967929"
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=zx8s2l2tcAU"
+  description: "Blends natural language commands with 3D semantic maps to generate local trajectories for autonomous vehicle navigation."
+
+- title: "A Hierarchical Network for Diverse Trajectory Proposals"
+  authors: "<strong>Sriram Narayanan</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav, Brojeshwar Bhowmick, K. Madhava Krishna"
+  venue: "Intelligent Vehicles Symposium (IV)"
+  year: 2019
+  type: conference
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["autonomous-driving"]
+  thumbnail: "/images/publications/iv19.gif"
+  links:
+    - label: "Paper"
+      url: "https://ieeexplore.ieee.org/abstract/document/8813986"
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=cvq2dFS-dZo"
+  description: "A two-stage CNN that maps perceived surroundings to multiple diverse trajectory proposals for robot navigation."
+
+- title: "Gradient Aware - Shrinking Domain based Control Design for Reactive Planning Frameworks used in Autonomous Vehicles"
+  authors: "Adarsh Modh, Siddharth Singh, A. V. S. Sai Bhargav Kumar, <strong>Sriram Narayanan</strong>, K. Madhava Krishna"
+  venue: "Proceedings of the Advances in Robotics (AIR)"
+  year: 2019
+  type: conference
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["autonomous-driving"]
+  thumbnail: "/images/publications/air19.gif"
+  links:
+    - label: "Paper"
+      url: "https://arxiv.org/pdf/1804.08679.pdf"
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=Yf4F0dvkwQE"
+  description: "A gradient-aware control law for longitudinal speed control that reactively integrates road surface gradient."
+
+# ──────────────────────────────────────────────────
+# Patents
+# ──────────────────────────────────────────────────
+
+- title: "Divide-and-conquer for lane-aware diverse trajectory prediction"
+  authors: "<strong>Sriram Narayanan</strong>, Ramin Moslemi, Francesco Pittaluga, Buyu Liu, Manmohan Chandraker"
+  venue: "US Patent App. 17/521,139"
+  year: 2022
+  type: patent
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["autonomous-driving"]
+  thumbnail: "/images/publications/dac_patent.png"
+  links:
+    - label: "Patent"
+      url: "https://patentimages.storage.googleapis.com/eb/13/4c/7c790a0183804d/US20220144256A1.pdf"
+  description: "Patent for diverse lane-aware trajectory prediction using divide-and-conquer initialization."
+
+- title: "Multi-agent trajectory prediction"
+  authors: "<strong>Sriram Narayanan</strong>, Buyu Liu, Ramin Moslemi, Francesco Pittaluga, Manmohan Chandraker"
+  venue: "US Patent App. 17/187,157"
+  year: 2021
+  type: patent
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["autonomous-driving"]
+  thumbnail: "/images/publications/smart_patent.png"
+  links:
+    - label: "Patent"
+      url: "https://patentimages.storage.googleapis.com/8a/e8/aa/656d776c87703f/US20210276547A1.pdf"
+  description: "Patent for simultaneous multi-agent trajectory prediction in driving scenarios."
+
+- title: "Simulating diverse long-term future trajectories in road scenes"
+  authors: "<strong>Sriram Narayanan</strong>, Manmohan Chandraker"
+  venue: "US Patent App. 17/090,399"
+  year: 2021
+  type: patent
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["autonomous-driving"]
+  thumbnail: "/images/publications/diversity_matters_patent.png"
+  links:
+    - label: "Patent"
+      url: "https://patentimages.storage.googleapis.com/1e/34/60/2fd7af876b8ae1/US20210148727A1.pdf"
+  description: "Patent for generating diverse long-term trajectory simulations in road environments."
+
+- title: "Method and a system for hierarchical network based diverse trajectory proposal"
+  authors: "Brojeshwar Bhowmick, K. Madhava Krishna, <strong>Sriram Narayanan</strong>, Gourav Kumar, Abhay Singh, M. Siva Karthik, Saket Saurav"
+  venue: "US Patent App. 16/894,411"
+  year: 2020
+  type: patent
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["autonomous-driving"]
+  thumbnail: "/images/publications/iv_patent.png"
+  links:
+    - label: "Patent"
+      url: "https://patentimages.storage.googleapis.com/06/60/81/2f29a5dd03089e/US20200387163A1.pdf"
+  description: "Patent for hierarchical network architecture generating diverse trajectory proposals."

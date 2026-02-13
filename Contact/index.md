@@ -1,27 +1,19 @@
 ---
 layout: page
-title: Sriram N N
-excerpt: "Contact Me, Sriram N N"
+title: Contact
+excerpt: "Contact Sriram Narayanan"
 ---
 
-**E-Mail :**<br>
-nnsriram97@gmail.com
-<hr>
+## Get in Touch
 
-**Address :** <br>
-Sriram Narayanan<br>
-Robotics Institute<br>
-Carnegie Mellon University<br>
-<hr>
+**Email:** [snochurn@cs.cmu.edu](mailto:snochurn@cs.cmu.edu)
 
+**Address:**
+Sriram Narayanan
+Robotics Institute
+Carnegie Mellon University
+Pittsburgh, PA
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+---
 
-  ga('create', 'UA-59912294-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+Find me on [Google Scholar](https://scholar.google.com/citations?user=P0CpOFwAAAAJ&hl=en), [GitHub](https://github.com/nnsriram97), or [LinkedIn](https://linkedin.com/in/sriram-n-n-777a0010b).

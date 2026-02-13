@@ -2,7 +2,8 @@
 
 title:   Sriram Narayanan
 locale:           en_US
-url:                
+url:
+description: "Personal website of Sriram Narayanan — PhD student at the Robotics Institute, Carnegie Mellon University. Research in computer vision, imaging, heat transport."
 
 
 # Jekyll configuration
@@ -26,37 +27,15 @@ kramdown:
 
 # Site owner
 owner:
-  name:
+  name: Sriram Narayanan
   avatar: bio-photo-6.jpg
   bio: "PhD Student, Carnegie Mellon University"
-  email: nnsriram97@gmail.com
-  emailid: nnsriram97@gmail.com
-  disqus-shortname: Sriram
-  twitter: nnsriram97
-  facebook:
-  google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
+  email: snochurn@cs.cmu.edu
+  github: nnsriram97
   linkedin: sriram-n-n-777a0010b
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  scholar: #
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  phone: 
+  scholar: P0CpOFwAAAAJ
+  twitter: nnsriram97
 
 include: [".htaccess"]
 keep_files: ['.htaccess']
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "_site"]

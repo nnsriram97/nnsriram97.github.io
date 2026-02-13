@@ -1,0 +1,94 @@
+# Projects
+# Fields: title, description, thumbnail, year, tags, links (list of {label, url}), featured (bool)
+
+- title: "Swarath - Self Driving Car"
+  description: "Internship project at IIIT Delhi during Summer 2017, where I worked on building an SDV prototype. Designed controller and planner for the vehicle, built perception systems using sensor outputs for occupancy, and demonstrated autonomous navigation with GPS waypoints."
+  thumbnail: "/images/swarath_gif_resize.gif"
+  year: 2017
+  tags: ["autonomous-driving", "robotics", "planning"]
+  featured: true
+  links:
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=z3FdsK_w_Nw"
+
+- title: "Building Perception, Planning and Control for Autonomous Vehicles"
+  description: "Bachelor thesis at IIIT Hyderabad. Designed low-level controller from scratch for a stock car, integrated perception (ORB-SLAM, LOAM) and planning (RRT*) modules, and demonstrated static obstacle avoidance in tight spaces."
+  thumbnail: "/images/btech_thesis_crop.gif"
+  year: 2019
+  tags: ["autonomous-driving", "robotics", "perception", "planning"]
+  featured: true
+  links:
+    - label: "Report"
+      url: "https://drive.google.com/file/d/1CAmw-Pam0xOWf-3rUHwM1NNhlOCeX9a2/view"
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=Fs-Pt0M1j5I"
+
+- title: "Background Subtraction"
+  description: "Project with Dr. Manigandan on designing a background subtraction algorithm based on mixture models for surveillance applications."
+  thumbnail: "/images/projects/collage_bs.png"
+  year: 2017
+  tags: ["computer-vision"]
+  featured: false
+  links:
+    - label: "Paper"
+      url: "https://drive.google.com/file/d/14Q1tsOjkWNgl8JsLJuONBHBynsyhAjAG/view"
+
+- title: "Bothoven - Eyantra Robotics Competition"
+  description: "A multi-robot task execution problem where two robots simultaneously plan paths, coordinate, and play an audio file concurrently. Uses FFT to decode notes and dynamic replanning on obstacle encounters."
+  thumbnail: "/images/eyantra_resize.gif"
+  year: 2017
+  tags: ["robotics", "multi-robot", "planning"]
+  featured: true
+  links:
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=EyNALTEMpUo"
+
+- title: "Husky - Visual Perception based Autonomous Bot"
+  description: "Implemented obstacle avoidance and waypoint following using stereo camera, GPS, IMU and wheel encoders. Generated occupancy maps for RRT-based autonomous planning."
+  thumbnail: "/images/projects/husky.png"
+  year: 2018
+  tags: ["robotics", "perception", "autonomous-driving"]
+  featured: false
+  links:
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=XOhP3XEvSok"
+
+- title: "AutoNimbus - Connecting Vehicle to the Cloud"
+  description: "National Finalist at General Electric Edison Challenge 2016. A complete car monitoring platform using OBD diagnostics, with cloud-based ML for predicting breakdowns and gear-shift assistance."
+  thumbnail: "/images/projects/autonimbus.png"
+  year: 2016
+  tags: ["IoT", "machine-learning"]
+  featured: false
+  links:
+    - label: "Code"
+      url: "https://github.com/abhishek-v/General-Electrics-Edison-Challenge-2016"
+
+- title: "Vision based Robot Localization"
+  description: "Winner at computer vision based robotics competition for consecutive years 2016-2017. Robot localizes using camera-based pose estimation with a PID control system."
+  thumbnail: "/images/projects/cop.png"
+  year: 2016
+  tags: ["computer-vision", "robotics"]
+  featured: false
+  links:
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=OPbu5sNg880"
+
+- title: "Sudoku Solver for a Real Time Image"
+  description: "A computer vision application that provides a solution when an image of a Sudoku is shown as input. Uses affine transformation, OCR-based digit detection, and brute force solving."
+  thumbnail: "/images/projects/sudoku.png"
+  year: 2015
+  tags: ["computer-vision"]
+  featured: false
+  links:
+    - label: "Blog"
+      url: "http://nnsriram.blogspot.com/2015/12/sudoku-solver-real-time-image.html"
+
+- title: "Game Controller App using Kivy Python"
+  description: "A cross-platform mobile game controller with accelerometer support and customizable keybindings for controlling agents in games."
+  thumbnail: "/images/projects/appkivy.png"
+  year: 2015
+  tags: ["app-development"]
+  featured: false
+  links:
+    - label: "Code"
+      url: "https://github.com/nnsriram97/Mobile-controlled-pc-game"
