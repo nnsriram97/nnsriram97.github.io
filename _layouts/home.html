@@ -8,7 +8,9 @@ layout: default
     <div class="hero__inner">
       <!-- Top row: photo + name/actions -->
       <div class="hero__header">
-        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.title }} photo" class="hero__photo"
+        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.title }} photo" class="hero__photo sensor-avatar"
+          data-visible-src="{{ site.url }}/images/{{ site.owner.avatar }}"
+          data-thermal-src="{% if site.owner.thermal_avatar %}{{ site.url }}/images/{{ site.owner.thermal_avatar }}{% else %}{{ '/images/bio-photo-thermal-v1.png' | relative_url }}{% endif %}"
           loading="eager">
         <div class="hero__intro">
           <h1 class="hero__name">Sriram Narayanan</h1>
@@ -70,7 +72,7 @@ layout: default
 
 <!-- News -->
 {% if page.news %}
-<section class="section--sm" style="background: var(--color-bg-alt);">
+<section class="section--sm section--alt">
   <div class="container">
     <h2 class="section-heading">News</h2>
     <div class="news-scroll">
@@ -220,7 +222,7 @@ layout: default
 </section>
 
 <!-- Featured Projects -->
-<section class="section--sm" style="background: var(--color-bg-alt);">
+<section class="section--sm section--alt">
   <div class="container">
     <h2 class="section-heading">Selected Projects</h2>
     <div class="grid grid--3">
@@ -258,7 +260,7 @@ layout: default
 </section>
 
 <!-- Affiliations -->
-<section class="section--sm" style="background: var(--color-bg-alt);">
+<section class="section--sm section--alt">
   <div class="container">
     <h2 class="section-heading section-heading--center">Affiliations</h2>
     <div class="affiliations">

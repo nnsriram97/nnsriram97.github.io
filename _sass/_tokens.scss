@@ -102,6 +102,49 @@
     --color-footer-text: #94a3b8;
 }
 
+/* ── Thermal Sensor Mode (Magma colormap) ── */
+[data-sensor="thermal"] {
+    --color-bg: #0b0724;
+    --color-bg-alt: #180f3d;
+    --color-surface: #221150;
+    --color-text: #f7b267;
+    --color-text-muted: #b73779;
+    --color-heading: #fcfdbf;
+    --color-accent: #f1605d;
+    --color-accent-hover: #f7b267;
+    --color-accent-light: #3b0f70;
+    --color-border: #51127c;
+    --color-shadow: rgba(241, 96, 93, 0.2);
+    --color-tag-bg: #3b0f70;
+    --color-tag-text: #f7b267;
+    --color-tag-active-bg: #f1605d;
+    --color-tag-active-text: #fcfdbf;
+    --color-hero-gradient-start: #000004;
+    --color-hero-gradient-end: #3b0f70;
+    --color-hero-text: #fcfdbf;
+    --color-hero-muted: #b73779;
+    --color-nav-bg: rgba(11, 7, 36, 0.96);
+    --color-footer-bg: #000004;
+    --color-footer-text: #b73779;
+    --color-oral-badge: #fcfdbf;
+    --color-success: #f1605d;
+
+    /* Thermal-specific tokens */
+    --thermal-hot: #fcfdbf;
+    --thermal-warm: #f1605d;
+    --thermal-mid: #b73779;
+    --thermal-cool: #3b0f70;
+    --thermal-cold: #180f3d;
+}
+
+/* Thermal + Dark (thermal takes priority, same values) */
+[data-sensor="thermal"][data-theme="dark"] {
+    --color-bg: #000004;
+    --color-bg-alt: #0b0724;
+    --color-surface: #180f3d;
+    --color-nav-bg: rgba(0, 0, 4, 0.96);
+}
+
 @media (prefers-reduced-motion: reduce) {
     :root {
         --transition-fast: 0ms;

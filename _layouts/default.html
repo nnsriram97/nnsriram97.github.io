@@ -13,6 +13,57 @@
     </main>
 
     {% include footer.html %}
+
+    <!-- Thermal Heat Diffusion Canvas -->
+    <canvas id="thermal-canvas" aria-hidden="true"></canvas>
+
+    <!-- Thermal Controls Panel -->
+    <div id="thermal-controls" class="thermal-controls" style="display: none;" aria-hidden="true">
+        <button id="thermal-controls-toggle" class="thermal-controls-toggle" type="button" aria-label="Toggle thermal controls">
+            <span class="toggle-icon">⚙️</span>
+        </button>
+        <div id="thermal-controls-content" class="thermal-controls-content collapsed">
+            <div class="thermal-controls-header">
+                <span>🌡️ Thermal Controls</span>
+            </div>
+            <div class="thermal-control">
+                <label for="diff-slider">Diffusion Rate: <span id="diff-value">0.20</span></label>
+                <input type="range" id="diff-slider" min="0" max="0.5" step="0.01" value="0.20" />
+            </div>
+            <div class="thermal-control">
+                <label for="decay-slider">Decay Rate: <span id="decay-value">0.997</span></label>
+                <input type="range" id="decay-slider" min="0.95" max="0.999" step="0.001" value="0.997" />
+            </div>
+            <div class="thermal-control">
+                <label for="intensity-slider">Heat Intensity: <span id="intensity-value">2.4</span></label>
+                <input type="range" id="intensity-slider" min="0.5" max="5.0" step="0.1" value="2.4" />
+            </div>
+            <div class="thermal-control">
+                <label for="radius-slider">Heat Radius: <span id="radius-value">3</span></label>
+                <input type="range" id="radius-slider" min="1" max="10" step="1" value="3" />
+            </div>
+            <div class="thermal-control">
+                <label>Colormap:</label>
+                <div class="colormap-buttons">
+                    <button class="colormap-btn" data-colormap="magma" type="button">Magma</button>
+                    <button class="colormap-btn active" data-colormap="inferno" type="button">Inferno</button>
+                    <button class="colormap-btn" data-colormap="viridis" type="button">Viridis</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sensor Toolbar -->
+    <div class="sensor-bar" id="sensor-bar" role="toolbar" aria-label="Sensor mode">
+        <button class="sensor-btn active" data-sensor-mode="visible" type="button">
+            <span class="sensor-icon">👁️</span> Visible
+        </button>
+        <button class="sensor-btn" data-sensor-mode="thermal" type="button">
+            <span class="sensor-icon">🌡️</span> Thermal
+        </button>
+    </div>
+
+    <script src="{{ '/assets/js/thermal-canvas.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
 </body>
 

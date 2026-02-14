@@ -8,6 +8,7 @@ description: "Personal website of Sriram Narayanan — PhD student at the Roboti
 
 # Jekyll configuration
 
+encoding: utf-8
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
@@ -29,6 +30,7 @@ kramdown:
 owner:
   name: Sriram Narayanan
   avatar: bio-photo-6.jpg
+  thermal_avatar: bio-photo-thermal-v1.png
   bio: "PhD Student, Carnegie Mellon University"
   email: snochurn@cs.cmu.edu
   github: nnsriram97

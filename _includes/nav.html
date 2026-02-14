@@ -1,7 +1,10 @@
 <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav__inner">
         <a href="{{ '/' | relative_url }}" class="nav__brand">
-            <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="" class="nav__photo" loading="eager">
+            <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="" class="nav__photo sensor-avatar"
+                data-visible-src="{{ site.url }}/images/{{ site.owner.avatar }}"
+                data-thermal-src="{% if site.owner.thermal_avatar %}{{ site.url }}/images/{{ site.owner.thermal_avatar }}{% else %}{{ '/images/bio-photo-thermal-v1.png' | relative_url }}{% endif %}"
+                loading="eager">
             {{ site.title }}
         </a>
 
