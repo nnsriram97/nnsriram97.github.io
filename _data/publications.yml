@@ -20,7 +20,7 @@
   year: 2025
   type: conference
   oral: false
-  featured: true
+  featured: false
   highlight: false
   categories: ["physics-based-vision"]
   thumbnail: "/images/publications/iccp25.jpg"
