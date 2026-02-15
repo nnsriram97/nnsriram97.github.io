@@ -41,8 +41,7 @@
                 <li><a href="{{ link.url }}" class="nav__link" target="_blank" rel="noopener noreferrer">{{ link.title
                         }}</a></li>
                 {% else %}
-                <li><a href="{{ link.url | relative_url }}"
-                        class="nav__link{% if page.url == link.url %} active{% endif %}">{{ link.title }}</a></li>
+                <li><a href="{{ link.url | relative_url }}" class="nav__link">{{ link.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
