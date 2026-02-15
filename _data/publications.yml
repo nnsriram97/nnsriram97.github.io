@@ -14,6 +14,21 @@
 # Conferences & Preprints
 # ──────────────────────────────────────────────────
 
+- title: "Dual Band Thermal Videography: Separating Time-Varying Reflection and Emission Near Ambient Conditions"
+  authors: "<strong>Sriram Narayanan</strong>, Mani Ramanagopal, Srinivasa G. Narasimhan"
+  venue: "arXiv"
+  year: 2025
+  type: preprint
+  oral: false
+  featured: true
+  highlight: false
+  categories: ["physics-based-vision"]
+  thumbnail: "/images/publications/dbvt_paper.gif"
+  links:
+    - label: "Paper"
+      url: "https://www.arxiv.org/pdf/2509.11334"
+  description: "Introduces a physics-based optimization method that leverages both spectral and temporal cues from heat and light transport to effectively separate time-varying reflection and emission near ambient conditions."
+
 - title: "Resolving Ambiguities in Heat Conduction and Shading"
   authors: "Akihiko Oharazawa, <strong>Sriram Narayanan</strong>, Mani Ramanagopal, Srinivasa G. Narasimhan"
   venue: "International Conference on Computational Photography (ICCP)"
@@ -70,7 +85,7 @@
   featured: true
   highlight: true
   categories: ["physics-based-vision"]
-  thumbnail: "/images/publications/sfhc.jpg"
+  thumbnail: "/images/publications/sfhc_bear.gif"
   links:
     - label: "Project Page"
       url: "https://www.cs.cmu.edu/~ILIM/shape_from_heat/"
