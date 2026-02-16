@@ -26,8 +26,10 @@ news:
     text: "Paper <em>A Hierarchical Network for Diverse Trajectory Proposals</em> accepted at IV 2019."
 ---
 
-I am a Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at the School of Computer Science, Carnegie Mellon University, advised by [Prof. Srinivasa Narasimhan](http://www.cs.cmu.edu/~srinivas/). My research focuses on computer vision and imaging, exploring modalities beyond the visible spectrum to enable new imaging capabilities. I am currently focused on developing novel algorithms that leverage heat transport and light transport to infer shape, material properties, and scene semantics.
+I am a Ph.D. student in the [Robotics Institute](https://www.ri.cmu.edu/) at the School of Computer Science, Carnegie Mellon University, advised by [Prof. Srinivasa Narasimhan](http://www.cs.cmu.edu/~srinivas/). My research lies at the intersection of computer vision, imaging, and robotics, with a focus on moving beyond the visible spectrum to unlock new sensing and inference capabilities. In particular, I develop physically grounded algorithms that leverage heat transport and light transport to infer shape, material properties, and scene semantics from visual data.
 
-Prior to starting my Ph.D., I was a Research Scholar at NEC Laboratories America, where I worked in the [Media Analytics](http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home) department with [Prof. Manmohan Chandraker](https://cseweb.ucsd.edu/~mkchandraker/) on problems related to trajectory prediction and Embodied AI.
+Beyond imaging, I am broadly interested in AI for embodied systems and robotics, with recent work exploring physics-aware world models and controllable video generation as a foundation for multimodal perception and interaction. My research spans not only the development of novel algorithms, but also their deployment on real-world robotic platforms, including autonomous systems operating in complex environments. I care deeply about closing the loop between theory, perception, and real-world execution.
 
-Feel free to connect with me at **snochurn@cs.cmu.edu**.
+Prior to my Ph.D., I was a Research Scholar at NEC Laboratories America in the [Media Analytics](http://www.nec-labs.com/research-departments/media-analytics/media-analytics-home) group, where I worked with [Prof. Manmohan Chandraker](https://cseweb.ucsd.edu/~mkchandraker/) on trajectory prediction and embodied AI, with applications to autonomous driving and robotic perception.
+
+Feel free to connect with me at **snochurn [at] cs.cmu.edu**.
