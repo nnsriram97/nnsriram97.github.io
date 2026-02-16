@@ -888,8 +888,18 @@ footer {
     transition: opacity 1.5s ease;
 }
 
-[data-sensor="thermal"] #thermal-canvas {
-    /* Opacity controlled by JS */
+#visible-camera-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 90;
+    pointer-events: none;
+    opacity: 0;
+    image-rendering: pixelated;
+    mix-blend-mode: soft-light;
+    transition: opacity 0.35s ease;
 }
 
 /* ── Thermal Controls Panel ── */
@@ -1055,6 +1065,30 @@ footer {
         color: #fff;
         border-color: transparent;
         font-weight: 600;
+    }
+}
+
+.camera-presets {
+    display: flex;
+    gap: 0.45rem;
+    margin-bottom: 0.75rem;
+}
+
+.camera-preset-btn {
+    flex: 1;
+    padding: 0.45rem 0.55rem;
+    font-size: 0.78rem;
+    background: linear-gradient(135deg, #7cd4ff, #5ea6ff);
+    color: #0a1b2f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: filter 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+        filter: brightness(1.08);
+        transform: translateY(-1px);
     }
 }
 

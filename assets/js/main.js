@@ -57,12 +57,18 @@
         });
     }
 
-    /* ── Sensor Mode (Thermal Vision) ── */
+    /* ── Sensor Mode (Visible + Thermal) ── */
     const sensorBar = document.getElementById('sensor-bar');
     const thermalTrigger = document.getElementById('thermal-trigger');
     const thermalControls = document.getElementById('thermal-controls');
+    const visibleCameraControls = document.getElementById('visible-camera-controls');
     const getThermalApi = () => window.thermalCanvas;
+    const getVisibleCameraApi = () => window.visibleCameraCanvas;
     const sensorAvatars = document.querySelectorAll('.sensor-avatar');
+    const VISIBLE_PRESETS = {
+        noisy: { exposureMs: 4, iso: 3200, readNoise: 8.0, shotNoiseScale: 1.8 },
+        clean: { exposureMs: 28, iso: 100, readNoise: 1.2, shotNoiseScale: 0.2 }
+    };
 
     function updateSensorAvatars(mode) {
         sensorAvatars.forEach((img) => {
@@ -106,36 +112,91 @@
         if (activeColormap && api.setColormap) api.setColormap(activeColormap.dataset.colormap);
     }
 
+    function applyVisibleCameraControlValues() {
+        const api = getVisibleCameraApi();
+        if (!api || !api.setParameter) return;
+
+        const exposureSlider = document.getElementById('exposure-slider');
+        const gainSlider = document.getElementById('gain-slider');
+        const readNoiseSlider = document.getElementById('read-noise-slider');
+        const shotNoiseSlider = document.getElementById('shot-noise-slider');
+
+        if (exposureSlider) api.setParameter('exposureMs', exposureSlider.value);
+        if (gainSlider) api.setParameter('iso', gainSlider.value);
+        if (readNoiseSlider) api.setParameter('readNoise', readNoiseSlider.value);
+        if (shotNoiseSlider) api.setParameter('shotNoiseScale', shotNoiseSlider.value);
+    }
+
+    function setVisiblePreset(presetName) {
+        const preset = VISIBLE_PRESETS[presetName];
+        if (!preset) return;
+
+        const exposureSlider = document.getElementById('exposure-slider');
+        const gainSlider = document.getElementById('gain-slider');
+        const readNoiseSlider = document.getElementById('read-noise-slider');
+        const shotNoiseSlider = document.getElementById('shot-noise-slider');
+        const exposureValue = document.getElementById('exposure-value');
+        const gainValue = document.getElementById('gain-value');
+        const readNoiseValue = document.getElementById('read-noise-value');
+        const shotNoiseValue = document.getElementById('shot-noise-value');
+
+        if (exposureSlider) exposureSlider.value = String(preset.exposureMs);
+        if (gainSlider) gainSlider.value = String(preset.iso);
+        if (readNoiseSlider) readNoiseSlider.value = String(preset.readNoise);
+        if (shotNoiseSlider) shotNoiseSlider.value = String(preset.shotNoiseScale);
+
+        if (exposureValue) exposureValue.textContent = String(preset.exposureMs);
+        if (gainValue) gainValue.textContent = String(preset.iso);
+        if (readNoiseValue) readNoiseValue.textContent = preset.readNoise.toFixed(1);
+        if (shotNoiseValue) shotNoiseValue.textContent = preset.shotNoiseScale.toFixed(1);
+
+        applyVisibleCameraControlValues();
+    }
+
     function setSensor(mode) {
         const html = document.documentElement;
         const btns = sensorBar ? sensorBar.querySelectorAll('.sensor-btn') : [];
-        const api = getThermalApi();
+        const thermalApi = getThermalApi();
+        const visibleApi = getVisibleCameraApi();
 
         if (mode === 'thermal') {
             html.setAttribute('data-sensor', 'thermal');
             localStorage.setItem('sensor', 'thermal');
             // Start heat simulation if available
-            if (api && api.start) {
-                api.start();
+            if (thermalApi && thermalApi.start) {
+                thermalApi.start();
+            }
+            if (visibleApi && visibleApi.stop) {
+                visibleApi.stop();
             }
             // Show thermal controls
             if (thermalControls) {
                 thermalControls.style.display = 'block';
                 thermalControls.setAttribute('aria-hidden', 'false');
             }
+            if (visibleCameraControls) {
+                visibleCameraControls.style.display = 'none';
+                visibleCameraControls.setAttribute('aria-hidden', 'true');
+            }
             applyThermalControlValues();
         } else {
-            html.removeAttribute('data-sensor');
-            localStorage.setItem('sensor', '');
-            // Stop heat simulation
-            if (api && api.stop) {
-                api.stop();
+            html.setAttribute('data-sensor', 'visible');
+            localStorage.setItem('sensor', 'visible');
+            if (thermalApi && thermalApi.stop) {
+                thermalApi.stop();
             }
-            // Hide thermal controls
+            if (visibleApi && visibleApi.start) {
+                visibleApi.start();
+            }
             if (thermalControls) {
                 thermalControls.style.display = 'none';
                 thermalControls.setAttribute('aria-hidden', 'true');
             }
+            if (visibleCameraControls) {
+                visibleCameraControls.style.display = 'block';
+                visibleCameraControls.setAttribute('aria-hidden', 'false');
+            }
+            applyVisibleCameraControlValues();
         }
 
         updateSensorAvatars(mode);
@@ -164,11 +225,8 @@
         });
     }
 
-    // Restore sensor mode from localStorage
-    const savedSensor = localStorage.getItem('sensor');
-    if (savedSensor === 'thermal') {
-        setSensor('thermal');
-    }
+    // Always start on thermal mode on initial load/refresh.
+    setSensor('thermal');
 
     /* ── Thermal Controls Integration ── */
     if (thermalControls) {
@@ -189,9 +247,9 @@
             diffSlider.addEventListener('input', (e) => {
                 const val = parseFloat(e.target.value);
                 diffValue.textContent = val.toFixed(2);
-                const api = getThermalApi();
-                if (api && api.setParameter) {
-                    api.setParameter('diffusivity', val);
+                const thermalApi = getThermalApi();
+                if (thermalApi && thermalApi.setParameter) {
+                    thermalApi.setParameter('diffusivity', val);
                 }
             });
         }
@@ -203,9 +261,9 @@
             decaySlider.addEventListener('input', (e) => {
                 const val = parseFloat(e.target.value);
                 decayValue.textContent = val.toFixed(3);
-                const api = getThermalApi();
-                if (api && api.setParameter) {
-                    api.setParameter('decay', val);
+                const thermalApi = getThermalApi();
+                if (thermalApi && thermalApi.setParameter) {
+                    thermalApi.setParameter('decay', val);
                 }
             });
         }
@@ -217,9 +275,9 @@
             intensitySlider.addEventListener('input', (e) => {
                 const val = parseFloat(e.target.value);
                 intensityValue.textContent = val.toFixed(1);
-                const api = getThermalApi();
-                if (api && api.setParameter) {
-                    api.setParameter('mouseIntensity', val);
+                const thermalApi = getThermalApi();
+                if (thermalApi && thermalApi.setParameter) {
+                    thermalApi.setParameter('mouseIntensity', val);
                 }
             });
         }
@@ -231,9 +289,9 @@
             radiusSlider.addEventListener('input', (e) => {
                 const val = parseInt(e.target.value, 10);
                 radiusValue.textContent = val;
-                const api = getThermalApi();
-                if (api && api.setParameter) {
-                    api.setParameter('mouseRadius', val);
+                const thermalApi = getThermalApi();
+                if (thermalApi && thermalApi.setParameter) {
+                    thermalApi.setParameter('mouseRadius', val);
                 }
             });
         }
@@ -243,9 +301,9 @@
         colormapButtons.forEach(btn => {
             btn.addEventListener('click', () => {
                 const colormap = btn.dataset.colormap;
-                const api = getThermalApi();
-                if (api && api.setColormap) {
-                    api.setColormap(colormap);
+                const thermalApi = getThermalApi();
+                if (thermalApi && thermalApi.setColormap) {
+                    thermalApi.setColormap(colormap);
                 }
 
                 // Update active state
@@ -253,5 +311,82 @@
                 btn.classList.add('active');
             });
         });
+    }
+
+    /* ── Visible Camera Controls Integration ── */
+    if (visibleCameraControls) {
+        const toggleBtn = document.getElementById('visible-camera-controls-toggle');
+        const controlsContent = document.getElementById('visible-camera-controls-content');
+
+        if (toggleBtn && controlsContent) {
+            toggleBtn.addEventListener('click', () => {
+                controlsContent.classList.toggle('collapsed');
+            });
+        }
+
+        const exposureSlider = document.getElementById('exposure-slider');
+        const exposureValue = document.getElementById('exposure-value');
+        if (exposureSlider && exposureValue) {
+            exposureSlider.addEventListener('input', (e) => {
+                const val = parseInt(e.target.value, 10);
+                exposureValue.textContent = String(val);
+                const api = getVisibleCameraApi();
+                if (api && api.setParameter) {
+                    api.setParameter('exposureMs', val);
+                }
+            });
+        }
+
+        const gainSlider = document.getElementById('gain-slider');
+        const gainValue = document.getElementById('gain-value');
+        if (gainSlider && gainValue) {
+            gainSlider.addEventListener('input', (e) => {
+                const val = parseInt(e.target.value, 10);
+                gainValue.textContent = String(val);
+                const api = getVisibleCameraApi();
+                if (api && api.setParameter) {
+                    api.setParameter('iso', val);
+                }
+            });
+        }
+
+        const readNoiseSlider = document.getElementById('read-noise-slider');
+        const readNoiseValue = document.getElementById('read-noise-value');
+        if (readNoiseSlider && readNoiseValue) {
+            readNoiseSlider.addEventListener('input', (e) => {
+                const val = parseFloat(e.target.value);
+                readNoiseValue.textContent = val.toFixed(1);
+                const api = getVisibleCameraApi();
+                if (api && api.setParameter) {
+                    api.setParameter('readNoise', val);
+                }
+            });
+        }
+
+        const shotNoiseSlider = document.getElementById('shot-noise-slider');
+        const shotNoiseValue = document.getElementById('shot-noise-value');
+        if (shotNoiseSlider && shotNoiseValue) {
+            shotNoiseSlider.addEventListener('input', (e) => {
+                const val = parseFloat(e.target.value);
+                shotNoiseValue.textContent = val.toFixed(1);
+                const api = getVisibleCameraApi();
+                if (api && api.setParameter) {
+                    api.setParameter('shotNoiseScale', val);
+                }
+            });
+        }
+
+        const cleanPresetButton = document.getElementById('visible-clean-preset');
+        const noisyPresetButton = document.getElementById('visible-noisy-preset');
+        if (noisyPresetButton) {
+            noisyPresetButton.addEventListener('click', () => {
+                setVisiblePreset('noisy');
+            });
+        }
+        if (cleanPresetButton) {
+            cleanPresetButton.addEventListener('click', () => {
+                setVisiblePreset('clean');
+            });
+        }
     }
 })();

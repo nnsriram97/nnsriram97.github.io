@@ -16,6 +16,7 @@
 
     <!-- Thermal Heat Diffusion Canvas -->
     <canvas id="thermal-canvas" aria-hidden="true"></canvas>
+    <canvas id="visible-camera-canvas" aria-hidden="true"></canvas>
 
     <!-- Thermal Controls Panel -->
     <div id="thermal-controls" class="thermal-controls" style="display: none;" aria-hidden="true">
@@ -53,16 +54,49 @@
         </div>
     </div>
 
+    <!-- Visible Camera Controls Panel -->
+    <div id="visible-camera-controls" class="thermal-controls" style="display: none;" aria-hidden="true">
+        <button id="visible-camera-controls-toggle" class="thermal-controls-toggle" type="button" aria-label="Toggle visible camera controls">
+            <span class="toggle-icon">📷</span>
+        </button>
+        <div id="visible-camera-controls-content" class="thermal-controls-content collapsed">
+            <div class="thermal-controls-header">
+                <span>📷 Visible Camera Controls</span>
+            </div>
+            <div class="camera-presets">
+                <button id="visible-noisy-preset" class="camera-preset-btn" type="button">Noisy Preset</button>
+                <button id="visible-clean-preset" class="camera-preset-btn" type="button">Clean Preset</button>
+            </div>
+            <div class="thermal-control">
+                <label for="exposure-slider">Exposure Time: <span id="exposure-value">4</span> ms</label>
+                <input type="range" id="exposure-slider" min="1" max="500" step="1" value="4" />
+            </div>
+            <div class="thermal-control">
+                <label for="gain-slider">Gain / ISO: <span id="gain-value">3200</span></label>
+                <input type="range" id="gain-slider" min="100" max="6400" step="50" value="3200" />
+            </div>
+            <div class="thermal-control">
+                <label for="read-noise-slider">Read Noise: <span id="read-noise-value">8.0</span> e-</label>
+                <input type="range" id="read-noise-slider" min="0.5" max="12.0" step="0.1" value="8.0" />
+            </div>
+            <div class="thermal-control">
+                <label for="shot-noise-slider">Shot Noise: <span id="shot-noise-value">1.8</span></label>
+                <input type="range" id="shot-noise-slider" min="0.0" max="2.0" step="0.1" value="1.8" />
+            </div>
+        </div>
+    </div>
+
     <!-- Sensor Toolbar -->
     <div class="sensor-bar" id="sensor-bar" role="toolbar" aria-label="Sensor mode">
-        <button class="sensor-btn active" data-sensor-mode="visible" type="button">
+        <button class="sensor-btn" data-sensor-mode="visible" type="button">
             <span class="sensor-icon">👁️</span> Visible
         </button>
-        <button class="sensor-btn" data-sensor-mode="thermal" type="button">
+        <button class="sensor-btn active" data-sensor-mode="thermal" type="button">
             <span class="sensor-icon">🌡️</span> Thermal
         </button>
     </div>
 
+    <script src="{{ '/assets/js/visible-camera-canvas.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/thermal-canvas.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
 </body>

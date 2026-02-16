@@ -38,7 +38,7 @@
   featured: false
   highlight: false
   categories: ["physics-based-vision"]
-  thumbnail: "/images/publications/iccp25.jpg"
+  thumbnail: "/images/publications/iccp25.gif"
   links: []
   description: "Resolves local convex/concave shape ambiguities by combining shading cues with heat conduction, enabling robust 3D shape recovery without smoothness priors."
 
