@@ -204,7 +204,6 @@
     function onTouchMove(e) {
         if (!active || e.touches.length === 0) return;
         updatePointer(e.touches[0].clientX, e.touches[0].clientY);
-        e.preventDefault();
     }
 
     /* ── Handle window resize ── */
@@ -334,7 +333,7 @@
     function attachListeners() {
         if (!listenersAttached) {
             document.addEventListener('mousemove', onMouseMove, { passive: true });
-            document.addEventListener('touchmove', onTouchMove, { passive: false });
+            document.addEventListener('touchmove', onTouchMove, { passive: true });
             window.addEventListener('resize', handleResize, { passive: true });
             listenersAttached = true;
         }
