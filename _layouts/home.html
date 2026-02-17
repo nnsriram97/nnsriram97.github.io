@@ -8,7 +8,7 @@ layout: default
     <div class="hero__inner">
       <!-- Top row: photo + name/actions -->
       <div class="hero__header">
-        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.title }} photo" class="hero__photo sensor-avatar"
+        <img src="{% if site.owner.thermal_avatar %}{{ site.url }}/images/{{ site.owner.thermal_avatar }}{% else %}{{ '/images/bio-photo-thermal-v1.png' | relative_url }}{% endif %}" alt="{{ site.title }} photo" class="hero__photo sensor-avatar"
           data-visible-src="{{ site.url }}/images/{{ site.owner.avatar }}"
           data-thermal-src="{% if site.owner.thermal_avatar %}{{ site.url }}/images/{{ site.owner.thermal_avatar }}{% else %}{{ '/images/bio-photo-thermal-v1.png' | relative_url }}{% endif %}"
           loading="eager">
