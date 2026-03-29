@@ -782,10 +782,56 @@ footer {
     -webkit-backdrop-filter: blur(1.5px);
 }
 
+[data-sensor="thermal"] .card {
+    border-color: rgba(247, 178, 103, 0.3);
+}
+
+[data-sensor="thermal"] .card__title,
+[data-sensor="thermal"] .card__title a {
+    color: var(--thermal-hot);
+}
+
+[data-sensor="thermal"] .card__meta {
+    color: #f2a65e;
+}
+
+[data-sensor="thermal"] .card__desc {
+    color: #ffd7ae;
+}
+
 /* ── Publication heat-map effect ── */
 [data-sensor="thermal"] .pub-item {
     border-color: var(--thermal-cool);
     transition: border-color 0.6s ease, box-shadow 0.6s ease;
+}
+
+[data-sensor="thermal"] .pub-item__title a,
+[data-sensor="thermal"] .pub-item__authors strong {
+    color: var(--thermal-hot);
+}
+
+[data-sensor="thermal"] .pub-item__authors {
+    color: #ffd7ae;
+}
+
+[data-sensor="thermal"] .pub-item__desc {
+    color: #ffcf94;
+}
+
+[data-sensor="thermal"] .pub-item__links .btn--ghost,
+[data-sensor="thermal"] .card__links .btn--ghost {
+    background: rgba(241, 96, 93, 0.12);
+    color: var(--thermal-hot);
+    border-color: rgba(247, 178, 103, 0.55);
+}
+
+[data-sensor="thermal"] .pub-item__links .btn--ghost:hover,
+[data-sensor="thermal"] .pub-item__links .btn--ghost:focus,
+[data-sensor="thermal"] .card__links .btn--ghost:hover,
+[data-sensor="thermal"] .card__links .btn--ghost:focus {
+    background: var(--thermal-warm);
+    color: #180f3d;
+    border-color: var(--thermal-warm);
 }
 
 [data-sensor="thermal"] .pub-item:hover {
