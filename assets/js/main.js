@@ -225,8 +225,9 @@
         });
     }
 
-    // Always start on thermal mode on initial load/refresh.
-    setSensor('thermal');
+    // Restore the previously selected sensor mode across page navigations.
+    const initialSensor = localStorage.getItem('sensor') === 'visible' ? 'visible' : 'thermal';
+    setSensor(initialSensor);
 
     /* ── Thermal Controls Integration ── */
     if (thermalControls) {
