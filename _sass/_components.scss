@@ -92,6 +92,11 @@
     background: var(--color-bg-alt);
 }
 
+.card__image[src$=".gif" i] {
+    object-fit: contain;
+    padding-block: var(--space-3);
+}
+
 .card__body {
     padding: var(--space-5);
 }
@@ -441,6 +446,11 @@
     object-fit: cover;
     border-radius: var(--radius-md);
     background: var(--color-bg-alt);
+}
+
+.pub-item__thumb[src$=".gif" i] {
+    object-fit: contain;
+    padding-block: var(--space-3);
 }
 
 .pub-item__body {
@@ -812,6 +822,11 @@ footer {
 
 [data-sensor="thermal"] .pub-item__authors {
     color: #ffd7ae;
+}
+
+[data-sensor="thermal"] .pub-item__venue {
+    color: #ff9f1c;
+    text-shadow: 0 0 10px rgba(255, 159, 28, 0.28);
 }
 
 [data-sensor="thermal"] .pub-item__desc {

@@ -98,6 +98,7 @@ layout: default
     <div class="pub-tabs" id="pub-tabs" role="tablist">
       <button class="pub-tab active" data-tab="selected" role="tab" aria-selected="true">Selected</button>
       <button class="pub-tab" data-tab="all" role="tab" aria-selected="false">All</button>
+      <button class="pub-tab" data-tab="gen-ai" role="tab" aria-selected="false">Generative AI</button>
       <button class="pub-tab" data-tab="physics-based-vision" role="tab" aria-selected="false">Physics-based
         Vision</button>
       <button class="pub-tab" data-tab="autonomous-driving" role="tab" aria-selected="false">Autonomous Driving</button>
@@ -177,7 +178,7 @@ layout: default
     </div>
 
     <!-- Category tab panels -->
-    {% assign category_ids = "physics-based-vision,autonomous-driving,robotics-embodied-ai" | split: "," %}
+    {% assign category_ids = "gen-ai,physics-based-vision,autonomous-driving,robotics-embodied-ai" | split: "," %}
     {% for cat_id in category_ids %}
     <div class="pub-panel hidden" id="panel-{{ cat_id }}" role="tabpanel">
       {% assign cat_pubs = site.data.publications | where_exp: "pub", "pub.categories contains cat_id" | sort: "year" |

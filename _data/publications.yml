@@ -1,7 +1,7 @@
 # Publications & Patents
 # Fields: title, authors, venue, year, type (conference|patent|preprint), oral (bool),
 #         thumbnail, links, description, featured (bool), highlight (bool),
-#         categories (list: physics-based-vision, autonomous-driving, robotics-embodied-ai, generative-ai)
+#         categories (list: gen-ai, physics-based-vision, autonomous-driving, robotics-embodied-ai)
 #
 # To add a new publication:
 #   1. Add an entry below in the correct chronological position
@@ -13,6 +13,23 @@
 # ──────────────────────────────────────────────────
 # Conferences & Preprints
 # ──────────────────────────────────────────────────
+
+- title: "PhyCo: Learning Controllable Physical Priors for Generative Motion"
+  authors: "<strong>Sriram Narayanan</strong>, Ziyu Jiang, Srinivasa G. Narasimhan, Manmohan Chandraker"
+  venue: "Computer Vision and Pattern Recognition (CVPR)"
+  year: 2026
+  type: conference
+  oral: false
+  featured: true
+  highlight: false
+  categories: ["gen-ai", "robotics-embodied-ai"]
+  thumbnail: "/images/publications/phyco_cvpr26.gif"
+  links:
+    - label: "Project Page"
+      url: "http://phyco-video.github.io/"
+    - label: "Paper"
+      url: "https://phyco-video.github.io/PhyCo_CVPR2026.pdf"
+  description: "PhyCo learns controllable physical priors—friction, restitution, deformation, and force—from simple simulations, enabling physically consistent and continuously controllable video generation without a simulator at inference."
 
 - title: "Dual Band Thermal Videography: Separating Time-Varying Reflection and Emission Near Ambient Conditions"
   authors: "<strong>Sriram Narayanan</strong>, Mani Ramanagopal, Srinivasa G. Narasimhan"
@@ -46,9 +63,9 @@
 
 - title: "Indoor Light and Heat Estimation from a Single Panorama"
   authors: "Guanzhou Ji, <strong>Sriram Narayanan</strong>, Azadeh Sawyer, Srinivasa G. Narasimhan"
-  venue: "arXiv"
+  venue: "International Symposium on Visual Computing (ISVC)"
   year: 2025
-  type: preprint
+  type: conference
   oral: false
   featured: false
   highlight: false

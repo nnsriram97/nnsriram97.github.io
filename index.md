@@ -2,6 +2,8 @@
 layout: home
 title: Home
 news:
+  - date: "03/26"
+    text: <a href="http://phyco-video.github.io/">PhyCo</a> and <a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> accepted to CVPR 2026.
   - date: "06/25"
     text: "Paper on resolving ambiguities in shape-from-heat conduction accepted to ICCP 2025."
   - date: "07/24"
