@@ -58,7 +58,13 @@
   highlight: false
   categories: ["physics-based-vision"]
   thumbnail: "/images/publications/iccp25.gif"
-  links: []
+  links:
+    - label: "Project Page"
+      url: "https://imaging.cs.cmu.edu/shape_from_laplacian_and_shading/"
+    - label: "Paper"
+      url: "https://imaging.cs.cmu.edu/shape_from_laplacian_and_shading/static/files/shape_from_laplacian_and_shading_ICCP2025.pdf"
+    - label: "Code"
+      url: "https://github.com/akihikooharazawa/Shape-from-Laplacian-and-Shading"
   description: "Resolves local convex/concave shape ambiguities by combining shading cues with heat conduction, enabling robust 3D shape recovery without smoothness priors."
 
 - title: "Indoor Light and Heat Estimation from a Single Panorama"
