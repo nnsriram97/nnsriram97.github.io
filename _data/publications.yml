@@ -16,18 +16,20 @@
 
 - title: "Dual Band Thermal Videography: Separating Time-Varying Reflection and Emission Near Ambient Conditions"
   authors: "<strong>Sriram Narayanan</strong>, Mani Ramanagopal, Srinivasa G. Narasimhan"
-  venue: "arXiv"
-  year: 2025
-  type: preprint
+  venue: "Computer Vision and Pattern Recognition (CVPR)"
+  year: 2026
+  type: conference
   oral: false
   featured: true
   highlight: false
   categories: ["physics-based-vision"]
   thumbnail: "/images/publications/dbvt_paper.gif"
   links:
+    - label: "Project Page"
+      url: "https://dual-band-thermal.github.io/"
     - label: "Paper"
       url: "https://www.arxiv.org/pdf/2509.11334"
-  description: "Introduces a physics-based optimization method that leverages both spectral and temporal cues from heat and light transport to effectively separate time-varying reflection and emission near ambient conditions."
+  description: "Proposes a physics-based optimization method that leverages both spectral and temporal cues from heat and light transport to effectively separate time-varying reflection and emission near ambient conditions."
 
 - title: "Resolving Ambiguities in Heat Conduction and Shading"
   authors: "Akihiko Oharazawa, <strong>Sriram Narayanan</strong>, Mani Ramanagopal, Srinivasa G. Narasimhan"

@@ -12,10 +12,10 @@
     const MAX_DPR = 1.5;
     const CANVAS_OPACITY = 0.72;
 
-    let exposureMs = 4;
-    let iso = 3200;
-    let readNoise = 8.0;
-    let shotNoiseScale = 1.8;
+    let exposureMs = 11;
+    let iso = 800;
+    let readNoise = 1.2;
+    let shotNoiseScale = 0.2;
 
     let canvas;
     let ctx;
