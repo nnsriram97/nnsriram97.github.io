@@ -48,6 +48,19 @@
       url: "https://www.arxiv.org/pdf/2509.11334"
   description: "Proposes a physics-based optimization method that leverages both spectral and temporal cues from heat and light transport to effectively separate time-varying reflection and emission near ambient conditions."
 
+- title: "A Theory of Shape Reconstruction from Heat Conduction and Shading"
+  authors: "Akihiko Oharazawa, <strong>Sriram Narayanan</strong>, Mani Ramanagopal, Srinivasa G. Narasimhan"
+  venue: "Transactions on Pattern Analysis and Machine Intelligence (Under submission)"
+  year: 2026
+  type: journal
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["physics-based-vision"]
+  thumbnail: "/images/publications/tpami_26.jpg"
+  links: []
+  description: "Heat + light together resolve shape ambiguity—recovering accurate 3D geometry from a single thermal video and image without priors or calibrated lighting."
+
 - title: "Resolving Ambiguities in Heat Conduction and Shading"
   authors: "Akihiko Oharazawa, <strong>Sriram Narayanan</strong>, Mani Ramanagopal, Srinivasa G. Narasimhan"
   venue: "International Conference on Computational Photography (ICCP)"
