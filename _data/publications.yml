@@ -21,7 +21,7 @@
   type: conference
   oral: false
   featured: true
-  highlight: false
+  highlight: true
   categories: ["gen-ai", "robotics-embodied-ai"]
   thumbnail: "/images/publications/phyco_cvpr26.gif"
   links:
@@ -36,7 +36,7 @@
   venue: "Computer Vision and Pattern Recognition (CVPR)"
   year: 2026
   type: conference
-  oral: false
+  oral: true
   featured: true
   highlight: false
   categories: ["physics-based-vision"]
