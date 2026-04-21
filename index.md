@@ -2,6 +2,8 @@
 layout: home
 title: Home
 news:
+  - date: "04/26"
+    text: '<a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> got accepted to CVPR 2026 as an <strong><span style="color:var(--color-oral-badge)">(Oral)</span></strong> paper.'
   - date: "03/26"
     text: <a href="http://phyco-video.github.io/">PhyCo</a> and <a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> accepted to CVPR 2026.
   - date: "06/25"
