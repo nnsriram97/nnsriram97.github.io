@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="" data-sensor="thermal">
+<html lang="en" data-theme="" data-sensor="visible">
 
 <head>
     {% include head.html %}
@@ -88,10 +88,10 @@
 
     <!-- Sensor Toolbar -->
     <div class="sensor-bar" id="sensor-bar" role="toolbar" aria-label="Sensor mode">
-        <button class="sensor-btn" data-sensor-mode="visible" type="button">
+        <button class="sensor-btn active" data-sensor-mode="visible" type="button">
             <span class="sensor-icon">👁️</span> Visible
         </button>
-        <button class="sensor-btn active" data-sensor-mode="thermal" type="button">
+        <button class="sensor-btn" data-sensor-mode="thermal" type="button">
             <span class="sensor-icon">🌡️</span> Thermal
         </button>
     </div>

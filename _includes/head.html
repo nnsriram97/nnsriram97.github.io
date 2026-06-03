@@ -52,9 +52,7 @@
         } else {
             document.documentElement.setAttribute('data-theme', 'light');
         }
-        var sensor = localStorage.getItem('sensor');
-        if (sensor === 'visible' || sensor === 'thermal') {
-            document.documentElement.setAttribute('data-sensor', sensor);
-        }
+        var sensor = localStorage.getItem('sensor') === 'thermal' ? 'thermal' : 'visible';
+        document.documentElement.setAttribute('data-sensor', sensor);
     })();
 </script>

@@ -226,7 +226,7 @@
     }
 
     // Restore the previously selected sensor mode across page navigations.
-    const initialSensor = localStorage.getItem('sensor') === 'visible' ? 'visible' : 'thermal';
+    const initialSensor = localStorage.getItem('sensor') === 'thermal' ? 'thermal' : 'visible';
     setSensor(initialSensor);
 
     /* ── Thermal Controls Integration ── */
