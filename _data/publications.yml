@@ -37,8 +37,9 @@
   year: 2026
   type: conference
   oral: true
+  award: "Best Paper Finalist"
   featured: true
-  highlight: false
+  highlight: true
   categories: ["physics-based-vision"]
   thumbnail: "/images/publications/dbvt_paper.gif"
   links:

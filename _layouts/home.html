@@ -123,6 +123,7 @@ layout: default
             <div class="pub-item__venue">
               {{ pub.venue }}, {{ pub.year }}
               {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
+                {% if pub.award %}<span class="pub-item__badge pub-item__badge--award"><span class="badge-icon">🥇</span> {{ pub.award }}</span>{% endif %}
             </div>
             {% if pub.description %}<div class="pub-item__desc">{{ pub.description }}</div>{% endif %}
             {% if pub.links.size > 0 %}
@@ -159,6 +160,7 @@ layout: default
               <div class="pub-item__venue">
                 {{ pub.venue }}, {{ pub.year }}
                 {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
+                {% if pub.award %}<span class="pub-item__badge pub-item__badge--award"><span class="badge-icon">🥇</span> {{ pub.award }}</span>{% endif %}
               </div>
               {% if pub.description %}<div class="pub-item__desc">{{ pub.description }}</div>{% endif %}
               {% if pub.links.size > 0 %}
@@ -201,6 +203,7 @@ layout: default
               <div class="pub-item__venue">
                 {{ pub.venue }}, {{ pub.year }}
                 {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
+                {% if pub.award %}<span class="pub-item__badge pub-item__badge--award"><span class="badge-icon">🥇</span> {{ pub.award }}</span>{% endif %}
               </div>
               {% if pub.description %}<div class="pub-item__desc">{{ pub.description }}</div>{% endif %}
               {% if pub.links.size > 0 %}

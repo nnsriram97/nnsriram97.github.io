@@ -510,6 +510,11 @@
     }
 }
 
+.pub-item__badge--award {
+    color: #b45309;
+    background: rgba(245, 158, 11, 0.16);
+}
+
 .pub-item__links {
     display: flex;
     flex-wrap: wrap;
@@ -869,6 +874,11 @@ footer {
 [data-sensor="thermal"] .pub-item__badge {
     color: var(--thermal-hot);
     background: rgba(252, 255, 164, 0.15);
+}
+
+[data-sensor="thermal"] .pub-item__badge--award {
+    color: #ffd27d;
+    background: rgba(255, 184, 77, 0.18);
 }
 
 /* ── Publication thumbnails thermal filter ── */
