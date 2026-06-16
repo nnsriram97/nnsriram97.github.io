@@ -123,13 +123,17 @@ layout: default
             <div class="pub-item__venue">
               {{ pub.venue }}, {{ pub.year }}
               {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
-                {% if pub.award %}<span class="pub-item__badge pub-item__badge--award"><span class="badge-icon">🥇</span> {{ pub.award }}</span>{% endif %}
             </div>
+            {% if pub.awards %}
+            <div class="pub-item__awards">
+              {% for award in pub.awards %}{% assign award_icon = award.icon | default: "🥇" %}{% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener noreferrer" class="pub-item__badge pub-item__badge--award"{% if award.title %} title="{{ award.title }}"{% endif %}><span class="badge-icon">{{ award_icon }}</span> {{ award.label }}</a>{% else %}<span class="pub-item__badge pub-item__badge--award"{% if award.title %} title="{{ award.title }}"{% endif %}><span class="badge-icon">{{ award_icon }}</span> {{ award.label }}</span>{% endif %}{% endfor %}
+            </div>
+            {% endif %}
             {% if pub.description %}<div class="pub-item__desc">{{ pub.description }}</div>{% endif %}
             {% if pub.links.size > 0 %}
             <div class="pub-item__links">
               {% for link in pub.links %}
-              <a href="{{ link.url }}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">{{
+              <a href="{{ link.url }}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">{% include link-icon.html label=link.label %}{{
                 link.label }}</a>
               {% endfor %}
             </div>
@@ -160,13 +164,17 @@ layout: default
               <div class="pub-item__venue">
                 {{ pub.venue }}, {{ pub.year }}
                 {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
-                {% if pub.award %}<span class="pub-item__badge pub-item__badge--award"><span class="badge-icon">🥇</span> {{ pub.award }}</span>{% endif %}
               </div>
+              {% if pub.awards %}
+              <div class="pub-item__awards">
+                {% for award in pub.awards %}{% assign award_icon = award.icon | default: "🥇" %}{% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener noreferrer" class="pub-item__badge pub-item__badge--award"{% if award.title %} title="{{ award.title }}"{% endif %}><span class="badge-icon">{{ award_icon }}</span> {{ award.label }}</a>{% else %}<span class="pub-item__badge pub-item__badge--award"{% if award.title %} title="{{ award.title }}"{% endif %}><span class="badge-icon">{{ award_icon }}</span> {{ award.label }}</span>{% endif %}{% endfor %}
+              </div>
+              {% endif %}
               {% if pub.description %}<div class="pub-item__desc">{{ pub.description }}</div>{% endif %}
               {% if pub.links.size > 0 %}
               <div class="pub-item__links">
                 {% for link in pub.links %}
-                <a href="{{ link.url }}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">{{
+                <a href="{{ link.url }}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">{% include link-icon.html label=link.label %}{{
                   link.label }}</a>
                 {% endfor %}
               </div>
@@ -203,13 +211,17 @@ layout: default
               <div class="pub-item__venue">
                 {{ pub.venue }}, {{ pub.year }}
                 {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
-                {% if pub.award %}<span class="pub-item__badge pub-item__badge--award"><span class="badge-icon">🥇</span> {{ pub.award }}</span>{% endif %}
               </div>
+              {% if pub.awards %}
+              <div class="pub-item__awards">
+                {% for award in pub.awards %}{% assign award_icon = award.icon | default: "🥇" %}{% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener noreferrer" class="pub-item__badge pub-item__badge--award"{% if award.title %} title="{{ award.title }}"{% endif %}><span class="badge-icon">{{ award_icon }}</span> {{ award.label }}</a>{% else %}<span class="pub-item__badge pub-item__badge--award"{% if award.title %} title="{{ award.title }}"{% endif %}><span class="badge-icon">{{ award_icon }}</span> {{ award.label }}</span>{% endif %}{% endfor %}
+              </div>
+              {% endif %}
               {% if pub.description %}<div class="pub-item__desc">{{ pub.description }}</div>{% endif %}
               {% if pub.links.size > 0 %}
               <div class="pub-item__links">
                 {% for link in pub.links %}
-                <a href="{{ link.url }}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">{{
+                <a href="{{ link.url }}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">{% include link-icon.html label=link.label %}{{
                   link.label }}</a>
                 {% endfor %}
               </div>
@@ -240,7 +252,7 @@ layout: default
           <p class="card__desc">{{ project.description }}</p>
           <div class="card__links">
             {% for link in project.links %}
-            <a href="{{ link.url }}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">{{
+            <a href="{{ link.url }}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener noreferrer">{% include link-icon.html label=link.label %}{{
               link.label }}</a>
             {% endfor %}
           </div>

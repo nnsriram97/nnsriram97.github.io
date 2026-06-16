@@ -2,8 +2,10 @@
 layout: home
 title: Home
 news:
+  - date: "06/26"
+    text: '<a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> won the <strong><span style="color:var(--color-oral-badge)">Best Poster Award</span></strong> at the <a href="https://alumni.media.mit.edu/~ayush/CCD/">Computational Cameras and Displays (CCD)</a> workshop, CVPRW 2026! 🎉'
   - date: "04/26"
-    text: '<a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> accepted to CVPR 2026 as an <strong><span style="color:var(--color-oral-badge)">(Oral)</span></strong> and named a <strong><span style="color:var(--color-oral-badge)">Best Paper Finalist</span></strong>! 🎉'
+    text: '<a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> accepted to CVPR 2026 as an <strong><span style="color:var(--color-oral-badge)">(Oral)</span></strong> and named a <strong><span style="color:var(--color-oral-badge)">Best Paper Candidate</span></strong>! 🎉'
   - date: "03/26"
     text: <a href="http://phyco-video.github.io/">PhyCo</a> and <a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> accepted to CVPR 2026.
   - date: "06/25"

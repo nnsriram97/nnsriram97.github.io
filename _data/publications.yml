@@ -29,6 +29,14 @@
       url: "http://phyco-video.github.io/"
     - label: "Paper"
       url: "https://phyco-video.github.io/PhyCo_CVPR2026.pdf"
+    - label: "Code"
+      url: "https://github.com/nnsriram97/phyco"
+    - label: "Simulator"
+      url: "https://github.com/nnsriram97/phyco-sim"
+    - label: "Dataset"
+      url: "https://huggingface.co/datasets/nnsriram97/phyco_kubric"
+    - label: "Twitter"
+      url: "https://x.com/nnsriram97/status/2065224498421661906"
   description: "PhyCo learns controllable physical priors—friction, restitution, deformation, and force—from simple simulations, enabling physically consistent and continuously controllable video generation without a simulator at inference."
 
 - title: "Dual Band Thermal Videography: Separating Time-Varying Reflection and Emission Near Ambient Conditions"
@@ -37,7 +45,12 @@
   year: 2026
   type: conference
   oral: true
-  award: "Best Paper Finalist"
+  awards:
+    - label: "Best Paper Candidate"
+    - label: "Best Poster Award · CCD, CVPRW '26"
+      icon: "🏅"
+      url: "https://alumni.media.mit.edu/~ayush/CCD/"
+      title: "Best Poster — Computational Cameras and Displays (CCD) Workshop, CVPR 2026"
   featured: true
   highlight: true
   categories: ["physics-based-vision"]
