@@ -1,0 +1,9 @@
+{% comment %} Renders publication thumbnail as video (mp4) or image {% endcomment %}
+{% assign thumb = include.pub.thumbnail %}
+{% if thumb contains ".mp4" %}
+<video class="pub-item__thumb" autoplay muted loop playsinline aria-label="{{ include.pub.title }}">
+  <source src="{{ thumb }}" type="video/mp4">
+</video>
+{% else %}
+<img src="{{ thumb }}" alt="{{ include.pub.title }}" class="pub-item__thumb" loading="lazy">
+{% endif %}

@@ -1,0 +1,9 @@
+{% comment %} Renders venue line(s); supports venues: list or venue: string {% endcomment %}
+{% if include.pub.venues %}
+  {% for v in include.pub.venues %}
+    {% if forloop.last %}{{ v }}, {{ include.pub.year }}{% else %}{{ v }}<br>{% endif %}
+  {% endfor %}
+{% else %}
+  {{ include.pub.venue }}, {{ include.pub.year }}
+{% endif %}
+{% if include.pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}

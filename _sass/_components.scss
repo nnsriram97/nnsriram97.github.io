@@ -455,6 +455,12 @@
     background: var(--color-bg-alt);
 }
 
+video.pub-item__thumb {
+    display: block;
+    object-fit: contain;
+    background: #000;
+}
+
 .pub-item__thumb[src$=".gif" i] {
     object-fit: contain;
     padding-block: var(--space-3);
@@ -910,7 +916,8 @@ footer {
 }
 
 /* ── Publication thumbnails thermal filter ── */
-[data-sensor="thermal"] .pub-item__thumb img {
+[data-sensor="thermal"] img.pub-item__thumb,
+[data-sensor="thermal"] video.pub-item__thumb {
     filter: grayscale(100%) brightness(1.05) sepia(100%) hue-rotate(-15deg) saturate(3.5) contrast(1.1);
     transition: filter 0.6s ease;
 }

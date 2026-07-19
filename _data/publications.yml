@@ -1,6 +1,7 @@
 # Publications & Patents
-# Fields: title, authors, venue, year, type (conference|patent|preprint), oral (bool),
-#         thumbnail, links, description, featured (bool), highlight (bool),
+# Fields: title, authors, venue (string) or venues (list for multi-line), year,
+#         type (conference|patent|preprint|journal), oral (bool),
+#         thumbnail (image or .mp4), links, description, featured (bool), highlight (bool),
 #         categories (list: gen-ai, physics-based-vision, autonomous-driving, robotics-embodied-ai)
 #
 # To add a new publication:
@@ -13,6 +14,27 @@
 # ──────────────────────────────────────────────────
 # Conferences & Preprints
 # ──────────────────────────────────────────────────
+
+- title: "Revealing Subtle Heat Flows all around us using Microbolometric Videos"
+  authors: "Mani Ramanagopal, Akihiko Oharazawa, <strong>Sriram Narayanan</strong>, Zeqing Yuan, Srinivasa G. Narasimhan"
+  venues:
+    - "International Conference on Computational Photography (ICCP)"
+    - "Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+  year: 2026
+  type: journal
+  oral: false
+  featured: false
+  highlight: false
+  categories: ["physics-based-vision"]
+  thumbnail: "/images/publications/2026-ICCP.mp4"
+  links:
+    - label: "Project Page"
+      url: "https://revealing-subtle-heat.github.io/"
+    - label: "Paper"
+      url: "https://revealing-subtle-heat.github.io/static/paper.pdf"
+    - label: "Poster"
+      url: "https://revealing-subtle-heat.github.io/static/poster.pdf"
+  description: "Shows that a per-pixel temporal transform followed by spatial denoising in the coefficient domain can extract rich spatiotemporal heat flows from noisy, low-cost microbolometric videos."
 
 - title: "PhyCo: Learning Controllable Physical Priors for Generative Motion"
   authors: "<strong>Sriram Narayanan</strong>, Ziyu Jiang, Srinivasa G. Narasimhan, Manmohan Chandraker"

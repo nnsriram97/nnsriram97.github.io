@@ -112,7 +112,7 @@ layout: default
         {% assign featured_pubs = site.data.publications | where: "featured", true | sort: "year" | reverse %}
         {% for pub in featured_pubs %}
         <div class="pub-item{% if pub.highlight %} pub-item--highlight{% endif %}">
-          <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" class="pub-item__thumb" loading="lazy">
+          {% include pub-thumb.html pub=pub %}
           <div class="pub-item__body">
             <div class="pub-item__title">
               {% if pub.links.size > 0 %}
@@ -121,8 +121,7 @@ layout: default
             </div>
             <div class="pub-item__authors">{{ pub.authors }}</div>
             <div class="pub-item__venue">
-              {{ pub.venue }}, {{ pub.year }}
-              {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
+              {% include pub-venue.html pub=pub %}
             </div>
             {% if pub.awards %}
             <div class="pub-item__awards">
@@ -153,7 +152,7 @@ layout: default
         <div class="stack">
           {% for pub in year_group.items %}
           <div class="pub-item{% if pub.highlight %} pub-item--highlight{% endif %}">
-            <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" class="pub-item__thumb" loading="lazy">
+            {% include pub-thumb.html pub=pub %}
             <div class="pub-item__body">
               <div class="pub-item__title">
                 {% if pub.links.size > 0 %}
@@ -162,8 +161,7 @@ layout: default
               </div>
               <div class="pub-item__authors">{{ pub.authors }}</div>
               <div class="pub-item__venue">
-                {{ pub.venue }}, {{ pub.year }}
-                {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
+                {% include pub-venue.html pub=pub %}
               </div>
               {% if pub.awards %}
               <div class="pub-item__awards">
@@ -200,7 +198,7 @@ layout: default
         <div class="stack">
           {% for pub in year_group.items %}
           <div class="pub-item{% if pub.highlight %} pub-item--highlight{% endif %}">
-            <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" class="pub-item__thumb" loading="lazy">
+            {% include pub-thumb.html pub=pub %}
             <div class="pub-item__body">
               <div class="pub-item__title">
                 {% if pub.links.size > 0 %}
@@ -209,8 +207,7 @@ layout: default
               </div>
               <div class="pub-item__authors">{{ pub.authors }}</div>
               <div class="pub-item__venue">
-                {{ pub.venue }}, {{ pub.year }}
-                {% if pub.oral %}<span class="pub-item__badge"><span class="badge-icon">🏆</span> Oral</span>{% endif %}
+                {% include pub-venue.html pub=pub %}
               </div>
               {% if pub.awards %}
               <div class="pub-item__awards">
