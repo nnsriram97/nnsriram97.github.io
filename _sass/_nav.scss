@@ -17,9 +17,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: var(--space-3);
     max-width: var(--max-width);
     margin: 0 auto;
     padding: var(--space-3) var(--space-6);
+    position: relative;
 }
 
 .nav__brand {
@@ -31,6 +33,7 @@
     color: var(--color-heading);
     text-decoration: none;
     transition: color var(--transition-fast);
+    min-width: 0;
 
     &:hover {
         color: var(--color-accent);
@@ -82,8 +85,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
     padding: 0;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
@@ -91,7 +94,6 @@
     color: var(--color-text-muted);
     cursor: pointer;
     transition: all var(--transition-fast);
-    margin-left: var(--space-2);
 
     &:hover {
         background: var(--color-bg-alt);
@@ -103,6 +105,13 @@
         width: 1.15rem;
         height: 1.15rem;
     }
+}
+
+.nav__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    flex-shrink: 0;
 }
 
 /* ── Hamburger (mobile) ── */
@@ -164,6 +173,14 @@
 
 /* ── Mobile styles ── */
 @media (max-width: 48em) {
+    .nav__inner {
+        padding: var(--space-3) var(--space-4);
+    }
+
+    .nav__brand {
+        font-size: 1rem;
+    }
+
     .nav__hamburger {
         display: flex;
     }
@@ -177,7 +194,7 @@
         background: var(--color-surface);
         border-bottom: 1px solid var(--color-border);
         box-shadow: var(--shadow-lg);
-        padding: var(--space-4) var(--space-6);
+        padding: var(--space-3) var(--space-4);
 
         &.open {
             display: block;
@@ -191,18 +208,12 @@
     }
 
     .nav__link {
-        padding: var(--space-3) var(--space-2);
+        padding: 0.85rem var(--space-2);
         border-bottom: 1px solid var(--color-border);
 
         &:last-child {
             border-bottom: none;
         }
-    }
-
-    .nav__actions {
-        display: flex;
-        align-items: center;
-        gap: var(--space-2);
     }
 }
 
@@ -211,5 +222,10 @@
         display: flex !important;
         align-items: center;
         gap: var(--space-2);
+        margin-left: auto;
+    }
+
+    .nav__actions {
+        margin-left: var(--space-2);
     }
 }

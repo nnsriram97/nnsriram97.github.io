@@ -21,9 +21,28 @@
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');
     if (navToggle && navMenu) {
-        navToggle.addEventListener('click', () => {
-            const open = navMenu.classList.toggle('open');
-            navToggle.setAttribute('aria-expanded', open);
+        const setNavOpen = (open) => {
+            navMenu.classList.toggle('open', open);
+            navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        };
+
+        navToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            setNavOpen(!navMenu.classList.contains('open'));
+        });
+
+        navMenu.querySelectorAll('a').forEach((link) => {
+            link.addEventListener('click', () => setNavOpen(false));
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!navMenu.classList.contains('open')) return;
+            if (navMenu.contains(e.target) || navToggle.contains(e.target)) return;
+            setNavOpen(false);
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') setNavOpen(false);
         });
     }
 
@@ -58,8 +77,6 @@
     }
 
     /* ── Sensor Mode (Visible + Thermal) ── */
-    const sensorBar = document.getElementById('sensor-bar');
-    const thermalTrigger = document.getElementById('thermal-trigger');
     const thermalControls = document.getElementById('thermal-controls');
     const visibleCameraControls = document.getElementById('visible-camera-controls');
     const getThermalApi = () => window.thermalCanvas;
@@ -153,23 +170,45 @@
         applyVisibleCameraControlValues();
     }
 
-    function setSensor(mode) {
+    const sensorWash = document.getElementById('sensor-wash');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const SENSOR_WASH_MIDPOINT_MS = 220;
+    let sensorSwitchTimer = null;
+
+    function syncSensorButtons(mode) {
+        document.querySelectorAll('[data-sensor-mode]').forEach((btn) => {
+            const on = btn.dataset.sensorMode === mode;
+            btn.classList.toggle('active', on);
+            if (btn.hasAttribute('aria-pressed')) {
+                btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+            }
+        });
+    }
+
+    function triggerSensorWash(mode) {
+        if (!sensorWash || prefersReducedMotion) return;
+
+        sensorWash.classList.remove('is-sweeping-thermal', 'is-sweeping-visible');
+        void sensorWash.offsetWidth; // restart CSS animation
+        sensorWash.classList.add(
+            mode === 'thermal' ? 'is-sweeping-thermal' : 'is-sweeping-visible'
+        );
+    }
+
+    function applySensorMode(mode) {
         const html = document.documentElement;
-        const btns = sensorBar ? sensorBar.querySelectorAll('.sensor-btn') : [];
         const thermalApi = getThermalApi();
         const visibleApi = getVisibleCameraApi();
 
         if (mode === 'thermal') {
             html.setAttribute('data-sensor', 'thermal');
             localStorage.setItem('sensor', 'thermal');
-            // Start heat simulation if available
             if (thermalApi && thermalApi.start) {
                 thermalApi.start();
             }
             if (visibleApi && visibleApi.stop) {
                 visibleApi.stop();
             }
-            // Show thermal controls
             if (thermalControls) {
                 thermalControls.style.display = 'block';
                 thermalControls.setAttribute('aria-hidden', 'false');
@@ -200,34 +239,45 @@
         }
 
         updateSensorAvatars(mode);
-
-        // Update active button
-        btns.forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.sensorMode === mode);
-        });
+        syncSensorButtons(mode);
     }
 
-    // Sensor bar button clicks
-    if (sensorBar) {
-        sensorBar.querySelectorAll('.sensor-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                setSensor(btn.dataset.sensorMode);
-            });
-        });
+    function setSensor(mode, animate) {
+        const nextMode = mode === 'thermal' ? 'thermal' : 'visible';
+        const currentMode = document.documentElement.getAttribute('data-sensor');
+        const shouldAnimate = Boolean(animate) && !prefersReducedMotion && currentMode !== nextMode;
+
+        if (sensorSwitchTimer) {
+            window.clearTimeout(sensorSwitchTimer);
+            sensorSwitchTimer = null;
+        }
+
+        // Reflect the user's choice on every mode control immediately.
+        syncSensorButtons(nextMode);
+
+        if (shouldAnimate) {
+            triggerSensorWash(nextMode);
+            // Flip palette / canvases at the wash peak so the swap feels intentional.
+            sensorSwitchTimer = window.setTimeout(() => {
+                sensorSwitchTimer = null;
+                applySensorMode(nextMode);
+            }, SENSOR_WASH_MIDPOINT_MS);
+            return;
+        }
+
+        applySensorMode(nextMode);
     }
 
-    // Tagline "feeling the heat" trigger
-    // (Note: Element might not exist if removed, but keeping logic safe)
-    if (thermalTrigger) {
-        thermalTrigger.addEventListener('click', () => {
-            const current = document.documentElement.getAttribute('data-sensor');
-            setSensor(current === 'thermal' ? 'visible' : 'thermal');
+    // Hero spectrum + floating sensor bar share the same mode controls.
+    document.querySelectorAll('[data-sensor-mode]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+            setSensor(btn.dataset.sensorMode, true);
         });
-    }
+    });
 
-    // Restore the previously selected sensor mode across page navigations.
+    // Restore the previously selected sensor mode across page navigations (no wash).
     const initialSensor = localStorage.getItem('sensor') === 'thermal' ? 'thermal' : 'visible';
-    setSensor(initialSensor);
+    setSensor(initialSensor, false);
 
     /* ── Thermal Controls Integration ── */
     if (thermalControls) {

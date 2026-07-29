@@ -55,8 +55,9 @@
 }
 
 .btn--sm {
-    padding: var(--space-1) var(--space-3);
+    padding: 0.45rem 0.75rem;
     font-size: 0.8rem;
+    min-height: 2.25rem;
 }
 
 .btn--ghost {
@@ -81,9 +82,11 @@
     overflow: hidden;
     transition: transform var(--transition-base), box-shadow var(--transition-base);
 
-    &:hover {
-        transform: translateY(-3px);
-        box-shadow: var(--shadow-lg);
+    @media (hover: hover) {
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
     }
 }
 
@@ -223,14 +226,94 @@
     gap: var(--space-8);
 }
 
-.hero__photo {
+.hero__portrait {
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    width: 220px;
+}
+
+.hero__photo {
     width: 220px;
     height: 220px;
     border-radius: var(--radius-xl);
     object-fit: cover;
     border: 4px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Quiet spectrum switch under the portrait — reads as a figure caption */
+.hero__spectrum {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding: 0.18rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.hero__spectrum-btn {
+    appearance: none;
+    margin: 0;
+    padding: 0.5rem 0.95rem;
+    min-height: 2.35rem;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: rgba(148, 163, 184, 0.85);
+    font-family: inherit;
+    font-size: 0.7rem;
+    font-weight: 650;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+
+.hero__spectrum-btn::after {
+    display: none;
+}
+
+.hero__spectrum-btn:hover {
+    color: rgba(248, 250, 252, 0.95);
+}
+
+.hero__spectrum-btn.active {
+    color: #f8fafc;
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.hero__spectrum-btn:focus-visible {
+    outline: 2px solid rgba(241, 96, 93, 0.85);
+    outline-offset: 3px;
+}
+
+.hero__spectrum-sep {
+    display: none;
+}
+
+[data-sensor="thermal"] .hero__spectrum {
+    background: rgba(252, 253, 191, 0.06);
+    border-color: rgba(241, 96, 93, 0.35);
+}
+
+[data-sensor="thermal"] .hero__spectrum-btn {
+    color: rgba(183, 55, 121, 0.95);
+}
+
+[data-sensor="thermal"] .hero__spectrum-btn:hover {
+    color: rgba(252, 253, 191, 0.95);
+}
+
+[data-sensor="thermal"] .hero__spectrum-btn.active {
+    color: #1a0b04;
+    background: linear-gradient(135deg, #f7b267, #fcfdbf);
 }
 
 .hero__intro {
@@ -304,13 +387,13 @@
 }
 
 .hero__btn--outline {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.06);
     color: #ffffff;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 1.5px solid rgba(255, 255, 255, 0.42);
 
     &:hover {
         border-color: #ffffff;
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.14);
         color: #ffffff;
     }
 }
@@ -334,62 +417,137 @@
 
 @media (max-width: 48em) {
     .hero {
-        padding: var(--space-8) 0 var(--space-6);
+        padding: var(--space-7, 1.75rem) 0 var(--space-8);
+    }
+
+    .hero__inner {
+        gap: var(--space-4);
     }
 
     .hero__header {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 1.1rem;
+    }
+
+    .hero__portrait {
+        width: min(210px, 62vw);
+        gap: 0.8rem;
     }
 
     .hero__photo {
-        width: 160px;
-        height: 160px;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        border-width: 3px;
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.38);
     }
 
     .hero__intro {
         min-height: auto;
         align-items: center;
+        width: 100%;
     }
 
     .hero__name {
-        font-size: 1.75rem;
+        font-size: clamp(1.7rem, 7vw, 2rem);
+        margin-bottom: 0.35rem;
+    }
+
+    .hero__tagline {
+        font-size: 0.98rem;
+        line-height: 1.45;
+        margin-bottom: var(--space-4);
+        max-width: 22rem;
     }
 
     .hero__actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.65rem;
+        width: 100%;
+        max-width: 22rem;
+        margin-inline: auto;
+        margin-bottom: 0.85rem;
+    }
+
+    .hero__btn {
+        width: 100%;
         justify-content: center;
+        min-height: 2.85rem;
+        padding-inline: 0.85rem;
     }
 
     .hero__social {
+        justify-content: center;
+        gap: 0.25rem;
+    }
+
+    .hero__social-link {
+        width: 2.75rem;
+        height: 2.75rem;
+        display: inline-flex;
+        align-items: center;
         justify-content: center;
     }
 
     .hero__bio {
         max-width: 100%;
-        text-align: center;
+        text-align: left;
+        font-size: 0.94rem;
+        line-height: 1.7;
+        padding-top: 0.1rem;
+    }
+
+    .hero__bio p + p {
+        margin-top: 0.9rem;
+    }
+
+    /* On the home hero, the under-photo switch is enough — hide the redundant floater. */
+    body:has(.hero__spectrum) .sensor-bar {
+        display: none;
+    }
+
+    body:has(.hero__spectrum) {
+        padding-bottom: calc(1.25rem + env(safe-area-inset-bottom, 0px));
+    }
+
+    body:has(.hero__spectrum) .thermal-controls,
+    body:has(.hero__spectrum) #visible-camera-controls.thermal-controls {
+        bottom: calc(1.1rem + env(safe-area-inset-bottom, 0px));
     }
 }
 
 /* ── Publication Tabs ── */
 .pub-tabs {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: var(--space-2);
     margin-bottom: var(--space-6);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 0.15rem;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 .pub-tab {
-    padding: 0.5rem 1.15rem;
+    padding: 0.55rem 1rem;
     border-radius: var(--radius-full);
     border: 1.5px solid var(--color-border);
     background: var(--color-surface);
     color: var(--color-text);
-    font-size: 0.88rem;
+    font-size: 0.86rem;
     font-weight: 500;
     cursor: pointer;
     transition: all var(--transition-fast);
     white-space: nowrap;
+    flex: 0 0 auto;
+    min-height: 2.5rem;
 
     &:hover {
         border-color: var(--color-accent);
@@ -434,10 +592,12 @@
     border: 1px solid var(--color-border);
     transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
 
-    &:hover {
-        transform: translateY(-4px) scale(1.01);
-        box-shadow: var(--shadow-xl);
-        border-color: var(--color-accent-light);
+    @media (hover: hover) {
+        &:hover {
+            transform: translateY(-4px) scale(1.01);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--color-accent-light);
+        }
     }
 }
 
@@ -450,6 +610,7 @@
     flex-shrink: 0;
     width: 250px;
     height: auto;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: var(--radius-md);
     background: var(--color-bg-alt);
@@ -567,14 +728,75 @@ a.pub-item__badge--award {
     overflow: hidden;
 }
 
+@media (max-width: 62em) {
+    .pub-item {
+        gap: var(--space-4);
+    }
+
+    .pub-item__thumb {
+        width: 180px;
+    }
+}
+
 @media (max-width: 48em) {
     .pub-item {
         flex-direction: column;
+        gap: var(--space-3);
+        padding: var(--space-4);
+        border-radius: var(--radius-xl);
     }
 
     .pub-item__thumb {
         width: 100%;
-        max-height: 180px;
+        max-width: 100%;
+        max-height: none;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        border-radius: calc(var(--radius-xl) - 4px);
+    }
+
+    video.pub-item__thumb {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+    }
+
+    .pub-item__title {
+        font-size: 1.02rem;
+        line-height: 1.35;
+    }
+
+    .pub-item__authors,
+    .pub-item__venue {
+        font-size: 0.88rem;
+    }
+
+    .pub-item__desc {
+        -webkit-line-clamp: 3;
+        margin-bottom: var(--space-3);
+    }
+
+    .pub-item__links {
+        gap: 0.5rem;
+    }
+
+    .pub-item__links .btn {
+        min-height: 2.45rem;
+        flex: 1 1 auto;
+        justify-content: center;
+    }
+
+    .section-heading {
+        font-size: 1.45rem;
+        margin-bottom: var(--space-5);
+    }
+
+    .news-scroll {
+        max-height: none;
+    }
+
+    .news-item {
+        padding: 0.85rem 0;
     }
 }
 
@@ -657,6 +879,18 @@ a.pub-item__badge--award {
     min-width: 4.5rem;
 }
 
+@media (max-width: 48em) {
+    .news-item {
+        flex-direction: column;
+        gap: 0.25rem;
+        padding: var(--space-3) 0;
+    }
+
+    .news-item__date {
+        min-width: 0;
+    }
+}
+
 /* ── Affiliations row ── */
 .affiliations {
     display: flex;
@@ -664,6 +898,18 @@ a.pub-item__badge--award {
     justify-content: center;
     gap: var(--space-8);
     padding: var(--space-8) 0;
+}
+
+@media (max-width: 48em) {
+    .affiliations {
+        gap: var(--space-5) var(--space-6);
+        padding: var(--space-6) 0;
+    }
+
+    .affiliation__logo {
+        width: 56px;
+        height: 56px;
+    }
 }
 
 .affiliation {
@@ -707,6 +953,13 @@ a.pub-item__badge--award {
     gap: var(--space-3);
 }
 
+@media (max-width: 48em) {
+    .photo-teaser-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--space-2);
+    }
+}
+
 .photo-teaser-grid img {
     width: 100%;
     aspect-ratio: 1;
@@ -725,8 +978,8 @@ a.pub-item__badge--award {
    ========================================================================== */
 .sensor-bar {
     position: fixed;
-    bottom: var(--space-6);
-    right: var(--space-6);
+    bottom: calc(var(--space-6) + env(safe-area-inset-bottom, 0px));
+    right: calc(var(--space-6) + env(safe-area-inset-right, 0px));
     z-index: 1100;
     display: flex;
     align-items: center;
@@ -744,7 +997,8 @@ a.pub-item__badge--award {
     display: inline-flex;
     align-items: center;
     gap: 0.4em;
-    padding: 0.45rem 1rem;
+    padding: 0.55rem 1rem;
+    min-height: 2.5rem;
     border: none;
     border-radius: var(--radius-full);
     background: transparent;
@@ -789,7 +1043,7 @@ a.pub-item__badge--award {
 
 /* Smooth transition when switching sensor modes */
 html {
-    transition: background-color 0.6s ease;
+    transition: background-color 0.55s ease;
 }
 
 body,
@@ -800,8 +1054,134 @@ main,
 .pub-item,
 .project-card,
 footer {
-    transition: background-color 0.6s ease, color 0.6s ease,
-        border-color 0.6s ease;
+    transition: background-color 0.55s ease, color 0.55s ease,
+        border-color 0.55s ease;
+}
+
+/* Sensor flip wash — quick spectral scan across the viewport */
+.sensor-wash {
+    position: fixed;
+    inset: 0;
+    z-index: 95;
+    pointer-events: none;
+    opacity: 0;
+    mix-blend-mode: screen;
+    background:
+        linear-gradient(
+            180deg,
+            transparent 0%,
+            rgba(59, 15, 112, 0.15) 38%,
+            rgba(183, 55, 121, 0.55) 46%,
+            rgba(241, 96, 93, 0.85) 50%,
+            rgba(252, 253, 191, 0.95) 52%,
+            rgba(241, 96, 93, 0.7) 56%,
+            rgba(59, 15, 112, 0.2) 64%,
+            transparent 100%
+        );
+    background-size: 100% 220%;
+    background-position: 0 -120%;
+    will-change: opacity, background-position, transform;
+}
+
+.sensor-wash::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    top: 50%;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(252, 253, 191, 0.2) 20%,
+        #fcfdbf 50%,
+        rgba(252, 253, 191, 0.2) 80%,
+        transparent 100%
+    );
+    box-shadow: 0 0 18px 4px rgba(241, 96, 93, 0.55);
+    opacity: 0;
+    transform: translateY(-40vh);
+}
+
+.sensor-wash.is-sweeping-thermal {
+    animation: sensor-sweep-down 0.62s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sensor-wash.is-sweeping-thermal::after {
+    animation: sensor-edge-down 0.62s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sensor-wash.is-sweeping-visible {
+    animation: sensor-sweep-up 0.58s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sensor-wash.is-sweeping-visible::after {
+    animation: sensor-edge-up 0.58s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes sensor-sweep-down {
+    0% {
+        opacity: 0;
+        background-position: 0 -120%;
+    }
+    16% {
+        opacity: 0.95;
+    }
+    100% {
+        opacity: 0;
+        background-position: 0 120%;
+    }
+}
+
+@keyframes sensor-sweep-up {
+    0% {
+        opacity: 0;
+        background-position: 0 120%;
+    }
+    16% {
+        opacity: 0.85;
+    }
+    100% {
+        opacity: 0;
+        background-position: 0 -120%;
+    }
+}
+
+@keyframes sensor-edge-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-48vh);
+    }
+    18% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(48vh);
+    }
+}
+
+@keyframes sensor-edge-up {
+    0% {
+        opacity: 0;
+        transform: translateY(48vh);
+    }
+    18% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-48vh);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sensor-wash.is-sweeping-thermal,
+    .sensor-wash.is-sweeping-visible,
+    .sensor-wash.is-sweeping-thermal::after,
+    .sensor-wash.is-sweeping-visible::after {
+        animation: none;
+    }
 }
 
 /* ── Hero photo thermal filter ── */
@@ -915,13 +1295,6 @@ footer {
     background: rgba(255, 184, 77, 0.18);
 }
 
-/* ── Publication thumbnails thermal filter ── */
-[data-sensor="thermal"] img.pub-item__thumb,
-[data-sensor="thermal"] video.pub-item__thumb {
-    filter: grayscale(100%) brightness(1.05) sepia(100%) hue-rotate(-15deg) saturate(3.5) contrast(1.1);
-    transition: filter 0.6s ease;
-}
-
 /* ── Project cards thermal ── */
 [data-sensor="thermal"] .project-card {
     border-color: var(--thermal-cool);
@@ -932,20 +1305,10 @@ footer {
     box-shadow: 0 0 16px rgba(241, 96, 93, 0.2);
 }
 
-[data-sensor="thermal"] .project-card__thumb img {
-    filter: grayscale(100%) brightness(1.05) sepia(100%) hue-rotate(-15deg) saturate(3.5) contrast(1.1);
-    transition: filter 0.6s ease;
-}
-
 /* ── Nav photo thermal ── */
 [data-sensor="thermal"] .nav__photo {
     filter: none;
     border-color: var(--thermal-warm);
-}
-
-/* ── Affiliation logos thermal ── */
-[data-sensor="thermal"] .affiliation__logo {
-    filter: grayscale(100%) sepia(100%) hue-rotate(-15deg) saturate(3);
 }
 
 /* ── Thermal tagline ── */
@@ -971,23 +1334,27 @@ footer {
 /* ── Sensor bar responsive ── */
 @media (max-width: 48em) {
     .sensor-bar {
-        bottom: var(--space-4);
-        right: var(--space-4);
+        bottom: calc(var(--space-4) + env(safe-area-inset-bottom, 0px));
+        right: calc(var(--space-4) + env(safe-area-inset-right, 0px));
     }
 
     .sensor-btn {
-        padding: 0.4rem 0.75rem;
+        padding: 0.5rem 0.85rem;
         font-size: 0.78rem;
+        min-height: 2.6rem;
+    }
+
+    .sensor-btn .sensor-icon {
+        display: none;
     }
 }
 
 /* ── Thermal Heat Canvas ── */
 #thermal-canvas {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    inset: 0;
+    width: 100%;
+    height: 100%;
     z-index: -1;
     pointer-events: none;
     opacity: 0;
@@ -996,10 +1363,9 @@ footer {
 
 #visible-camera-canvas {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    inset: 0;
+    width: 100%;
+    height: 100%;
     z-index: 90;
     pointer-events: none;
     opacity: 0;
@@ -1014,7 +1380,7 @@ footer {
     top: 50%;
     right: 1.5rem;
     transform: translateY(-50%);
-    z-index: 100;
+    z-index: 1050;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -1199,11 +1565,11 @@ footer {
 }
 
 /* Mobile responsive */
-@media (max-width: 600px) {
+@media (max-width: 48em) {
     .thermal-controls {
         top: auto;
-        bottom: 5rem;
-        right: 1rem;
+        bottom: calc(4.85rem + env(safe-area-inset-bottom, 0px));
+        right: calc(var(--space-4) + env(safe-area-inset-right, 0px));
         transform: none;
         flex-direction: column;
         align-items: flex-end;
@@ -1211,12 +1577,27 @@ footer {
 
     .thermal-controls-content {
         min-width: auto;
-        max-width: calc(100vw - 2rem);
+        max-width: min(280px, calc(100vw - 2rem));
         font-size: 0.8rem;
     }
 
     .colormap-btn {
-        font-size: 0.7rem;
-        padding: 0.35rem 0.4rem;
+        font-size: 0.72rem;
+        padding: 0.4rem 0.5rem;
+        min-height: 2.25rem;
+    }
+
+    .thermal-control input[type="range"] {
+        height: 1.5rem;
+    }
+
+    .thermal-control input[type="range"]::-webkit-slider-thumb {
+        width: 22px;
+        height: 22px;
+    }
+
+    .thermal-control input[type="range"]::-moz-range-thumb {
+        width: 22px;
+        height: 22px;
     }
 }

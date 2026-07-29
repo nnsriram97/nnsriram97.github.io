@@ -27,6 +27,19 @@ sitemap: false
 // Base resets
 html {
     scroll-behavior: smooth;
+    overflow-x: clip;
+}
+
+body {
+    overflow-x: clip;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@media (max-width: 48em) {
+    body {
+        /* Clear the floating sensor bar + home-indicator */
+        padding-bottom: calc(4.75rem + env(safe-area-inset-bottom, 0px));
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -44,6 +57,12 @@ img {
 // Content page styles
 .page-content {
     padding: var(--space-12) 0 var(--space-16);
+}
+
+@media (max-width: 48em) {
+    .page-content {
+        padding: var(--space-8) 0 var(--space-10);
+    }
 }
 
 .page-header {
