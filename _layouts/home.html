@@ -103,8 +103,8 @@ layout: default
 
     <!-- Tab bar -->
     <div class="pub-tabs" id="pub-tabs" role="tablist">
-      <button class="pub-tab active" data-tab="selected" role="tab" aria-selected="true">Selected</button>
-      <button class="pub-tab" data-tab="all" role="tab" aria-selected="false">All</button>
+      <button class="pub-tab" data-tab="selected" role="tab" aria-selected="false">Selected</button>
+      <button class="pub-tab active" data-tab="all" role="tab" aria-selected="true">All</button>
       <button class="pub-tab" data-tab="gen-ai" role="tab" aria-selected="false">Generative AI</button>
       <button class="pub-tab" data-tab="physics-based-vision" role="tab" aria-selected="false">Physics-based
         Vision</button>
@@ -114,7 +114,7 @@ layout: default
     </div>
 
     <!-- "Selected" tab content -->
-    <div class="pub-panel" id="panel-selected" role="tabpanel">
+    <div class="pub-panel hidden" id="panel-selected" role="tabpanel">
       <div class="stack">
         {% assign featured_pubs = site.data.publications | where: "featured", true | sort: "year" | reverse %}
         {% for pub in featured_pubs %}
@@ -151,7 +151,7 @@ layout: default
     </div>
 
     <!-- "All" tab content — grouped by year -->
-    <div class="pub-panel hidden" id="panel-all" role="tabpanel">
+    <div class="pub-panel" id="panel-all" role="tabpanel">
       {% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
       {% for year_group in pubs_by_year %}
       <div class="year-group">
