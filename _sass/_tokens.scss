@@ -30,18 +30,18 @@
     --color-oral-badge: #dc2626;
     --color-success: #16a34a;
 
-    /* ── Spectrum wash: blue left → yellow right (two stops only) ── */
+    /* ── Spectrum wash: blue left → thermal warm right (two stops only) ── */
     --spectrum-blue: #2563eb;
-    --spectrum-yellow: #eab308;
+    --spectrum-warm: #f1605d;
     --spectrum-gradient: linear-gradient(90deg,
             var(--spectrum-blue) 0%,
-            var(--spectrum-yellow) 100%);
+            var(--spectrum-warm) 100%);
     --spectrum-gradient-thermal: linear-gradient(90deg,
             var(--spectrum-blue) 0%,
-            var(--spectrum-yellow) 100%);
+            var(--spectrum-warm) 100%);
     --spectrum-line: linear-gradient(90deg,
             var(--spectrum-blue) 0%,
-            var(--spectrum-yellow) 100%);
+            var(--spectrum-warm) 100%);
 
     /* ── Spacing scale (px) ── */
     --space-1: 0.25rem;

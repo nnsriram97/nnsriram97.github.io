@@ -838,7 +838,7 @@ a.pub-item__badge--award {
     overflow: hidden;
     background:
         radial-gradient(ellipse 55% 80% at 8% 30%, rgba(37, 99, 235, 0.12), transparent 55%),
-        radial-gradient(ellipse 50% 70% at 92% 70%, rgba(234, 179, 8, 0.1), transparent 55%),
+        radial-gradient(ellipse 50% 70% at 92% 70%, rgba(241, 96, 93, 0.1), transparent 55%),
         linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
 }
 
@@ -865,7 +865,7 @@ a.pub-item__badge--award {
     pointer-events: none;
     background:
         radial-gradient(circle at 20% 40%, rgba(37, 99, 235, 0.22), transparent 42%),
-        radial-gradient(circle at 80% 60%, rgba(234, 179, 8, 0.18), transparent 45%);
+        radial-gradient(circle at 80% 60%, rgba(241, 96, 93, 0.18), transparent 45%);
     filter: blur(28px);
     opacity: 0.7;
 }
@@ -948,7 +948,7 @@ a.pub-item__badge--award {
     }
 
     &:nth-child(even) {
-        border-color: color-mix(in srgb, var(--spectrum-yellow) 40%, var(--color-border));
+        border-color: color-mix(in srgb, var(--spectrum-warm) 40%, var(--color-border));
     }
 
     @media (hover: hover) {
@@ -1017,7 +1017,7 @@ a.pub-item__badge--award {
 [data-sensor="thermal"] .opportunity-shell__glow {
     background:
         radial-gradient(circle at 20% 40%, rgba(37, 99, 235, 0.28), transparent 42%),
-        radial-gradient(circle at 80% 60%, rgba(234, 179, 8, 0.28), transparent 45%);
+        radial-gradient(circle at 80% 60%, rgba(241, 96, 93, 0.28), transparent 45%);
 }
 
 [data-sensor="thermal"] .opportunity-callout {
