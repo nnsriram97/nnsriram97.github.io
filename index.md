@@ -1,6 +1,16 @@
 ---
 layout: home
 title: Home
+opportunity:
+  badge: "Open to opportunities"
+  text: "I am on the industry job market. I would love to connect with teams working at the frontier of embodied and agentic AI, especially in simulation, world models, mental modeling, and systems that capture and apply tacit human expertise."
+  topics:
+    - Simulation
+    - World models
+    - Mental modeling
+    - Tacit expertise
+    - Embodied AI
+    - Agentic AI
 news:
   - date: "06/26"
     text: '<a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> won the <strong><span style="color:var(--color-oral-badge)">Best Poster Award</span></strong> at the <a href="https://alumni.media.mit.edu/~ayush/CCD/">Computational Cameras and Displays (CCD)</a> workshop, CVPRW 2026! 🎉'

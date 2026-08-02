@@ -246,6 +246,8 @@
 
 /* Quiet spectrum switch under the portrait — reads as a figure caption */
 .hero__spectrum {
+    position: relative;
+    z-index: 0;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -254,6 +256,22 @@
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.07);
     border: 1px solid rgba(255, 255, 255, 0.14);
+
+    /* True border ring only — mask keeps wash out of the interior */
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        padding: 1.5px;
+        background: var(--spectrum-gradient);
+        pointer-events: none;
+        -webkit-mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    }
 }
 
 .hero__spectrum-btn {
@@ -273,6 +291,7 @@
     line-height: 1.2;
     cursor: pointer;
     position: relative;
+    z-index: 1;
     transition: color 0.2s ease, background 0.2s ease;
 }
 
@@ -301,6 +320,10 @@
 [data-sensor="thermal"] .hero__spectrum {
     background: rgba(252, 253, 191, 0.06);
     border-color: rgba(241, 96, 93, 0.35);
+
+    &::before {
+        background: var(--spectrum-gradient-thermal);
+    }
 }
 
 [data-sensor="thermal"] .hero__spectrum-btn {
@@ -830,6 +853,221 @@ a.pub-item__badge--award {
     color: var(--color-text-muted);
 }
 
+/* ── Opportunity callout (spectrum signal) ── */
+.opportunity-section {
+    position: relative;
+    padding-top: var(--space-10);
+    padding-bottom: var(--space-10);
+    overflow: hidden;
+    background:
+        radial-gradient(ellipse 55% 80% at 8% 30%, rgba(37, 99, 235, 0.12), transparent 55%),
+        radial-gradient(ellipse 50% 70% at 92% 70%, rgba(241, 96, 93, 0.1), transparent 55%),
+        linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
+}
+
+.opportunity-shell {
+    position: relative;
+    border-radius: calc(var(--radius-lg) + 2px);
+    padding: 2px;
+    background: var(--spectrum-gradient);
+    box-shadow: var(--shadow-lg);
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+
+    @media (hover: hover) {
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-xl);
+        }
+    }
+}
+
+.opportunity-shell__glow {
+    position: absolute;
+    inset: -18%;
+    z-index: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at 20% 40%, rgba(37, 99, 235, 0.22), transparent 42%),
+        radial-gradient(circle at 80% 60%, rgba(241, 96, 93, 0.18), transparent 45%);
+    filter: blur(28px);
+    opacity: 0.7;
+}
+
+.opportunity-callout {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-6);
+    padding: var(--space-6) var(--space-8);
+    background: color-mix(in srgb, var(--color-surface) 92%, transparent);
+    border-radius: var(--radius-lg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.opportunity-callout__content {
+    min-width: 0;
+    flex: 1;
+}
+
+.opportunity-callout__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-3);
+    padding: var(--space-1) var(--space-3);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    background: var(--color-accent-light);
+    border-radius: var(--radius-full);
+    line-height: 1.5;
+
+    &::before {
+        content: "";
+        width: 0.45rem;
+        height: 0.45rem;
+        border-radius: 50%;
+        background: var(--color-success);
+        box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.45);
+        animation: opportunity-pulse 2s ease-out infinite;
+    }
+}
+
+.opportunity-callout__text {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: var(--color-text);
+    max-width: 46rem;
+}
+
+.opportunity-callout__topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    list-style: none;
+    margin: var(--space-4) 0 0;
+    padding: 0;
+}
+
+.opportunity-callout__topic {
+    padding: 0.28rem 0.7rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: var(--color-text-secondary);
+    background: var(--color-tag-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    transition: color var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
+
+    &:nth-child(odd) {
+        border-color: color-mix(in srgb, #2563eb 35%, var(--color-border));
+    }
+
+    &:nth-child(even) {
+        border-color: color-mix(in srgb, #f1605d 35%, var(--color-border));
+    }
+
+    @media (hover: hover) {
+        &:hover {
+            color: var(--color-heading);
+            background: var(--color-accent-light);
+            border-color: var(--color-accent);
+        }
+    }
+}
+
+.opportunity-callout__cta {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+@keyframes opportunity-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.45);
+    }
+
+    70% {
+        box-shadow: 0 0 0 0.45rem rgba(22, 163, 74, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
+    }
+}
+
+@media (max-width: 48em) {
+    .opportunity-callout {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: var(--space-5) var(--space-5);
+        gap: var(--space-4);
+    }
+
+    .opportunity-callout__text {
+        font-size: 0.95rem;
+    }
+
+    .opportunity-callout__cta {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .opportunity-callout__badge::before {
+        animation: none;
+    }
+}
+
+[data-sensor="thermal"] .opportunity-section {
+    background:
+        radial-gradient(ellipse 55% 80% at 8% 30%, rgba(59, 15, 112, 0.45), transparent 55%),
+        radial-gradient(ellipse 50% 70% at 92% 70%, rgba(241, 96, 93, 0.28), transparent 55%),
+        linear-gradient(180deg, rgba(11, 7, 36, 0.9) 0%, rgba(24, 15, 61, 0.55) 100%);
+}
+
+[data-sensor="thermal"] .opportunity-shell {
+    background: var(--spectrum-gradient-thermal);
+}
+
+[data-sensor="thermal"] .opportunity-shell__glow {
+    background:
+        radial-gradient(circle at 20% 40%, rgba(183, 55, 121, 0.35), transparent 42%),
+        radial-gradient(circle at 80% 60%, rgba(241, 96, 93, 0.3), transparent 45%);
+}
+
+[data-sensor="thermal"] .opportunity-callout {
+    background: rgba(24, 15, 61, 0.82);
+    border: none;
+}
+
+[data-sensor="thermal"] .opportunity-callout__badge {
+    color: var(--thermal-hot);
+    background: var(--color-accent-light);
+}
+
+[data-sensor="thermal"] .opportunity-callout__badge::before {
+    background: var(--thermal-warm);
+    box-shadow: 0 0 0 0 rgba(241, 96, 93, 0.45);
+}
+
+[data-sensor="thermal"] .opportunity-callout__text {
+    color: #ffd7ae;
+}
+
+[data-sensor="thermal"] .opportunity-callout__topic {
+    color: #ffd7ae;
+    background: rgba(59, 15, 112, 0.55);
+    border-color: rgba(247, 178, 103, 0.35);
+}
+
 /* ── News list ── */
 .news-list {
     list-style: none;
@@ -991,6 +1229,22 @@ a.pub-item__badge--award {
     box-shadow: var(--shadow-lg);
     transition: background var(--transition-base), border-color var(--transition-base),
         box-shadow var(--transition-base);
+
+    /* True border ring only — mask keeps wash out of the interior */
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        padding: 1.5px;
+        background: var(--spectrum-gradient);
+        pointer-events: none;
+        -webkit-mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    }
 }
 
 .sensor-btn {
@@ -1008,6 +1262,8 @@ a.pub-item__badge--award {
     cursor: pointer;
     transition: all var(--transition-fast);
     white-space: nowrap;
+    position: relative;
+    z-index: 1;
 
     &:hover {
         color: var(--color-text);
@@ -1029,6 +1285,10 @@ a.pub-item__badge--award {
 [data-sensor="thermal"] .sensor-bar {
     border-color: var(--thermal-warm);
     box-shadow: 0 0 20px rgba(241, 96, 93, 0.35), var(--shadow-lg);
+
+    &::before {
+        background: var(--spectrum-gradient-thermal);
+    }
 }
 
 [data-sensor="thermal"] .sensor-btn.active {

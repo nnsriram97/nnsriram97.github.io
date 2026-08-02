@@ -9,8 +9,25 @@
     background: var(--color-nav-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid transparent;
     transition: background-color var(--transition-base), border-color var(--transition-base);
+
+    /* Spectrum hairline — site-wide accent, quiet unless you look for it */
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        background: var(--spectrum-line);
+        opacity: 0.9;
+        pointer-events: none;
+    }
+}
+
+[data-sensor="thermal"] .nav::after {
+    background: linear-gradient(90deg, #3b0f70 0%, #b73779 35%, #f1605d 70%, #fcfdbf 100%);
 }
 
 .nav__inner {
