@@ -246,8 +246,6 @@
 
 /* Quiet spectrum switch under the portrait — reads as a figure caption */
 .hero__spectrum {
-    position: relative;
-    z-index: 0;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -256,22 +254,6 @@
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.07);
     border: 1px solid rgba(255, 255, 255, 0.14);
-
-    /* True border ring only — mask keeps wash out of the interior */
-    &::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: inherit;
-        padding: 1.5px;
-        background: var(--spectrum-gradient);
-        pointer-events: none;
-        -webkit-mask:
-            linear-gradient(#fff 0 0) content-box,
-            linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-    }
 }
 
 .hero__spectrum-btn {
@@ -291,7 +273,6 @@
     line-height: 1.2;
     cursor: pointer;
     position: relative;
-    z-index: 1;
     transition: color 0.2s ease, background 0.2s ease;
 }
 
@@ -320,10 +301,6 @@
 [data-sensor="thermal"] .hero__spectrum {
     background: rgba(252, 253, 191, 0.06);
     border-color: rgba(241, 96, 93, 0.35);
-
-    &::before {
-        background: var(--spectrum-gradient-thermal);
-    }
 }
 
 [data-sensor="thermal"] .hero__spectrum-btn {
@@ -861,7 +838,7 @@ a.pub-item__badge--award {
     overflow: hidden;
     background:
         radial-gradient(ellipse 55% 80% at 8% 30%, rgba(37, 99, 235, 0.12), transparent 55%),
-        radial-gradient(ellipse 50% 70% at 92% 70%, rgba(241, 96, 93, 0.1), transparent 55%),
+        radial-gradient(ellipse 50% 70% at 92% 70%, rgba(234, 179, 8, 0.1), transparent 55%),
         linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
 }
 
@@ -888,7 +865,7 @@ a.pub-item__badge--award {
     pointer-events: none;
     background:
         radial-gradient(circle at 20% 40%, rgba(37, 99, 235, 0.22), transparent 42%),
-        radial-gradient(circle at 80% 60%, rgba(241, 96, 93, 0.18), transparent 45%);
+        radial-gradient(circle at 80% 60%, rgba(234, 179, 8, 0.18), transparent 45%);
     filter: blur(28px);
     opacity: 0.7;
 }
@@ -967,11 +944,11 @@ a.pub-item__badge--award {
     transition: color var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
 
     &:nth-child(odd) {
-        border-color: color-mix(in srgb, #2563eb 35%, var(--color-border));
+        border-color: color-mix(in srgb, var(--spectrum-blue) 35%, var(--color-border));
     }
 
     &:nth-child(even) {
-        border-color: color-mix(in srgb, #f1605d 35%, var(--color-border));
+        border-color: color-mix(in srgb, var(--spectrum-yellow) 40%, var(--color-border));
     }
 
     @media (hover: hover) {
@@ -1039,8 +1016,8 @@ a.pub-item__badge--award {
 
 [data-sensor="thermal"] .opportunity-shell__glow {
     background:
-        radial-gradient(circle at 20% 40%, rgba(183, 55, 121, 0.35), transparent 42%),
-        radial-gradient(circle at 80% 60%, rgba(241, 96, 93, 0.3), transparent 45%);
+        radial-gradient(circle at 20% 40%, rgba(37, 99, 235, 0.28), transparent 42%),
+        radial-gradient(circle at 80% 60%, rgba(234, 179, 8, 0.28), transparent 45%);
 }
 
 [data-sensor="thermal"] .opportunity-callout {

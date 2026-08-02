@@ -27,7 +27,7 @@
 }
 
 [data-sensor="thermal"] .nav::after {
-    background: linear-gradient(90deg, #3b0f70 0%, #b73779 35%, #f1605d 70%, #fcfdbf 100%);
+    background: var(--spectrum-line);
 }
 
 .nav__inner {
