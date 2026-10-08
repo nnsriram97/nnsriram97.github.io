@@ -52,6 +52,8 @@
       url: "https://revealing-subtle-heat.github.io/static/paper.pdf"
     - label: "Poster"
       url: "https://revealing-subtle-heat.github.io/static/poster.pdf"
+    - label: "Code"
+      url: "https://github.com/srmanikandasriram/temporal_spatial_video_processor"
   description: "Shows that a per-pixel temporal transform followed by spatial denoising in the coefficient domain can extract rich spatiotemporal heat flows from noisy, low-cost microbolometric videos."
 
 - title: "PhyCo: Learning Controllable Physical Priors for Generative Motion"
