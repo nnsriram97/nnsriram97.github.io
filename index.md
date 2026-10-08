@@ -12,6 +12,8 @@ opportunity:
     - Embodied AI
     - Agentic AI
 news:
+  - date: "09/26"
+    text: '<a href="https://visionsim.readthedocs.io/en/latest/">VisionSIM</a> accepted to <strong>CoRL 2026</strong> as a <strong><span style="color:var(--color-oral-badge)">Spotlight</span></strong>! 🎉'
   - date: "06/26"
     text: '<a href="https://dual-band-thermal.github.io/">Dual Band Thermal Videography</a> won the <strong><span style="color:var(--color-oral-badge)">Best Poster Award</span></strong> at the <a href="https://alumni.media.mit.edu/~ayush/CCD/">Computational Cameras and Displays (CCD)</a> workshop, CVPRW 2026! 🎉'
   - date: "04/26"

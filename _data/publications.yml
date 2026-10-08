@@ -1,6 +1,6 @@
 # Publications & Patents
 # Fields: title, authors, venue (string) or venues (list for multi-line), year,
-#         type (conference|patent|preprint|journal), oral (bool),
+#         type (conference|patent|preprint|journal), oral (bool), spotlight (bool),
 #         thumbnail (image or .mp4), links, description, featured (bool), highlight (bool),
 #         categories (list: gen-ai, physics-based-vision, autonomous-driving, robotics-embodied-ai)
 #
@@ -14,6 +14,24 @@
 # ──────────────────────────────────────────────────
 # Conferences & Preprints
 # ──────────────────────────────────────────────────
+- title: "VisionSIM: Beyond Idealized Sensors — A Multi-Modal Simulator for Robot Perception"
+  authors: "Sacha Jungerman, Kaustubh Sadekar, Avery Gump, <strong>Sriram Narayanan</strong>, Shantanu Gupta, Bhuyashi Deka, Srinivasa Narasimhan, Atul Ingle, Mohit Gupta"
+  venues:
+    - "Conference on Robot Learning (CoRL)"
+  year: 2026
+  type: conference
+  oral: false
+  spotlight: true
+  featured: false
+  highlight: true
+  categories: ["physics-based-vision", "robotics-embodied-ai"]
+  thumbnail: "/images/publications/2026-CoRL.mp4"
+  links:
+    - label: "Project Page"
+      url: "https://visionsim.readthedocs.io/en/latest/"
+    - label: "Code"
+      url: "https://github.com/wision-lab/visionsim"
+  description: "A unified, physically grounded multi-modal sensor simulator that models realistic sensing physics and failure modes across RGB, LiDAR, event, single-photon, and thermal cameras, enabling robust robot perception and sensor design."
 
 - title: "Revealing Subtle Heat Flows all around us using Microbolometric Videos"
   authors: "Mani Ramanagopal, Akihiko Oharazawa, <strong>Sriram Narayanan</strong>, Zeqing Yuan, Srinivasa G. Narasimhan"
