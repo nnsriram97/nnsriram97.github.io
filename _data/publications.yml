@@ -112,7 +112,13 @@
   highlight: false
   categories: ["physics-based-vision"]
   thumbnail: "/images/publications/tpami_26.jpg"
-  links: []
+  links:
+    - label: "Project Page"
+      url: "https://shape-from-heat-and-shading.github.io/"
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2610.04052"
+    - label: "Code"
+      url: "https://github.com/akihikooharazawa/Shape-from-Laplacian-and-Shading"
   description: "Heat + light together resolve shape ambiguity—recovering accurate 3D geometry from a single thermal video and image without priors or calibrated lighting."
 
 - title: "Resolving Ambiguities in Heat Conduction and Shading"
